@@ -1,6 +1,6 @@
 [`Kotlin-Intermedio`](../Readme.md) > `Sesión 2`
 
-## Sesión 3: Mi primera aplicación
+## Sesión 2: Views
 
 <img src="../images/android-kotlin.png" align="right" height="120" hspace="10">
 <div style="text-align: justify;">
