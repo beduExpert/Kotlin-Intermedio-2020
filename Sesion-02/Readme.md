@@ -11,10 +11,10 @@ Un ___View___ es una clase que representa la base de todos los componentes para 
 
 <img src="../images/view_tree.png" height="120">
 
----
-
 
 ### 1. Objetivos :dart: 
+
+---
 
 <img src="../images/android-kotlin.png" align="right" height="120" hspace="10">
 
