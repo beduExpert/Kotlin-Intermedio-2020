@@ -51,7 +51,7 @@ Un ___View___ es una clase que representa la base de todos los componentes para 
 
 <img src="images/button.png" align="right" height="90"> 
 
-#### <ins>Views (Botones y textos)</ins>
+#### <ins>Botones y textos</ins>
 
 Se crearán Vistas desde cero mediante código y las utilizaremos para detonar eventos sencillos como modificar un texto.
 
