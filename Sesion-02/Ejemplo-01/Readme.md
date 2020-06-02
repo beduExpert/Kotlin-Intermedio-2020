@@ -143,6 +143,6 @@ Nuestra aplicación debe verse de la siguiente forma:
 
 
 
-[`Anterior`](../Readme.md#botones-y-textos) | [`Siguiente`](../Readme.md#inputs-e-imagenes)
+[`Anterior`](../Readme.md#botones-y-textos) | [`Siguiente`](../Readme.md#inputs-e-imágenes)
 
 </div>
