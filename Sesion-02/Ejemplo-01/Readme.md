@@ -30,10 +30,10 @@
      
 4. Seleccionamos el modo diseño para explorar algunas opciones que brinda la interfaz, mostrando las secciones por colores en la siguiente imagen: 
 
-* ![#F00](https://via.placeholder.com/15/f03c15/000000?text=+): La barra vertical izquierda contiene __Palette__ Que nos muestra una serie de Views para insertar en el layout y __Component tree__ Que muestra la estructura de nuestro layout. 
-* ![#FF0](https://via.placeholder.com/15/f03c15/000000?text=+): En la barra superior vertical, tenemos opciones para mostrar el diseño con su _blueprint_, una opción para colocar el diseño en formato vertical/horizontal, seleccionar la resolución de la pantalla mediante móviles predefinidos o con medidas personalizadas, la API de android entre otras cosas. 
-* ![#00F](https://via.placeholder.com/15/f03c15/000000?text=+):En la barra lateral derecha, tenemos la opción ___attributes___ que despliegan los atributos de un _View_ seleccionado con el cursor.
-* ![#0F0](https://via.placeholder.com/15/f03c15/000000?text=+): Este menú flotante posibilita el zoom in/out al layout, capacidad de pan, escalar la app a resolución 1:1.
+* ![#FF0000](https://via.placeholder.com/15/f03c15/000000?text=+): La barra vertical izquierda contiene __Palette__ Que nos muestra una serie de Views para insertar en el layout y __Component tree__ Que muestra la estructura de nuestro layout. 
+* ![#FFFF00](https://via.placeholder.com/15/f03c15/000000?text=+): En la barra superior vertical, tenemos opciones para mostrar el diseño con su _blueprint_, una opción para colocar el diseño en formato vertical/horizontal, seleccionar la resolución de la pantalla mediante móviles predefinidos o con medidas personalizadas, la API de android entre otras cosas. 
+* ![#0000FF](https://via.placeholder.com/15/f03c15/000000?text=+):En la barra lateral derecha, tenemos la opción ___attributes___ que despliegan los atributos de un _View_ seleccionado con el cursor.
+* ![#00FF00](https://via.placeholder.com/15/f03c15/000000?text=+): Este menú flotante posibilita el zoom in/out al layout, capacidad de pan, escalar la app a resolución 1:1.
 
 
 
