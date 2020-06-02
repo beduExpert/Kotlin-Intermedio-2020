@@ -50,19 +50,17 @@ android:layout_width="120dp"
 6. Aunque la imagen se alcanza a ver completamente, las dimensiones del _ImageView_ no corresponden a la escala de la imagen. En este _View_ tenemos disponible un atributo para describir el escalamiento que llevará nuestra imagen:
 
 
-
-VALOR | ENUMS en ImageView.ScaleType | DESCRIPCION | EJEMPLO
+VALOR | ENUM en ImageView.ScaleType | DESCRIPCION | EJEMPLO
 ------|------------------|-------------|----------
 center | CENTER | centra la imagen sin escalamiento |   <img src="images/center.png" width="20%">
+centerCrop | CENTER_CROP | centra la imagen y mantiene su proporción, haciendo un recorte si la imagen es más grande que el _View_ | <img src="images/center_crop.png" width="20%">
+centerInside | CENTER_INSIDE | redimensiona la imagen manteniendo su proporción para que sus medidas quepan en el _View_ (igual o menor). |  <img src="images/center_inside.png" width="20%">
+fitEnd | FIT_START | redimensiona la imagen manteniendo su proporción para que quepa y se alinee al principio del _View_ | <img src="images/fit_end.png" width="20%">
+fitCenter | FIT_CENTER | redimension la imagen manteniendo su proporción para que quepa y se centre en el _View_ | <img src="images/fit_center.png" width="20%">
+fitEnd | FIT_END | reescala la imagen manteniendo su proporción para que quepa y se alinee al final del _View_ | <img src="images/fit_end.png" width="20%">
+fitEnd | FIT_END | redimensiona la imagen cambiando su proporción para ajustarse a las medidas del _View_ | <img src="images/fit_xy.png" width="20%">
 
-
-
-Tipo | Tamaño (bits) | Valor mínimo | Valor máximo
------|---------------|--------------|-------------
-Byte | 8 | -128 | 127
-Short | 16 | -32768 | 32767
-Int | 32 | -2,147,483,648 (-2^31) | 2,147,483,647 (2^31 - 1)
-Long | 64 | -9,223,372,036,854,775,808 (-2^63) | 9,223,372,036,854,775,807 (2^63 - 1)
+Experimentemos con cada una de estas opciones. Finalmente, utilizaremos la opción ___centerInside___.
 
 
 
