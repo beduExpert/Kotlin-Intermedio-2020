@@ -17,6 +17,7 @@ Para esta sesión, modificaremos el layout inicial de un proyecto creado, de mod
     android:layout_width="match_parent"
     android:gravity="center"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
      {COLOCA AQUI EL CONTENIDO DEL LAYOUT}
 </LinearLayout>
