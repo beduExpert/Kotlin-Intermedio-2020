@@ -18,15 +18,11 @@
 
 1. Abre __Android Studio__ y crea un nuevo proyecto con Activity Vacía (Empty Activity).
 
-<div align="center">
-	<img src="images/0.png" width="40%">
-</div>
+<img src="images/0.png" width="40%">
 
 2. Una vez creado el proyecto, nos dirigimos al directorio de nuestro proyecto, abrimos la carpeta de recursos y seleccionamos el archivo XML enconatrado en la carpeta _layout_.
 
-<div style="text-align:center">
-	<img src="images/1.png" width="50%">
-</div>
+<img src="images/1.png" width="50%">
    
 3. Visualizaremos una ventana para seleccionar un template, que da una configuración inicial de acuerdo a la orientación de nuestro proyecto. Las distintas pestañas (seleccionadas en amarillo), nos dan acceso a diferentes tipos de dispositivo:
 
