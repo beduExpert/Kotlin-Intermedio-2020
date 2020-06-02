@@ -20,23 +20,26 @@
 
    <img src="images/0.png" width="40%">
 
-2. Una vez creado el proyecto, nos dirigimos al directorio de nuestro proyecto, abrimos la carpeta de recursos y seleccionamos el archivo XML enconatrado en la carpeta _layout_.
+2. Una vez creado el proyecto, nos dirigimos al directorio de nuestro proyecto, localizamos la carpeta de recursos y abrimos el archivo XML enconatrado en la carpeta _layout_.
 
    <img src="images/1.png" width="50%">
    
-3. Visualizaremos una ventana para seleccionar un template, que da una configuración inicial de acuerdo a la orientación de nuestro proyecto. Las distintas pestañas (seleccionadas en amarillo), nos dan acceso a diferentes tipos de dispositivo:
+3. Se abrirá una nueva pestaña con una ventana que muestra el diseño de la pantalla principal, esta es una interpretación gráfica del código XML que se encuentra en nuestro archivo, y por supuesto podemos visualizarlo en Android Studio. Las formas de visualizar este archivo son por código,diseño o mixto y se muestran en el siguiente gif:
 
-   - **Phone and Tablet**: Para teléfonos móviles y tabletas (la opción que estaremos usando).
-   - **Wear OS**: Dispositivos wearables como smart watches.
-   - **TV**: Para hacer aplicaciones en Smart TVs.
-   - **Automotive**: Para vehículos que implementen [Android Auto](https://www.android.com/auto/).
-   - **Android Things**: Dispositivos IoT (Internet of Things) que implementen [Android Things](https://developer.android.com/things/).
-   
-Nosotros nos concentraremos en desarrollo para teléfonos móviles.
+      <img src="images/layout_modes.png" width="50%">
+     
+4. Seleccionamos el modo diseño para explorar algunas opciones que brinda la interfaz, mostrando las secciones por colores en la siguiente imagen: 
 
-   ![imagen](images/02.png)
+* ![#F00]: La barra vertical izquierda contiene __Palette__ Que nos muestra una serie de Views para insertar en el layout y __Component tree__ Que muestra la estructura de nuestro layout. 
+* ![#FF0]: En la barra superior vertical, tenemos opciones para mostrar el diseño con su _blueprint_, una opción para colocar el diseño en formato vertical/horizontal, seleccionar la resolución de la pantalla mediante móviles predefinidos o con medidas personalizadas, la API de android entre otras cosas. 
+* ![#00F]:En la barra lateral derecha, tenemos la opción ___attributes___ que despliegan los atributos de un _View_ seleccionado con el cursor.
+* ![#0F0]: Este menú flotante posibilita el zoom in/out al layout, capacidad de pan, escalar la app a resolución 1:1.
 
-4. Configuraremos algunos parámetros de nuestra aplicación. 
+
+
+   En este caso, elegiremos una opción que permita visualizar nuestro código con el que trabajaremos manualmente, a pesar de poder utilizar el asistente gráfico.
+
+4. Copiamos 
 
     - _Name_ es el nombre de nuestro proyecto.
 
