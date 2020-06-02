@@ -1,5 +1,8 @@
 [`Kotlin-Intermedio`](../Readme.md) > `Sesión 2`
 
+Un View es una clase que representa la base de todos los componentes para la interfaz gráfica y su representación gráfica está delimitada por un rectángulo. La descripción gráfica de un View así como su posición en la pantalla está determinado por un archivo layout en lenguaje XML, y se encuentran distribuidos jerárquicamente en un árbol de Vistas. 
+
+
 ## Sesión 2: Views
 
 <img src="../images/android-kotlin.png" align="right" height="120" hspace="10">
