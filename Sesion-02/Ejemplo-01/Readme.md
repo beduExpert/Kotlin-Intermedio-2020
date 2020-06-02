@@ -1,28 +1,66 @@
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 02`](../Readme.md) > `Ejemplo 1`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+## Ejemplo 1: Views, Button
 
-## Titulo del Ejemplo
+<div style="text-align: justify;">
 
-### OBJETIVO
+### 1. Objetivos :dart:
 
-- Lo que esperamos que el alumno aprenda
+- Crear un View desde el layout.
+- Explorar los atributos básicos de un View.
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Android Studio Instalado en nuestra computadora.
+2. Seguir la instrucción específica para esta sesión.
 
-#### DESARROLLO
+### 3. Desarrollo :computer:
 
-Agrega las instrucciones generales del ejemplo o reto
+1. Abre __Android Studio__ y crea un nuevo proyecto con Activity Vacía (Empty Activity).
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+<div style="text-align:center">
+	<img src="images/0.png" width="40%">
+</div>
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
+2. Una vez creado el proyecto, nos dirigimos al directorio de nuestro proyecto, abrimos la carpeta de recursos y seleccionamos el archivo XML enconatrado en la carpeta _layout_.
 
-![imagen](https://picsum.photos/200/300)
+<div style="text-align:center">
+	<img src="images/1.png" width="50%">
+</div>
+   
+3. Visualizaremos una ventana para seleccionar un template, que da una configuración inicial de acuerdo a la orientación de nuestro proyecto. Las distintas pestañas (seleccionadas en amarillo), nos dan acceso a diferentes tipos de dispositivo:
 
+   - **Phone and Tablet**: Para teléfonos móviles y tabletas (la opción que estaremos usando).
+   - **Wear OS**: Dispositivos wearables como smart watches.
+   - **TV**: Para hacer aplicaciones en Smart TVs.
+   - **Automotive**: Para vehículos que implementen [Android Auto](https://www.android.com/auto/).
+   - **Android Things**: Dispositivos IoT (Internet of Things) que implementen [Android Things](https://developer.android.com/things/).
+   
+Nosotros nos concentraremos en desarrollo para teléfonos móviles.
 
+   ![imagen](images/02.png)
+
+4. Configuraremos algunos parámetros de nuestra aplicación. 
+
+    - _Name_ es el nombre de nuestro proyecto.
+
+    - El _Package Name_ debe ser único; es por eso que el paquete toma el nombre del dominio web de la organización y lo invierte, dejando al final el nombre de nuestro proyecto en minúsculas. En este caso, el dominio de la organización es [bedu.org](bedu.org) y el nombre del proyecto es holabedu, por lo tanto, el package name es ___org.bedu.holabedu___.
+
+    - _Save location_ contiene la ruta donde se guarda el proyecto.
+
+    - En _Language_ podremos elegir entre __Kotlin__ y __Java__. En este módulo utilizaremos siempre Kotlin.
+
+    - El SDK mínimo determina la versión mínima de Android a la que le daremos soporte.
+
+    - Por último, la opción _Use legacy android.support libraries_ utiliza una biblioteca vieja para dar soporte a versiones android antiguas en el desarrollo con una API más nueva. Su uso no es recomendable en proyectos nuevos, ya que la biblioteca de compatibilidad _AndroidX_ provee de la misma funcionalidad y de muchas herramientas nuevas por medio de Jetpack (conjunto de bibliotecas que agregan nuevas funcionalidades).
+
+    - Terminado todo, daremos ___finish___ para crear el proyecto.
+
+   ![imagen](images/03.png)
+   
+  
+**¡Felicidades! Haz creado tu primer proyecto con Android Studio**
+
+[`Anterior`](../Readme.md#setup-inicial) | [`Siguiente`](../Readme.md#estructura-del-proyecto)
+
+</div>
