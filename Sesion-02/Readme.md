@@ -19,12 +19,6 @@ Para esta sesión, modificaremos el layout inicial de un proyecto creado, de mod
     android:layout_height="match_parent"
     tools:context=".MainActivity">
      {COLOCA AQUI EL CONTENIDO DEL LAYOUT}
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        />
-
 </LinearLayout>
 ```
 
