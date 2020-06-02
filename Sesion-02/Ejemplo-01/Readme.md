@@ -137,11 +137,12 @@ text.text = getString(R.string.button_clicked)
 ```
 
 
+Nuestra aplicación debe verse de la siguiente forma:
+
+<img src="images/5.png" width="40%">
 
 
 
-
-
-[`Anterior`](../Readme.md#setup-inicial) | [`Siguiente`](../Readme.md#estructura-del-proyecto)
+[`Anterior`](../Readme.md#botones-y-textos) | [`Siguiente`](../Readme.md#inputs-e-imagenes)
 
 </div>
