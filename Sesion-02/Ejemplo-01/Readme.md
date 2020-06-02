@@ -18,7 +18,7 @@
 
 1. Abre __Android Studio__ y crea un nuevo proyecto con Activity Vacía (Empty Activity).
 
-<div style="text-align:center">
+<div align="center">
 	<img src="images/0.png" width="40%">
 </div>
 
