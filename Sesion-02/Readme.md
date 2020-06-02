@@ -9,7 +9,7 @@
 
 Un ___View___ es una clase que representa la base de todos los componentes para la interfaz gráfica y su representación gráfica está delimitada por un rectángulo. La descripción gráfica de un View así como su posición en la pantalla está determinado por un archivo layout en lenguaje XML, y se encuentran distribuidos jerárquicamente en un árbol de Vistas. Un tipo especial de View es el ___ViewGroup___, que es un contenedor de Views y otros ViewGroups con un formato de orden específico. 
 
-<img src="../images/view_tree.png" height="120">
+<img src="images/view_tree.png" height="120">
 
 
 ### 1. Objetivos :dart: 
