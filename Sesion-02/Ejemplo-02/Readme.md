@@ -52,13 +52,13 @@ android:layout_width="120dp"
 
 VALOR | ENUM en ImageView.ScaleType | DESCRIPCION | EJEMPLO
 ------|------------------|-------------|----------
-center | CENTER | centra la imagen sin escalamiento |   <img src="images/center.png" width="20%">
-centerCrop | CENTER_CROP | centra la imagen y mantiene su proporción, haciendo un recorte si la imagen es más grande que el _View_ | <img src="images/center_crop.png" width="20%">
-centerInside | CENTER_INSIDE | redimensiona la imagen manteniendo su proporción para que sus medidas quepan en el _View_ (igual o menor). |  <img src="images/center_inside.png" width="20%">
-fitEnd | FIT_START | redimensiona la imagen manteniendo su proporción para que quepa y se alinee al principio del _View_ | <img src="images/fit_end.png" width="20%">
-fitCenter | FIT_CENTER | redimension la imagen manteniendo su proporción para que quepa y se centre en el _View_ | <img src="images/fit_center.png" width="20%">
-fitEnd | FIT_END | reescala la imagen manteniendo su proporción para que quepa y se alinee al final del _View_ | <img src="images/fit_end.png" width="20%">
-fitEnd | FIT_END | redimensiona la imagen cambiando su proporción para ajustarse a las medidas del _View_ | <img src="images/fit_xy.png" width="20%">
+center | CENTER | centra la imagen sin escalamiento |   <img src="images/center.png" width="80%">
+centerCrop | CENTER_CROP | centra la imagen y mantiene su proporción, haciendo un recorte si la imagen es más grande que el _View_ | <img src="images/center_crop.png" width="80%">
+centerInside | CENTER_INSIDE | redimensiona la imagen manteniendo su proporción para que sus medidas quepan en el _View_ (igual o menor). |  <img src="images/center_inside.png" width="80%">
+fitEnd | FIT_START | redimensiona la imagen manteniendo su proporción para que quepa y se alinee al principio del _View_ | <img src="images/fit_end.png" width="80%">
+fitCenter | FIT_CENTER | redimension la imagen manteniendo su proporción para que quepa y se centre en el _View_ | <img src="images/fit_center.png" width="80%">
+fitEnd | FIT_END | reescala la imagen manteniendo su proporción para que quepa y se alinee al final del _View_ | <img src="images/fit_end.png" width="80%">
+fitEnd | FIT_END | redimensiona la imagen cambiando su proporción para ajustarse a las medidas del _View_ | <img src="images/fit_xy.png" width="80%">
 
 Experimentemos con cada una de estas opciones. Finalmente, utilizaremos la opción ___centerInside___.
 
