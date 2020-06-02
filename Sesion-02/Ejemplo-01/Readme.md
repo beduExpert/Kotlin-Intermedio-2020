@@ -26,7 +26,7 @@
    
 3. Se abrirá una nueva pestaña con una ventana que muestra el diseño de la pantalla principal, esta es una interpretación gráfica del código XML que se encuentra en nuestro archivo, y por supuesto podemos visualizarlo en Android Studio. Las formas de visualizar este archivo son por código,diseño o mixto y se muestran en el siguiente gif:
 
-      <img src="images/layout_modes.gif" width="50%">
+      <img src="images/layout_modes.gif" width="85%">
      
 4. Ahora vamos a explorar un poco las herramientas que la IDE nos brinda para este tipo de archivos:
 
@@ -65,7 +65,7 @@ android:textStyle="bold"
 
 Deberíamos poder visualizar el texto correctamente!
    
-   <img src="images/.png" width="40%">
+   <img src="images/4.png" width="40%">
    
 
 
