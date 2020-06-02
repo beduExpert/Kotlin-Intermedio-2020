@@ -26,39 +26,49 @@
    
 3. Se abrirá una nueva pestaña con una ventana que muestra el diseño de la pantalla principal, esta es una interpretación gráfica del código XML que se encuentra en nuestro archivo, y por supuesto podemos visualizarlo en Android Studio. Las formas de visualizar este archivo son por código,diseño o mixto y se muestran en el siguiente gif:
 
-      <img src="images/layout_modes.png" width="50%">
+      <img src="images/layout_modes.gif" width="50%">
      
-4. Seleccionamos el modo diseño para explorar algunas opciones que brinda la interfaz, mostrando las secciones por colores en la siguiente imagen: 
+4. Ahora vamos a explorar un poco las herramientas que la IDE nos brinda para este tipo de archivos:
 
-* ![#FF0000](https://via.placeholder.com/15/f03c15/000000?text=+): La barra vertical izquierda contiene __Palette__ Que nos muestra una serie de Views para insertar en el layout y __Component tree__ Que muestra la estructura de nuestro layout. 
-* ![#FFFF00](https://via.placeholder.com/15/f03c15/000000?text=+): En la barra superior vertical, tenemos opciones para mostrar el diseño con su _blueprint_, una opción para colocar el diseño en formato vertical/horizontal, seleccionar la resolución de la pantalla mediante móviles predefinidos o con medidas personalizadas, la API de android entre otras cosas. 
-* ![#0000FF](https://via.placeholder.com/15/f03c15/000000?text=+):En la barra lateral derecha, tenemos la opción ___attributes___ que despliegan los atributos de un _View_ seleccionado con el cursor.
-* ![#00FF00](https://via.placeholder.com/15/f03c15/000000?text=+): Este menú flotante posibilita el zoom in/out al layout, capacidad de pan, escalar la app a resolución 1:1.
+      <img src="images/2.png" width="50%">
 
+   * ![#FF0000](https://via.placeholder.com/15/ff0000/000000?text=+): La barra vertical izquierda contiene __Palette__ Que nos muestra una serie de Views para insertar en el layout y __Component tree__ Que muestra la estructura de nuestro layout. 
+   * ![#FFFF00](https://via.placeholder.com/15/ffff00/000000?text=+): En la barra superior vertical, tenemos opciones para mostrar el diseño con su _blueprint_, una opción para colocar el diseño en formato vertical/horizontal, seleccionar la resolución de la pantalla mediante móviles predefinidos o con medidas personalizadas, la API de android entre otras cosas. 
+   * ![#0000FF](https://via.placeholder.com/15/0000ff/000000?text=+):En la barra lateral derecha, tenemos la opción ___attributes___ que despliegan los atributos de un _View_ seleccionado con el cursor.
+   * ![#00FF00](https://via.placeholder.com/15/00ff00/000000?text=+): Este menú flotante posibilita el zoom in/out al layout, capacidad de pan, escalar la app a resolución 1:1.
 
+5. Elegiremos un tipo de visualización para nuestro archivo. En este caso, elegiremos la opción mixta para permitirnos visualizar nuestro código con el que trabajaremos manualmente y visualizar los cambios que genera en el layout.
 
-   En este caso, elegiremos una opción que permita visualizar nuestro código con el que trabajaremos manualmente, a pesar de poder utilizar el asistente gráfico.
+6. Utilizaremos [Este código](../Readme.md#instrucciones-de-las-sesion) para sustituir el _ViewGroup_ actual (_ConstraintLayout_) con uno de manejo más sencillo (_LinearLayout_), este tema se toca a mayor profundidad en la siguiente sesión.
 
-4. Copiamos 
+7. Agregamos el siguiente código XML para agregar un _TextView_:
 
-    - _Name_ es el nombre de nuestro proyecto.
+```kotlin
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+```
 
-    - El _Package Name_ debe ser único; es por eso que el paquete toma el nombre del dominio web de la organización y lo invierte, dejando al final el nombre de nuestro proyecto en minúsculas. En este caso, el dominio de la organización es [bedu.org](bedu.org) y el nombre del proyecto es holabedu, por lo tanto, el package name es ___org.bedu.holabedu___.
+8. Agregaremos un texto para nuestro _TextView_, para eso, abrirermos el recurso ___strings.xml___ ubicado en ___res/values/___ . Dentro del tag resources, agregamos un nuevo string:
 
-    - _Save location_ contiene la ruta donde se guarda el proyecto.
+```xml
+<string name="hello_text">Hola, Estas es la sesión 2!</string>
+```
 
-    - En _Language_ podremos elegir entre __Kotlin__ y __Java__. En este módulo utilizaremos siempre Kotlin.
-
-    - El SDK mínimo determina la versión mínima de Android a la que le daremos soporte.
-
-    - Por último, la opción _Use legacy android.support libraries_ utiliza una biblioteca vieja para dar soporte a versiones android antiguas en el desarrollo con una API más nueva. Su uso no es recomendable en proyectos nuevos, ya que la biblioteca de compatibilidad _AndroidX_ provee de la misma funcionalidad y de muchas herramientas nuevas por medio de Jetpack (conjunto de bibliotecas que agregan nuevas funcionalidades).
-
-    - Terminado todo, daremos ___finish___ para crear el proyecto.
-
-   ![imagen](images/03.png)
+   y agregamos un nuevo atributo ___text___ al _TextView_ para insertarle un texto. Adicionalmente, haremos el texto en negritas.
    
-  
-**¡Felicidades! Haz creado tu primer proyecto con Android Studio**
+ ```xml
+android:text="@string/hello_text"
+android:textStyle="bold"
+```
+
+Deberíamos poder visualizar el texto correctamente!
+   
+   <img src="images/.png" width="40%">
+   
+
+
 
 [`Anterior`](../Readme.md#setup-inicial) | [`Siguiente`](../Readme.md#estructura-del-proyecto)
 
