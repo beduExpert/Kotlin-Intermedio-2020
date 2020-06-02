@@ -45,6 +45,7 @@
 
 ```kotlin
 <TextView
+        android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
@@ -56,17 +57,88 @@
 <string name="hello_text">Hola, Estas es la sesión 2!</string>
 ```
 
-   y agregamos un nuevo atributo ___text___ al _TextView_ para insertarle un texto. Adicionalmente, haremos el texto en negritas.
+   y agregamos un nuevo atributo ___text___ al _TextView_ para insertarle un texto. Adicionalmente, haremos el texto en negritas y definiremos el tamaño de la fuente:
    
  ```xml
 android:text="@string/hello_text"
 android:textStyle="bold"
+android:textSize="14sp"
 ```
-
-Deberíamos poder visualizar el texto correctamente!
+   en textSize, tenemos el sufijo "sp" que significa scale-independent pixels.
+   Deberíamos poder visualizar el texto correctamente!
    
    <img src="images/4.png" width="40%">
+
+
+9. Añadimos ahora un botón, ponemos esta línea de código abajo del Textview para generar uno.
+
+```xml
+<Button 
+        android:id="@+id/btnAccept"
+        android:background="@color/mexicanPink"
+        android:text="@string/accept_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+```
+
+   Ingresamos el texto _accept_button_ en _strings.xml_ :
+
+```xml
+<string name="accept_button">ACEPTAR</string>
+```
+
+   Y el color rosa mexicano a _colors.xml_:
    
+```xml
+<color name="mexicanPink">#E4007C</color>
+```
+
+En el diseño se visualiza correctamente el botón, sin embargo, el botón está pegado al _TextView_, así que le daremos un margen en la parte superior:
+
+```xml
+android:layout_marginTop="48dp"
+```
+
+10. Ahora agregaremos funcionalidad a este botón. Abrimos El archivo ___MainActivity.kt___ en ___java/nombre.del.paquete/___. Dentro de la clase homónima, declaramos dos objetos _Button_ y _TextView_ para representar los Views en nuestra Activity.
+
+```kotlin
+private lateinit var btnAccept: Button
+private lateinit var text: TextView
+```
+
+
+   al final del método ___onCreate___ , agregamos la siguiente línea de código para asignarles los Views correspondientes (mediante sus id's):
+
+```kotlin
+btnAccept = findViewById(R.id.btnAccept)
+text = findViewById(R.id.text)
+```
+
+y por último asignamos el código a reproducirse cuando se pulse el botón: 
+
+```kotlin
+btnAccept.setOnClickListener {
+            text.text = "Haz dado click al botón!"
+        }
+```
+
+   Lo que estamos haciendo aquí es asignar un nuevo texto a nuestro ___TextView___ al hacer click en el botón. Corremos la aplicación para comprobar que todo funcione bien.
+
+   Por buena práctica, todo texto de la aplicación va en _strings.xml_ por lo que trasladamos el texto del _TextView_ al archivo:
+
+```xml
+<string name="button_clicked">Haz dado click al botón!</string>
+```
+
+   y el texto ahora se asigna de la siguiente form:
+
+```kotlin
+text.text = getString(R.string.button_clicked)
+```
+
+
+
+
 
 
 
