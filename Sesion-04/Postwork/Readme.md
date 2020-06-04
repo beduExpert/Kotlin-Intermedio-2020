@@ -1,29 +1,28 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Postwork
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Aplicar el conocimiento de Listas a la tienda en línea
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Haber cursado los Ejemplos de esta sesión
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1. Para la tienda, hay qué crear visualmente una lista similar a la del [Reto 1](../Reto-01) 
 
-<details>
-
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agreges al menos una)
-
-![imagen](https://picsum.photos/200/300)
+<img src="../Reto-01/result.png" width="33%" align="center"/>
 
 
+pero con un RecyclerView, tal como se vió en el [Ejemplo 3](../Ejemplo-03) y el [Reto 3](../Reto-03)
+
+Se puede basar uno en la tienda **linio** para android
+
+<img src="list.png" width="33%" align="center"/>
+la lista puede ser en una matriz como en la imagen o lineal vertical como la primera imagen
+
+2. Al seleccionar un elemento, direccionar a una pantalla de detalles del producto, donde posteriormente se podrá enviar al carrito
+
+<img src="details.png" width="33%" align="center"/>
