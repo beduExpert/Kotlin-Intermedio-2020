@@ -49,6 +49,7 @@ Repasaremos el concepto de _Activity_ en Android, su ciclo de vida y las accione
 
 - [**`EJEMPLO 3`**](Ejemplo-03/Readme.md)
 
+---
 
 #### <ins>Intents</ins>
 
