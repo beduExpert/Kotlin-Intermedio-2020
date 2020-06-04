@@ -7,7 +7,7 @@
 
 ### Introducción: Patrón Adapter y Lists
 
-<img src="images/adapter.png" align="right" height="120" hspace="10">
+<img src="images/adapter.png" align="right" width="180" hspace="10">
 
 El patrón __Adapter__ es un patrón estructural cuya función principal es comunicar dos interfaces en un principio incompatibles. El __Adpapter__ adapta la información de una interfaz para que pueda ser utilizada por otra. El __Adapter__ actúa como único nodo de adaptación de interfaz para evitar la repetición de código e instanciamiento innecesario de la interfaz a adaptar.
 
@@ -27,7 +27,7 @@ El patrón __Adapter__ es un patrón estructural cuya función principal es comu
 
 ---
 
-<img src="images/listview.png" align="right" width="25%"> 
+<img src="images/listview.png" align="right" height="150"> 
 
 #### <ins>ListView</ins>
 
