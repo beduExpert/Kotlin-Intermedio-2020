@@ -12,7 +12,7 @@ Este módulo tiene como propósito introducir al desarrollo de aplicaciones andr
 ### :memo:  Contenido
  
  - [Sesión 1: Introducción a Android Studio](Sesion-01/Readme.md) 
- - [Sesión 2: Mi primera aplicación](Sesion-02/Readme.md) 
+ - [Sesión 2: Views](Sesion-02/Readme.md) 
  - [Sesión 3: Activities e Intents](Sesion-03/Readme.md) 
  - [Sesión 4: Listas](Sesion-04/Readme.md) 
  - [Sesión 5: Fragments](Sesion-05/Readme.md) 
