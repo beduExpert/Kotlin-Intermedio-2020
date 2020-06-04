@@ -31,6 +31,8 @@ Si lo que deseamos es implementar un login, los __Views__ básicos a implementar
 - Un botón de Iniciar sesión
 - Una etiqueta para "olvidé contraseña"
 
+### Tips
+
 Declarar el password con el atributo ___inputType___ como ___textPassword___ protege el texto que se va escribiendo como puntos, para que no sean visibles.
 
 Para la validación del formato de un email, existe un utils en android que hace la validación automática (también valida números telefónicos o sitios web). Dichas herramientas en forma de clase se llama Patterns, y la propiedad que utilizaremos es EMAIL_ADDRESS, por lo que una función de validación podría quedar de la siguiente forma:
@@ -42,6 +44,25 @@ fun isEmailValid(email: String): Boolean {
 ```
 podríamos crear otro validador para Password utilizando directamente una función if y englobándola en otra función.
 
+Para mostrar un error en un EditText podemos setear un error mediante:
+
+```kotlin
+editText.error = "Contraseña incorrecta"
+```
+
+cuando la validación sea exitosa, hay qué borrar el mensaje, por lo que agregar una extensión a EditText para hacer esto sería útil:
+
+```kotlin
+fun EditText.clearError() {
+    error = null
+}
+```
+
+### Lineamientos
+
+1. La pantalla debe contener al menos un _ImageView_, dos _EditText_, dos _TextView_ y un _Button_.
+2. El color de fondo debe ser asignado al fondo de la pantalla, asignar colores al texto.
+3. Todo tipo de recursos debe ir en su respectivo archivo (strings en _strings.xml_, recursos gráficos en la carpeta _drawable_, etc)/
 
 
 
