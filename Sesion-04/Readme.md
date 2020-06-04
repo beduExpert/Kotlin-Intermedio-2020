@@ -27,7 +27,7 @@ El patrón __Adapter__ es un patrón estructural cuya función principal es comu
 
 ---
 
-<img src="images/listview.png" align="right" height="120"> 
+<img src="images/listview.png" align="right" width="25%"> 
 
 #### <ins>ListView</ins>
 
