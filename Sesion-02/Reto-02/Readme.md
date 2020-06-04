@@ -1,6 +1,6 @@
-[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 02`](../Readme.md) > `Reto 1`
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 02`](../Readme.md) > `Reto 2`
 	
-## Reto 1: 
+## Reto 2: 
 
 <div style="text-align: justify;">
 
