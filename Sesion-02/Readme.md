@@ -66,25 +66,16 @@ Ampliaremos el dominio a ImageViews para la visualización de imágenes y EditTe
 
 ---
 
-<img src="images/Toast.png" align="right" height="90"> 
+<img src="images/url_image.png" align="right" height="90"> 
 
-#### <ins>Toasts y Snackbars</ins>
+#### <ins>Imágenes mediante URL</ins>
 
-Mostrar mensajes emergentes simples y temporales y/o con la posibilidad de detonar acciones es muy útil para la experiencia de usuario. Estos dos recursos nos servirán para estos propósitos.
+Mostrar imágenes en un ImageView por medio de URLS, utilizando la librería coil disponible en _mavenCentral()_. 
 
 - [**`EJEMPLO 3`**](Ejemplo-03/Readme.md)
 
 ---
 
-<img src="images/adb.png" align="right" height="110"> 
-
-#### <ins>Adb y Debugging</ins>
-
-Un Walkthrough demostrando la funcionalidad del Android Debug Bridge y de otras herramientas útiles para debugging.
-
-- [**`EJEMPLO 4`**](Ejemplo-04/Readme.md)
-
----
 
 ### 3. Proyecto :hammer:
 
