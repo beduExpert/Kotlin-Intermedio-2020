@@ -1,4 +1,4 @@
-[`Kotlin-Intermedio`](../Readme.md) > `Sesión 3`
+[`Kotlin-Intermedio`](../Readme.md) > `Sesión 4`
 
 
 ## Sesión 4: Listas
@@ -7,7 +7,7 @@
 
 ### Introducción: Patrón Adapter y Lists
 
-<img src="../images/adapter.png" align="right" height="120" hspace="10">
+<img src="images/adapter.png" align="right" height="120" hspace="10">
 
 El patrón __Adapter__ es un patrón estructural cuya función principal es comunicar dos interfaces en un principio incompatibles. El __Adpapter__ adapta la información de una interfaz para que pueda ser utilizada por otra. El __Adapter__ actúa como único nodo de adaptación de interfaz para evitar la repetición de código e instanciamiento innecesario de la interfaz a adaptar.
 
@@ -27,7 +27,7 @@ El patrón __Adapter__ es un patrón estructural cuya función principal es comu
 
 ---
 
-<img src="images/listview.png" align="right" height="90"> 
+<img src="images/listview.png" align="right" height="120"> 
 
 #### <ins>ListView</ins>
 
@@ -38,7 +38,7 @@ Se creará una Lista con scrolling vertical simple y lineal, con un Adapter pref
 
 ---
 
-<img src="images/spinner.png" align="right" height="90"> 
+<img src="images/spinner.gif" align="right" height="120"> 
 
 #### <ins>Spinner</ins>
 
@@ -49,7 +49,7 @@ Veremos ahora un tipo de AdapterView desplegable/contraíble, que nos ofrezca un
 
 ---
 
-<img src="images/recyclerview.png" align="right" height="90"> 
+<img src="images/recyclerview.png" align="right" height="120"> 
 
 #### <ins>RecyclerView</ins>
 
@@ -65,17 +65,17 @@ Esta clase es una mejora de los _ListAdapters_, reciclando _Views_ y métodos pa
 
 Con los temas anteriores, construye una pantalla de items ajustado al concepto de tu proyecto.
 
-- [**`PROYECTO SESIÓN 2`**](Proyecto/Readme.md)
+- [**`PROYECTO SESIÓN 4`**](Proyecto/Readme.md)
 
 ### 4. Postwork :memo:
 
 Con lo aprendido en esta sesión, continúa con la implementación de Lists en tu proyecto.
 
-- [**`POSTWORK SESIÓN 2`**](Postwork/Readme.md)
+- [**`POSTWORK SESIÓN 4`**](Postwork/Readme.md)
 
 <br/>
 
-[`Anterior`](../Sesion-01/Readme.md) | [`Siguiente`](../Sesion-03/Readme.md)      
+[`Anterior`](../Sesion-03/Readme.md) | [`Siguiente`](../Sesion-05/Readme.md)      
 
 </div>
 
