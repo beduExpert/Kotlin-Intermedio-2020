@@ -27,7 +27,7 @@ El patrón __Adapter__ es un patrón estructural cuya función principal es comu
 
 ---
 
-<img src="images/button.png" align="right" height="90"> 
+<img src="images/listview.png" align="right" height="90"> 
 
 #### <ins>ListView</ins>
 
@@ -38,7 +38,7 @@ Se creará una Lista con scrolling vertical simple y lineal, con un Adapter pref
 
 ---
 
-<img src="images/text_input.png" align="right" height="90"> 
+<img src="images/spinner.png" align="right" height="90"> 
 
 #### <ins>Spinner</ins>
 
@@ -49,7 +49,7 @@ Veremos ahora un tipo de AdapterView desplegable/contraíble, que nos ofrezca un
 
 ---
 
-<img src="images/url_image.png" align="right" height="90"> 
+<img src="images/recyclerview.png" align="right" height="90"> 
 
 #### <ins>RecyclerView</ins>
 
