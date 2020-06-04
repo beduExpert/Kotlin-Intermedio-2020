@@ -78,7 +78,7 @@ Experimentemos con cada una de estas opciones. Finalmente, utilizaremos la opci�
 
 Tendremos lo siguiente:
 
-<img src="images/wrap_content.png" width="40%">
+<img src="images/edit_text.gif" width="40%">
 
 2. Como el tamaño lo ponemos en función del contenido, este se redimensiona al agregar texto, esto no es deseable así que tenemos qué determinar un tamaño fijo, por lo que modificaremos el EditText:
 
