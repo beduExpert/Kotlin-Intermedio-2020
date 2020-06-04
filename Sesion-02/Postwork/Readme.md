@@ -1,29 +1,41 @@
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 02`](../Readme.md) > `Postwork`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+## Postwork
 
-## Titulo del Ejemplo
+<div style="text-align: justify;">
 
-### OBJETIVO
+### 1. Objetivos :dart:
 
-- Lo que esperamos que el alumno aprenda
+- Definir el proyecto con el que trabajaremos todo el curso.
+- Programar la idea básica de nuestra aplicación.
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
-
-#### DESARROLLO
-
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agreges al menos una)
-
-![imagen](https://picsum.photos/200/300)
+1. Android Studio Instalado en nuestra computadora.
 
 
+### 3. Desarrollo :computer:
+
+A continuación veremos ciertos puntos que nos ayudarán a aterrizar nuestro proyecto.
+
+* __Definir el concepto de nuestra aplicacion__. Teniendo en cuenta cuál es el núcleo de la app (un e-commerce, un catálogo de viajes, una red social simple, administración de gastos, etc.).
+
+* __Tener en mente el temario, pensar a futuro__. Tener conciencia de los temas que se van a abordar en el módulo nos va a permitir dimensionar lo que se puede abarcar en nuestro proyecto, para evitar atorarnos en el desarrollo y terminar desechando ideas. Sin embargo, toma en cuenta que este proyecto es una base a retomarse en el siguiente módulo, por lo que está bien tomar en cuenta futuras implementaciones de ideas más avanzadas. 
+
+* __Planear el flujo de nuestra app__. Con el concepto claro, hay que definir cómo va interactuar el usuario con nuestra aplicación, por lo que recomendamos hacer esbozos de cada pantalla a utilizar, mediante wireframes. Entonces, si tendremos un login, diseñar la pantalla y después pensar en la pantalla principal al iniciarse la sesión. Pensar en implementar un botón de cerrar sesión y dónde colocarlo. Aconsejamos explorar distintas aplicaciones para identificar las tendencias.
+
+   <img src="images/wireframe.png" align="center" width="80%"> 
+
+
+
+
+
+
+
+
+
+
+
+[`Anterior`](../Readme.md#estructura-del-proyecto) | [`Siguiente`](../Readme.md#)
+
+</div>
