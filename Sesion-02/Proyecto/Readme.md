@@ -1,29 +1,52 @@
- 
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 02`](../Readme.md) > `Proyecto`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Proyecto: Agregando Views
 
-### OBJETIVO 
+<div style="text-align: justify;">
 
-- Lo que esperamos que el alumno aprenda 
+### 1. Objetivos :dart:
 
-#### REQUISITOS 
+- Implementar Views al proyecto.
+- Crear un formulario.
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+### 2. Requisitos :clipboard:
 
-#### DESARROLLO
+1. Android Studio Instalado en nuestra computadora.
 
-Agrega las instrucciones generales del ejemplo o reto
 
-<details>
+### 3. Desarrollo :computer:
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+En este reto final, vamos a implementar un formulario de registro o de login en nuestra app, según la preferencia.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
+Por simplicidad podemos escoger un login con nombre de usuario/correo/teléfono y una contraseña.
 
-![imagen](https://picsum.photos/200/300)
+### Login
 
+<img src="images/0.png" width="60%">
+
+Si lo que deseamos es implementar un login, los __Views__ básicos a implementar son:
+
+- Un _ImageView_ para el logo de la app.
+- Dos _EditText_: el primero para usuario/correo/teléfono, el segundo para la contraseña. Ambos con íconos de preferencia para darle personalidad.
+- Un botón de Iniciar sesión
+- Una etiqueta para "olvidé contraseña"
+
+Declarar el password con el atributo ___inputType___ como ___textPassword___ protege el texto que se va escribiendo como puntos, para que no sean visibles.
+
+Para la validación del formato de un email, existe un utils en android que hace la validación automática (también valida números telefónicos o sitios web). Dichas herramientas en forma de clase se llama Patterns, y la propiedad que utilizaremos es EMAIL_ADDRESS, por lo que una función de validación podría quedar de la siguiente forma:
+
+```kotlin
+fun isEmailValid(email: String): Boolean { 
+    return android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches()
+}
+```
+podríamos crear otro validador para Password utilizando directamente una función if y englobándola en otra función.
+
+
+
+
+
+
+[`Anterior`](../Readme.md#imágenes-mediante-url) | [`Siguiente`](../Readme.md#Postwork)
+
+</div>
