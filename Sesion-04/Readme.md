@@ -1,16 +1,81 @@
+[`Kotlin-Intermedio`](../Readme.md) > `Sesión 3`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
 
-## Titulo de la Sesion 
+## Sesión 4: Listas
 
-### OBJETIVOS 
+<div style="text-align: justify;">
 
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+### Introducción: Patrón Adapter y Lists
 
-#### ORGANIZACION DE LA CLASE 
+<img src="../images/adapter.png" align="right" height="120" hspace="10">
 
-- Tema que veran en el ejemplo
+El patrón __Adapter__ es un patrón estructural cuya función principal es comunicar dos interfaces en un principio incompatibles. El __Adpapter__ adapta la información de una interfaz para que pueda ser utilizada por otra. El __Adapter__ actúa como único nodo de adaptación de interfaz para evitar la repetición de código e instanciamiento innecesario de la interfaz a adaptar.
 
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
+
+
+### 1. Objetivos :dart: 
+
+---
+
+<img src="../images/android-kotlin.png" align="right" height="120" hspace="10">
+
+- Desplegar listas scrolleables de elementos en la pantalla 
+- Interactuar con los elementos de las listas.
+- Utilizar layouts personalizados para darles estilo.
+
+### 2. Contenido :blue_book:
+
+---
+
+<img src="images/button.png" align="right" height="90"> 
+
+#### <ins>ListView</ins>
+
+Se creará una Lista con scrolling vertical simple y lineal, con un Adapter prefabricado a manera de introducción al tema.
+
+- [**`EJEMPLO 1`**](Ejemplo-01/Readme.md)
+- [**`RETO 1`**](Reto-01/Readme.md)
+
+---
+
+<img src="images/text_input.png" align="right" height="90"> 
+
+#### <ins>Spinner</ins>
+
+Veremos ahora un tipo de AdapterView desplegable/contraíble, que nos ofrezca una forma reducida de presentar valores seleccionables en forma de lista.
+
+- [**`EJEMPLO 2`**](Ejemplo-02/Readme.md)
+- [**`RETO 2`**](Reto-02/Readme.md)
+
+---
+
+<img src="images/url_image.png" align="right" height="90"> 
+
+#### <ins>RecyclerView</ins>
+
+Esta clase es una mejora de los _ListAdapters_, reciclando _Views_ y métodos para ahorrar recursos. En este ejemplo crearemos uno desde cero, incluyendo su _Adapter._ 
+
+- [**`EJEMPLO 3`**](Ejemplo-03/Readme.md)
+- [**`RETO 3`**](Reto-03/Readme.md)
+
+---
+
+
+### 3. Proyecto :hammer:
+
+Con los temas anteriores, construye una pantalla de items ajustado al concepto de tu proyecto.
+
+- [**`PROYECTO SESIÓN 2`**](Proyecto/Readme.md)
+
+### 4. Postwork :memo:
+
+Con lo aprendido en esta sesión, continúa con la implementación de Lists en tu proyecto.
+
+- [**`POSTWORK SESIÓN 2`**](Postwork/Readme.md)
+
+<br/>
+
+[`Anterior`](../Sesion-01/Readme.md) | [`Siguiente`](../Sesion-03/Readme.md)      
+
+</div>
 
