@@ -1,4 +1,4 @@
-[`Kotlin-Intermedio`](../Readme.md) > `Sesión 3`
+[`Kotlin-Intermedio`](../Readme.md) > `Sesión 4`
 
 
 ## Sesión 4: Listas
@@ -65,17 +65,17 @@ Esta clase es una mejora de los _ListAdapters_, reciclando _Views_ y métodos pa
 
 Con los temas anteriores, construye una pantalla de items ajustado al concepto de tu proyecto.
 
-- [**`PROYECTO SESIÓN 2`**](Proyecto/Readme.md)
+- [**`PROYECTO SESIÓN 4`**](Proyecto/Readme.md)
 
 ### 4. Postwork :memo:
 
 Con lo aprendido en esta sesión, continúa con la implementación de Lists en tu proyecto.
 
-- [**`POSTWORK SESIÓN 2`**](Postwork/Readme.md)
+- [**`POSTWORK SESIÓN 4`**](Postwork/Readme.md)
 
 <br/>
 
-[`Anterior`](../Sesion-01/Readme.md) | [`Siguiente`](../Sesion-03/Readme.md)      
+[`Anterior`](../Sesion-03/Readme.md) | [`Siguiente`](../Sesion-05/Readme.md)      
 
 </div>
 
