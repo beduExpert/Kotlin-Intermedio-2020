@@ -20,13 +20,16 @@
 
 - Crear una aplicación cuya interfaz tenga el siguiente diseño:
 
-	<img src="images/0.png" width="50%">
+	<img src="images/0.png" width="40%">
 
 - Cuando el usuario pulse __ACEPTAR__, existirán dos casos:
 	a) Ningún campo está vacío: se mostrará una imagen con una palomita verde en señal de autenticación correcta
-	<img src="images/0.png" width="50%">
+	
+	<img src="images/1.png" width="40%">
+	
 	b) Uno o todos los campos están vacíos: Se mostrará una imagen con una paloma roja en señal de error de autenticación
-	<img src="images/0.png" width="50%">
+	
+	<img src="images/2.png" width="40%">
 
 
 Contemplar lo siguiente:
