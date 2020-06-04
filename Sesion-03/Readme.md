@@ -55,13 +55,13 @@ Repasaremos el concepto de _Activity_ en Android, su ciclo de vida y las accione
 
 Con los temas anteriores, haz una transición entre tu formulario y tu pantalla principal empleando _constraint layouts.
 
-- [**`PROYECTO SESIÓN 2`**](Proyecto/Readme.md)
+- [**`PROYECTO SESIÓN 3`**](Proyecto/Readme.md)
 
 ### 4. Postwork :memo:
 
 Con lo aprendido en esta sesión, actualiza las pantallas previamente creadas y continúa el desarrollo de tu proyecto.
 
-- [**`POSTWORK SESIÓN 2`**](Postwork/Readme.md)
+- [**`POSTWORK SESIÓN 3`**](Postwork/Readme.md)
 
 <br/>
 
