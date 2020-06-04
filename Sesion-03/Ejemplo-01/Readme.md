@@ -57,6 +57,7 @@ El ejemplo de abajo ya tiene implementado el RelativeLayout y está ordenado de 
 ```
 
 3. Ordenamos nuestro layout tal y como está en la siguiente imagen:
+
    <img src="images/0.png" width="40%">
    
    Para eso, vamos a centrar todos nuestros _Views_ horizontalmente con el atributo ___layout_centerHorizontal___ true. Para los demás utilizamos la siguiente lógica:
@@ -69,7 +70,7 @@ El ejemplo de abajo ya tiene implementado el RelativeLayout y está ordenado de 
    
    Implementando esa lógica, queda el siguiente layout:
    
-   ```xml
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -112,7 +113,7 @@ El ejemplo de abajo ya tiene implementado el RelativeLayout y está ordenado de 
         android:layout_height="60dp"
         android:background="#FFFF00" />
 </RelativeLayout>
-   ```
+```
    
 4. Ahora ordenamos según esta imagen:
 
