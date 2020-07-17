@@ -12,7 +12,7 @@ Como el nombre lo indica, es un fragmento de la UI que implementa tanto un ciclo
 Al igual que un Activity, un Fragment tiene su propio ciclo de vida, bastante similar al de un View, y es el siguiente:
 
 <img src="images/fragment-cycle.png" align="right">
-
+<h5>Ciclo de vida de un Fragment</h5>
 
 
 ### 1. Objetivos :dart: 
