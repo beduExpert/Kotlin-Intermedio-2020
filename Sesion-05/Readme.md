@@ -9,10 +9,12 @@
 
 Como el nombre lo indica, es un fragmento de la UI que implementa tanto un ciclo de vida y eventos propios. utilizaremos Fragments cuando requiramos una interfaz de usuario dinámica, cuando necesitemos reutilizar un pedazo de interfaz con funcionalidad en diversos puntos de nuestra app, cuando la navegación en una parte del flujo de la app sea mejor manejable al usar Fragments.
 
-Al igual que un Activity, un Fragment tiene su propio ciclo de vida, bastante similar al de un View, y es el siguiente:
-
 <img src="images/fragment-cycle.png" align="right">
 <h5>Ciclo de vida de un Fragment</h5>
+
+Al igual que un Activity, un Fragment tiene su propio ciclo de vida, bastante similar al de un View, y es el siguiente:
+
+
 
 
 ### 1. Objetivos :dart: 
