@@ -11,7 +11,7 @@ Como el nombre lo indica, es un fragmento de la UI que implementa tanto un ciclo
 
 Al igual que un Activity, un Fragment tiene su propio ciclo de vida, bastante similar al de un View, y es el siguiente:
 
-<img src="images/fragment_cycle.png" align="right" width="180" hspace="10">
+<img src="images/fragment-cycle.png" align="right" width="180" hspace="10">
 
 
 
@@ -19,7 +19,7 @@ Al igual que un Activity, un Fragment tiene su propio ciclo de vida, bastante si
 
 ---
 
-<img src="../images/android-kotlin.imagepng" align="right" height="120" hspace="10">
+<img src="../images/android-kotlin.png" align="right" height="120" hspace="10">
 
 - Diseñar interfaces flexibles y gestionables.
 - Manejar el ciclo de vida de un Fragment.
