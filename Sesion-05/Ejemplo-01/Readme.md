@@ -59,7 +59,7 @@ class ExampleFragment : Fragment() {
 }
 ```
 
-Para asociar nuestro layout a la clase, utilizamos el método ___inflate___ dentro de la función ___onCreateView___
+Para asociar nuestro layout a la clase, utilizamos el método ___inflate___ dentro de la función ___onCreateView___ y en el primer argumento pasamos el ID de nuestro layout con ___R.layout.fragment_layout___.
 
 ```kotlin
  override fun onCreateView(
@@ -72,15 +72,39 @@ Para asociar nuestro layout a la clase, utilizamos el método ___inflate___ dent
     }
 ```
 
+El resultado es la siguiente pantalla!
 
-
-      <img src="images/layout_modes.gif" width="85%">
-     
-4. Ahora vamos a explorar un poco las herramientas que la IDE nos brinda para este tipo de archivos:
+      <img src="images/1.png" width="50%">
+      
+      
+Una forma Automática de crear una clase _Fragment___ junto a su ___layout___ es yendo a nuestro directorio principal y creando ahí un ___Blank Fragment___. Este creará automáticamente nuestra clase con varios callbacks implementados, su _layout_ en el respectivo directorio, y el método ___onCreateView___ con el id del layout como parámetro.
 
       <img src="images/2.png" width="50%">
 
+El _layout_ se creará con la siguiente estructura:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+
+</FrameLayout>
+```
+
+Podemos reemplazar los elementos para que concuerden con lo requerido (en este caso, basta reemplazar el _TextView_ por un _ImageView_).
 
 [`Anterior`](../Readme.md#botones-y-textos) | [`Siguiente`](../Readme.md#inputs-e-imágenes)
+
+
+
 
 </div>
