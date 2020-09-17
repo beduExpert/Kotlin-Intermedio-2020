@@ -74,12 +74,12 @@ Para asociar nuestro layout a la clase, utilizamos el método ___inflate___ dent
 
 El resultado es la siguiente pantalla!
 
-      <img src="images/1.png" width="50%">
+<img src="images/1.png" width="50%">
       
       
 Una forma Automática de crear una clase _Fragment___ junto a su ___layout___ es yendo a nuestro directorio principal y creando ahí un ___Blank Fragment___. Este creará automáticamente nuestra clase con varios callbacks implementados, su _layout_ en el respectivo directorio, y el método ___onCreateView___ con el id del layout como parámetro.
 
-      <img src="images/2.png" width="50%">
+<img src="images/2.png" width="50%">
 
 El _layout_ se creará con la siguiente estructura:
 
