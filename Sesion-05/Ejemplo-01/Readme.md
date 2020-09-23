@@ -1,12 +1,12 @@
 [`Kotlin Intermedio`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Ejemplo 1`
 
-## Ejemplo 1: Views, Button
+## Ejemplo 1: Fragments
 
 <div style="text-align: justify;">
 
 ### 1. Objetivos :dart:
 
-- Crear un Fragment dentro de Un View.
+- Crear un Fragment dentro de un View.
 
 ### 2. Requisitos :clipboard:
 
@@ -102,7 +102,7 @@ El _layout_ se creará con la siguiente estructura:
 
 Podemos reemplazar los elementos para que concuerden con lo requerido (en este caso, basta reemplazar el _TextView_ por un _ImageView_).
 
-[`Anterior`](../Readme.md#botones-y-textos) | [`Siguiente`](../Readme.md#inputs-e-imágenes)
+[`Anterior`](../Readme.md) | [`Siguiente`](../Reto-01)
 
 
 
