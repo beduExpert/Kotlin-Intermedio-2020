@@ -195,7 +195,7 @@ Los textos introducidos por default se reemplazarán por los del producto. El _l
 
 El layout debe verse de esta forma:
 
-<img src="images/3.png" width="70%">
+<img src="images/3.png" width="40%">
 
 Ahora, vamos a ocultar el layout, posteriormente veremos por qué lo haremos, modificaremos la propiedad de visibilidad del ___ConstraintLayout___.
 
@@ -269,8 +269,7 @@ En este menú, seleccionamos las siguientes opciones:
 
 El qualifier nos servirá para saber qué layouts debe elegir la app, en este caso el parámetro será el tamaño de la pantalla, por lo que seleccionaremos ___size___ y utilizaremos la opción ___large___.
 
-<img src="images/5.png" width="70%"> 
-<img src="images/6.png" width="70%">
+<img src="images/6.png" width="30%">
 
 Listo! ahí guardaremos el _layout_ de la versión tablet. Nos podemos ahorrar estos pasos simplemente creando un directorio con el nombre ___layout-large___.
 
@@ -360,7 +359,7 @@ class RecyclerAdapter(
 }
 ```
 
-También requerimos el modelo de nuestro producto.
+11. También requerimos el modelo de nuestro producto.
 
 ```kotlin
 data class Product (
@@ -417,7 +416,7 @@ class Product (
 }
 ```
 
-8. Creamos la clase para nuestra lista ___FragmentList___. Este es el esqueleto:
+12. Creamos la clase para nuestra lista ___FragmentList___. Este es el esqueleto:
 
 ```kotlin
 class ListFragment : Fragment() {
@@ -482,8 +481,118 @@ Con este método, asignaremos más tarde la tarea a ejecutar al darle click a un
     }
 ```
 
+13. Para el detalle del producto, creamos nuestra clase ___DetailFragment___. Relacionaremos todas nuestras Views a variables para poder manipular su contenido. 
 
-[`Anterior`](../Readme.md) | [`Siguiente`](../Reto-01)
+```kotlin
+class DetailFragment : Fragment() {
+
+    private lateinit var tvProduct: TextView
+    private lateinit var tvDescription: TextView
+    private lateinit var rbRate: RatingBar
+    private lateinit var imgProduct: ImageView
+    private lateinit var tvPrice: TextView
+
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        val view = inflater.inflate(R.layout.fragment_detail, container, false)
+
+        tvProduct = view.findViewById(R.id.tvProduct)
+        tvDescription = view.findViewById(R.id.tvDescription)
+        rbRate = view.findViewById(R.id.rbRate)
+        imgProduct = view.findViewById(R.id.imgProduct)
+        tvPrice = view.findViewById(R.id.tvPrice)
+
+        return view
+    }
+}
+```
+
+Recuerdas que inicialmente pusimos el _layout_ de nuestro detalle invisible? esto es debido a que en modo tablet, al principio no hemos seleccionado ningún producto, por lo tanto no debemos mostrar nada. Con la función showProduct, haremos visible nuestra información y desplegaremos la información de nuestro producto en los _Views_.
+
+```kotlin
+    fun showProduct(product: Product){
+        view?.visibility = View.VISIBLE
+        tvProduct.text = product.name
+        tvDescription.text = product.description
+        rbRate.rating = product.rating
+        imgProduct.setImageResource(product.idImage)
+        tvPrice.text = product.price
+
+    }
+```
+
+14. Debido a que nuestros ___Fragments___ son modulares (y reutilizables), debemos gestionar cómo se va a mostrar nuestro ___DetailFragment___, debido a que en versión tablet, nuestros dos _Fragments_ se muestran al mismo tiempo en nuestra ___MainActivity___; mientras que en versión móvil, visualizar nuestro detalle implica navegar a un nuevo _Activity_.
+
+Obtenemos nuestro Fragment ___listFragment___ y le asignaremos un listener que corresponde a cuando pulsamos a un elemento de la lista, por medio del método ___setListener___; en dicho método revisamos si el _fragmentDetail_ existe en nuestro _Activity_, es la versión tablet y solo tendremos qué mostrar el contenido mediante el método ___showProduct___ que creamos previamente para esa clase; en caso contrario, creamos un ___Intent___, pasamos como información extra nuestro producto, e iniciamos el nuevo ___Activity___.   
+
+```kotlin
+class MainActivity : AppCompatActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        val listFragment = supportFragmentManager.findFragmentById(R.id.fragmentList) as ListFragment
+
+        listFragment.setListener{
+            val detailFragment = supportFragmentManager.findFragmentById(R.id.fragmentDetail) as? DetailFragment
+
+            // Pantalla grande, mostrar detalle en el fragment
+            if(detailFragment!=null){
+                detailFragment.showProduct(it)
+            } else{ //pantalla pequeña, navegar a un nuevo Activity
+                val intent = Intent(this, DetailActivity::class.java)
+                intent.putExtra(DetailActivity.PRODUCT,it)
+                startActivity(intent)
+            }
+        }
+    }
+}
+```
+
+15. El último paso que nos resta hacer, es crear la clase ___DetailActivity___ para nuestro detalle. En esta clase, lo que haremos es recuperar la información de nuestro producto y mostrarlo desde nuestro _Fragment_  mediante el método ___showProduct___.
+
+```kotlin
+package org.bedu.listdetailfragment
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
+class DetailActivity : AppCompatActivity() {
+
+    companion object {
+        val PRODUCT = "PRODUCT"
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_detail)
+
+        val product = intent.getParcelableExtra<Product>(PRODUCT)
+        val detailFragment = supportFragmentManager.findFragmentById(R.id.fragmentDetail) as? DetailFragment
+        detailFragment?.showProduct(product)
+
+    }
+}
+```
+
+Al correr la aplicación en un móvil, se debe visualizar este flujo:
+
+<img src="images/7.png" width="40%">
+<sub><sup>lista de productos</sup></sub>
+
+<img src="images/8.png" width="40%">
+<sub><sup>detalle de producto</sup></sub>
+
+
+Mientras que en un dispositivo tablet, obtendremos lo siguiente:
+
+<img src="images/9.png" width="40%">
+
+
+[`Anterior`](../Readme.md) | [`Siguiente`](../Reto-02)
 
 
 
