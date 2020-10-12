@@ -150,19 +150,158 @@ class BeduFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_bedu, container, false)
+        val view = inflater.inflate(R.layout.fragment_bedu, container, false)
+        
+        return view
     }
 
 }
 ```
 
-4. Para el segundo Fragment, repetimos el paso anterior, cambiando los nombres a ___fragment_beto.xml___ y a ___BetoFragment___ respectivamente. El nombre de la imagen del layout será ___beto.png___.
+Recuerdas el [../Reto-01]? Ahí examinamos el ciclo de vida de un ___Fragment___, así que tomaremos la implementación de ___callbacks___ para analizar el ciclo de vida cuando hagamos una transacción.
 
-5. 
+4. Para el segundo Fragment, repetimos el paso anterior, cambiando los nombres a ___fragment_beto.xml___ y a ___BetoFragment___ respectivamente. El nombre de la imagen del layout será ___beto.png___. Para los _Logs_, podemos poner un identificador en el texto para distinguirlos.
+
+5. Aunque google no lo recomienda, utilizaremos para esta ocasión _kotlinx synthetic_ En nuestro ___MainActivity___, para saltarnos la asignación de las _Views_. obtenemos el ___supportFragmentManager___ y lo guardamos en una variable.
+
+En el _listener_ del botón de agregar, crearemos una nueva _Transaction_, creamos una instancia de ___BeduFragment___, la agregamos al _container_ con el _tag_ "fragBedu" (que nos servirá para identificarlo) y aplicamos los cambios mediante el método ___commit___.
+
+```kotlin
+override fun onCreate(savedInstanceState: Bundle?) {
+    ...
+    
+    val manager = supportFragmentManager
+
+
+    //Agregaremos un nuevo Fragment
+    addButton.setOnClickListener {
+        val fragment = BeduFragment()
+        val transaction = manager.beginTransaction()
+        transaction.add(R.id.container, fragment, "fragBedu")
+        transaction.commit()
+    }
+}
+```
+Abajo de esta, creamos el _listener_ para remover un ___Fragment___, el _fragment_ será encontrado por el tag que asignamos anteriormente ("fragBedu").
+
+```kotlin
+removeButton.setOnClickListener {
+            val fragment = manager.findFragmentByTag("fragBedu") as BeduFragment
+            val transaction = manager.beginTransaction()
+            transaction.remove(fragment)
+            transaction.commit()
+        }
+```
+
+Corremos el código e inmediatemente pulsamos el botón remover... Qué sucede?
+
+<img src="1.png" width="35%">
+
+Como no se encontró ningún fragment con ese tag, el valor nos arroja nulo y al querer hacer un __cast__, nos arroja un error. Por lo tanto, verificaremos si se encontró dicho fragment
+
+```kotlin
+val fragmentTag = manager.findFragmentByTag("fragBedu")
+
+if(fragmentTag!=null){
+    val fragment = fragmentTag as BeduFragment
+    val transaction = manager.beginTransaction()
+    transaction.remove(fragment)
+    transaction.commit()
+} else{
+    Toast.makeText(this, "No hay ningún FragmentBedu agregado",Toast.LENGTH_SHORT).show()
+}
+```
+            
+Corremos nuevamente el código y hacemos los siguientes ejercicios. Discutir los resultados y analizar cómo se comporta el ciclo de vida para cada uno.
+
+- Remover sin que exista un ___Fragment___
+- Agregar un fragment y eliminarlo
+- Agregar tres fragments y eliminar dos
+
+6. Ahora vamos a mostrar y ocultar un _fragment_, para esto utilzaremos los métodos ___hide___ y ___show___. El código es idéntico al de remover, excepto el nombre del método, en los cuales utilizaremos
+
+```kotlin
+transaction.hide(fragment)
+```
+
+y
+
+```kotlin
+transaction.show(fragment)
+```
+Corremos nuevamente el código y hacemos los siguientes ejercicios. 
+
+- Esconder/mostrar sin que exista un ___Fragment___
+- Agregar un fragment, esconderlo y mostrarlo
+
+7. Ahora implementaremos ___attach___ y ___detach___. Para hacer una diferenciación, el método ___add___ agrega un _fragment_ que puede tener su propi _View_ Al estado del _activity_, mientras que ___attach___, adjunta nuevamente el _fragment_ a la UI. Mientras que ___remove___ elimina el _View_ del _fragment_ y el estado del _FragmentManager_, ___detach___ destruye únicamente el _View_.
+
+La implementación, nuevamente, se realiza de forma similar al _remove_.
+
+```kotlin
+transaction.attach(fragment)
+```
+
+```kotlin
+transaction.detach(fragment)
+```
+
 
 [`Anterior`](../Readme.md) | [`Siguiente`](../Reto-02)
 
+Corremos nuevamente el códido y hacemos los siguientes ejercicios. 
+
+- Attach/detach sin que exista un ___Fragment___
+- Agregar un fragment, Attach y Detach
 
 
+8. Ahora vamos a agregar la opción de agregar/eliminar un segundo _fragment_, es aquí donde ___BetoFragment___ entra en acción.El código es el mismo que para el primer _fragment_, pero adaptado para el segundo _fragment_.
+
+```kotlin
+add2Button.setOnClickListener {
+            val fragment = BetoFragment()
+            val transaction = manager.beginTransaction()
+            transaction.add(R.id.container, fragment, "fragBeto")
+            transaction.commit()
+        }
+
+        remove2Button.setOnClickListener {
+            val fragmentTag = manager.findFragmentByTag("fragBeto")
+
+            if(fragmentTag!=null){
+                val fragment = fragmentTag as BetoFragment
+                val transaction = manager.beginTransaction()
+                transaction.remove(fragment)
+                transaction.commit()
+            } else{
+                Toast.makeText(this, "No hay ningún FragmentBeto agregado",Toast.LENGTH_SHORT).show()
+            }
+        }
+```
+
+Los ejercicios a hacer son los siguientes:
+
+- Agregar un FragmentBeto y removerlo
+- Agregar un FragmentBedu, agregar un FragmentBeto, eliminar el FragmentBeto y luego el FragmentBedu
+- Agregar un FragmentBedu, agregar un FragmentBeto, eliminar el FragmentBedu y luego el FragmentBeto (Remarcar la estructura LIFO).
+
+8. Por último, utilizaremos la función ___replace___, que reemplazará todo lo contenido en el contenedor por el fragment que le pasemos. 
+
+```kotlin
+replace1Button.setOnClickListener {
+    val beduFragment = BeduFragment()
+    val transaction = manager.beginTransaction()
+    transaction
+        .replace(R.id.container,beduFragment,"fragBedu")
+        .commit()
+}
+```
+
+De la misma forma, podemos hacer el ___replace___ para el otro _fragment_.
+
+Los ejercicios son los siguientes:
+
+- Agregar un _FragmentBedu_ y reemplazarlo por un _FragmentBeto_
+- Crear varios _FragmentBedu_ y _FragmentBeto_ y reemplazarlos por cualquiera de los fragments.
 
 </div>
