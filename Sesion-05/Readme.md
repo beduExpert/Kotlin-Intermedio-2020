@@ -57,9 +57,9 @@ Utliizaremos este patrón ampliamente utilizado en aplicaciones para ejemplifica
 
 <img src="images/flow.png" align="right" height="150"> 
 
-#### <ins>Flujo de Fragments</ins>
+#### <ins>Transactions</ins>
 
-Aprenderemos como se establece comunicación entre un ___Fragment___ con un ___Activity___, entre fragments ___Fragments___ y la gestión del flujo entre estos. 
+Ejecutaremos una serie de transacciones para los fragments dentro de un contenedor.
 
 - [**`EJEMPLO 3`**](Ejemplo-03/Readme.md)
 
@@ -70,17 +70,17 @@ Aprenderemos como se establece comunicación entre un ___Fragment___ con un ___A
 
 Con los temas anteriores, elige entre la construcción de una vista lista-detalle, un flujo de Fragments, o idea tu propuesta.
 
-- [**`PROYECTO SESIÓN 4`**](Proyecto/Readme.md)
+- [**`PROYECTO SESIÓN 5`**](Proyecto/Readme.md)
 
 ### 4. Postwork :memo:
 
 Con lo aprendido en esta sesión, continúa con la implementación de Fragments en tu proyecto.
 
-- [**`POSTWORK SESIÓN 4`**](Postwork/Readme.md)
+- [**`POSTWORK SESIÓN 5`**](Postwork/Readme.md)
 
 <br/>
 
-[`Anterior`](../Sesion-03/Readme.md) | [`Siguiente`](../Sesion-05/Readme.md)      
+[`Anterior`](../Sesion-04/Readme.md) | [`Siguiente`](../Sesion-06/Readme.md)      
 
 </div>
 

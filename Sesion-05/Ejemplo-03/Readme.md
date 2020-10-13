@@ -195,7 +195,7 @@ removeButton.setOnClickListener {
 
 Corremos el código e inmediatemente pulsamos el botón remover... Qué sucede?
 
-<img src="1.png" width="35%">
+<img src="images/1.png" width="80%">
 
 Como no se encontró ningún fragment con ese tag, el valor nos arroja nulo y al querer hacer un __cast__, nos arroja un error. Por lo tanto, verificaremos si se encontró dicho fragment
 
