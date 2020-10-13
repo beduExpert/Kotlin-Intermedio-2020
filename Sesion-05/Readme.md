@@ -59,7 +59,7 @@ Utliizaremos este patrón ampliamente utilizado en aplicaciones para ejemplifica
 
 #### <ins>Transactions</ins>
 
-Aprenderemos como se establece comunicación entre un ___Fragment___ con un ___Activity___, entre fragments ___Fragments___ y la gestión del flujo entre estos. 
+Ejecutaremos una serie de transacciones para los fragments dentro de un contenedor.
 
 - [**`EJEMPLO 3`**](Ejemplo-03/Readme.md)
 
