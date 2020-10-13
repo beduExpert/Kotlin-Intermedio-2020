@@ -6,8 +6,7 @@
 
 ### 1. Objetivos :dart:
 
-- Definir el proyecto con el que trabajaremos todo el curso.
-- Programar la idea básica de nuestra aplicación.
+- Orientarse en la implementación de _fragments_ para el proyecto.
 
 ### 2. Requisitos :clipboard:
 
@@ -30,21 +29,12 @@ Para conseguir implementar _fragments_ de manera natural en nuestro proyecto, bu
 
 - Al abrir un video en youtube, se puede ver cómo salta un _fragment_ emergente donde se reproduce el video. Podemos hacer una simulación básica de ese comportamiento.
 
-* __Tener en mente el temario, pensar a futuro__. Tener conciencia de los temas que se van a abordar en el módulo nos va a permitir dimensionar lo que se puede abarcar en nuestro proyecto, para evitar atorarnos en el desarrollo y terminar desechando ideas. Sin embargo, toma en cuenta que este proyecto es una base a retomarse en el siguiente módulo, por lo que está bien tomar en cuenta futuras implementaciones de ideas más avanzadas. 
-
-* __Planear el flujo de nuestra app__. Con el concepto claro, hay que definir cómo va interactuar el usuario con nuestra aplicación, por lo que recomendamos hacer esbozos de cada pantalla a utilizar, mediante wireframes. Entonces, si tendremos un login, diseñar la pantalla y después pensar en la pantalla principal al iniciarse la sesión. Pensar en implementar un botón de cerrar sesión y dónde colocarlo. Aconsejamos explorar distintas aplicaciones para identificar las tendencias.
-
-   <img src="images/wireframe.png" align="center" width="80%"> 
-
 
 ### Tips
 
 El uso del ___DialogFrament___ es permitido en este módulo, en [Este artículo](https://guides.codepath.com/android/using-dialogfragment) se explica un poco más de cómo implementarlo (el lenguaje es Java, pero es bastante comprensible).
 
-
-
-
-
+<img src="images/1.png" width="35%">
 
 
 
