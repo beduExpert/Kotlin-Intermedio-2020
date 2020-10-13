@@ -57,7 +57,7 @@ Utliizaremos este patrón ampliamente utilizado en aplicaciones para ejemplifica
 
 <img src="images/flow.png" align="right" height="150"> 
 
-#### <ins>Flujo de Fragments</ins>
+#### <ins>Transactions</ins>
 
 Aprenderemos como se establece comunicación entre un ___Fragment___ con un ___Activity___, entre fragments ___Fragments___ y la gestión del flujo entre estos. 
 
