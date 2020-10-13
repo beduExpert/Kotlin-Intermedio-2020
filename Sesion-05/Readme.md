@@ -80,7 +80,7 @@ Con lo aprendido en esta sesión, continúa con la implementación de Fragments 
 
 <br/>
 
-[`Anterior`](../Sesion-04/Readme.md) | [`Siguiente`](../Sesion-05/Readme.md)      
+[`Anterior`](../Sesion-04/Readme.md) | [`Siguiente`](../Sesion-06/Readme.md)      
 
 </div>
 
