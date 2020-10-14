@@ -1,28 +1,43 @@
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 06`](../Readme.md) > `Ejemplo 1`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+## Ejemplo 1: Components
 
-## Titulo del Ejemplo
+<div style="text-align: justify;">
 
-### OBJETIVO
+### 1. Objetivos :dart:
 
-- Lo que esperamos que el alumno aprenda
+- Implementar _Components_ de Material Design en nuestra interfaz.
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Android Studio Instalado en nuestra computadora.
+2. Seguir la instrucción específica para esta sesión.
 
-#### DESARROLLO
+### 3. Desarrollo :computer:
 
-Agrega las instrucciones generales del ejemplo o reto
+La meta de este ejercicio es simple: Agregar algunos de los components básicos a nuestro _layout_ y asignarles funcionalidad.
 
-<details>
-	<summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+1. Abre __Android Studio__ y crea un nuevo proyecto con Activity Vacía (Empty Activity).
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) 
+2. Abrimos ___app/build.gradle___ y en ___dependencies___, agregar la siguiente línea:
 
-![imagen](https://picsum.photos/200/300)
+```kotlin
+api 'com.google.android.material:material:1.3.0-alpha03'
+```
+
+Esto para tener disponible los componentes.
+
+3. Para poder implementar satisfactoriamente nuestros _components_, abrimos ___res/values/styles.mxl___ y verificamos que nuestro ___AppTheme___ contenga la siguiente propiedad:
+
+```kotlin
+parent="Theme.MaterialComponents.Light.DarkActionBar"
+```
+
+4. 
+
+[`Anterior`](../Readme.md) | [`Siguiente`](../Reto-01)
 
 
+
+
+</div>
