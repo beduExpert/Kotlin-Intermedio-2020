@@ -18,9 +18,7 @@ class MainActivity : AppCompatActivity() {
         val appBar = findViewById<Toolbar>(R.id.app_bar)
         this.setSupportActionBar(appBar)
 
-
-        setupDrawer(appBar)
-
+       setupDrawer(appBar)
     }
 
 
@@ -30,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         return super.onCreateOptionsMenu(menu)
     }
 
+    //asignamos las acciones para cada opción del AppBar
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         var msg = ""
 

@@ -31,7 +31,6 @@
         </com.google.android.material.appbar.AppBarLayout>
     </LinearLayout>
 
-    <!-- Layout to contain contents of main body of screen (drawer will slide over this) -->
     <com.google.android.material.navigation.NavigationView
         app:headerLayout="@layout/drawer_header"
         android:id="@+id/nav_view"
@@ -39,6 +38,4 @@
         android:layout_height="match_parent"
         android:layout_width="wrap_content"
         app:menu="@menu/drawer_menu" />
-
-
 </androidx.drawerlayout.widget.DrawerLayout>
