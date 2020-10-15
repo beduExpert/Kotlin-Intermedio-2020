@@ -152,6 +152,18 @@ dependencies {
 }
 ```
 
+En buildTypes->release, habilitaremos la ofuscación de código y la depuración de código cambiando el valor de ___minifyEnabled___ y ___shrinkResources___ a _true_. Esto sólo se recomienda antes de liberar la app ya que hace que el proceso de compilación sea más tardado.
+
+```kotlin
+release {
+	    shrinkResourses true
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+```
+
+
+
 
 [`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-02)
 
