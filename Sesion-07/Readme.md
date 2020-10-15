@@ -1,17 +1,18 @@
-[`Kotlin-Intermedio`](../Readme.md) > `Sesión 6`
+[`Kotlin-Intermedio`](../Readme.md) > `Sesión 7`
 
 
 ## Sesión 7: Menus
 
-<div style="text-align: justify;">
+> <div style="text-align: justify;">
   
-  
- 
 ### 1. Objetivos :dart: 
 
-- Implementar Toolbars con acciones específicas.
-- Explorar el nivel de personalización de los menús.
-- Crear Navigation Drawers para gestionar la navegación de nuestra app.
+- Conocer las implementaciones más comunes de Menús en Android.
+- Definir elementos de Menús de manera gráfica así como con código.
+- Manejo de eventos, cambio de elementos en tiempo de ejecución.
+- Menús contextuales y grupos de Menús.
+- Implementar ActionModes.
+
 ---
 
 <img src="../images/android-kotlin.png" align="right" height="120" hspace="10">
@@ -22,36 +23,41 @@
 ---
  
 
-#### <ins>Navigation Drawer</ins>
+#### <ins>Tipos de menus en Android</ins>
 
-Un Navigation Drawer abre un menú lateral donde tendremos distintas opciones que nos permiten acceder a otras secciones de nuestra app. En este ejercicio crearemos el código necesario para crear el nuestro y desplegar información del usuario en esta barra.
+Implementación de los tres tipos de menú en Android. Abarcando desde la interfáz grafica con grupos de elementos hasta la creación mediante código. Los menús vistos: Popup, Contextual y Opciones.
 
 - [**`EJEMPLO 1`**](Ejemplo-01/Readme.md)
 
 ---
 
+#### <ins>Menus y Eventos</ins>
 
-#### <ins>Appbar</ins>
-
-Crearemos y personalizaremos la barra superior de nuestra aplicación y agregarles items con funcionalidades.
+Crearemos menus que sean capaces de ejecutar acciones.
 
 - [**`EJEMPLO 2`**](Ejemplo-02/Readme.md)
 
+---
+
+#### <ins>Implementación de ActionModes </ins>
+
+Crearemos menus contextuales flotantes.
+
+- [**`EJEMPLO 3`**](Ejemplo-03/Readme.md)
 
 ---
 
 
 ### 3. Proyecto :hammer:
 
-Crearemos nuevas rutas para nuestro proyecto y así poder hacer uso del navigation drawer, implementaremos algunas acciones en el appbar según el menú principal del proyecto..
 
-- [**`PROYECTO SESIÓN 6`**](Proyecto/Readme.md)
+- [**`PROYECTO SESIÓN 7`**](Proyecto/Readme.md)
 
 ### 4. Postwork :memo:
 
 Con lo aprendido en esta sesión, continúa con la implementación de ___Menús_ en tu proyecto.
 
-- [**`POSTWORK SESIÓN 6`**](Postwork/Readme.md)
+- [**`POSTWORK SESIÓN 7`**](Postwork/Readme.md)
 
 <br/>
 
