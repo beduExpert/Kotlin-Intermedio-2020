@@ -29,18 +29,18 @@ Aunque hemos visto bastantes ejemplos de _CardViews_ representando items de una 
 
 Hay distintas formas de aplicar un _AppBar_ para cierta pantalla en específico, para este primer ejemplo, tenemos una app de e-commerce que como opción tenemos un globo que nos lleva a una ventana de chat.
 
-<img src="images/3.png" width="35%">
+<img src="images/3.jpg" width="35%">
 
 Otro ejemplo, es netflix, cuya Toolbar nos permite elegir otro usuario configurado en la cuenta.
 
-<img src="images/4.png" width="35%">
+<img src="images/4.jpg" width="35%">
 
 
 #### Navigation drawer
 
 Para este caso, tenemos a Uber, que en nuestra barra lateral, nos muestra un header con foto de perfil y el nombre, la calificación del usuario, otras opciones en el header y finalmente los items (sin íconos, únicamente una tipografía característica). Hasta abajo, una sección de _legal_.
 
-<img src="images/5.png" width="35%">
+<img src="images/5.jpg" width="35%">
 
 
 
