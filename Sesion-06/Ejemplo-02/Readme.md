@@ -24,9 +24,9 @@ Implementaremos ahora dos _componets_ importantes para material design: Appbar y
 
 1. Abre __Android Studio__ y crea un nuevo proyecto con Activity Vacía (Empty Activity).
 
-2. Copiaremos todos los recursos que se encuentran en [Esta carpeta](ListDetailFragment/app/src/main/res/drawable) y las pegamos en nuestro directorio ___drawable___, para utilizarlos posteriormente.
+2. Copiaremos todos los recursos que se encuentran en [Esta carpeta](AppBarAndNavigationDrawer/app/src/main/res/drawable) y las pegamos en nuestro directorio ___drawable___, para utilizarlos posteriormente.
 
-3. Copiaremos todos los recursos que se encuentran en [Esta carpeta](ListDetailFragment/app/src/main/res/values) y las pegamos en nuestro directorio de recursos ___values___, para utilizarlos posteriormente.
+3. Copiaremos todos los recursos que se encuentran en [Esta carpeta](AppBarAndNavigationDrawer/app/src/main/res/values) y las pegamos en nuestro directorio de recursos ___values___, para utilizarlos posteriormente.
 
 4. Ahora insertaremos nuestro AppBar en nuestro _main_activity.xml_, para esto, utilizaremos un ___AppBarLayout___ que en realidad es un _LinearLayout_ que implementa varios conceptos del [App Bar de Material design](https://material.io/components/app-bars-top). Dentro de esta, contenemos nuestro _widget_ ___Toolbar___ que es realmente la barra superior. el _flag_ ___navigationIcon___ es el elemento gráfico al lado izquierdo, en este caso pondremos el ícono de menú hamburguesa.
 
@@ -286,7 +286,7 @@ Corremos nuestra app y finalmente, abriremos nuestro _Drawer_ al dar click sobre
 
 <img src="images/4.png" width="35%">
 
-[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-01)
+[`Anterior`](../Ejemplo-01) | [`Siguiente`](../Ejemplo-03)
 
 
 
