@@ -1,16 +1,74 @@
+[`Kotlin-Intermedio`](../Readme.md) > `Sesión 8`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
 
-## Titulo de la Sesion 
+## Sesión 8: Preparación para lanzamiento
 
-### OBJETIVOS 
+<div style="text-align: justify;">
+  
+  
+  
+### Introducción
 
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+La cantidad de aplicaciones disponibles en Google Play no deja de aumentar. Una de las grandes ventajas de la tienda oficial en Android es que hay muchos tipos de apps diferentes, también de multitud de estudios y desarrolladores. Esto permite que desarrolladores pequeños, que están empezando, puedan publicar sus aplicaciones en la tienda sin demasiados problemas.
 
-#### ORGANIZACION DE LA CLASE 
 
-- Tema que veran en el ejemplo
+### 1. Objetivos :dart: 
 
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
+---
+
+<img src="../images/android-kotlin.png" align="right" height="120" hspace="10">
+
+- Ejecutar pasos previos de configuración.
+- Crear un archivo apk a partir del proyecto finalizado.
+- Probar aplicación y crear un app bundle
+- Preparar para lanzamiento a producción
+
+
+### 2. Contenido :blue_book:
+
+---
+
+<img src="images/gradle.png" align="right" height="150"> 
+
+#### <ins>Configuración de gradle</ins>
+
+Realizaremos todos los preparativos en los archivos _gradle_ para tener un lanzamiento de la app exitosa.
+
+- [**`EJEMPLO 1`**](Ejemplo-01/Readme.md)
+
+---
+
+<img src="images/flavors.jpg" align="right" height="150"> 
+
+#### <ins>Build variants</ins>
+
+Crearemos diferentes versiones de una aplicación y aprenderemos para qué sirve esta utilidad.
+
+- [**`EJEMPLO 2`**](Ejemplo-02/Readme.md)
+
+---
+
+<img src="images/signing.png" align="right" height="150"> 
+
+#### <ins>Firma de aplicación</ins>
+
+Generaremos un apk de prueba para instalarlo en un dispositivo. Compilaremos un archivo .aab y probaremos su funcionalidad mediante _buildtool_. Firmaremos nuestra aplicación de release y la probaremos en busqueda de algún defecto.
+
+- [**`EJEMPLO 3`**](Ejemplo-03/Readme.md)
+
+---
+
+
+### 3. Proyecto :hammer:
+
+Cerraremos el proyecto final y dejaremos todo listo para el siguiente nivel.
+
+- [**`PROYECTO SESIÓN 5`**](Proyecto/Readme.md)
+
+
+<br/>
+
+[`Anterior`](../Sesion-07/Readme.md)
+
+</div>
 
