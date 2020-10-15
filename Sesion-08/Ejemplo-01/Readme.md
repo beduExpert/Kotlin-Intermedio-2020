@@ -153,7 +153,7 @@ dependencies {
 ```
 
 
-[`Anterior`](../Readme.md) | [`Siguiente`](../Reto-01)
+[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-02)
 
 
 
