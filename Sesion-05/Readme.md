@@ -52,6 +52,7 @@ Se creará un fragmento al layout del _Activity_ principal y se implementara fun
 Utliizaremos este patrón ampliamente utilizado en aplicaciones para ejemplificar la flexibilidad de un ___Fragment___.
 
 - [**`EJEMPLO 2`**](Ejemplo-02/Readme.md)
+- [**`RETO 2`**](Reto-02/Readme.md)
 
 ---
 

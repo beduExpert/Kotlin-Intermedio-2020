@@ -184,7 +184,7 @@ Agregaremos un ___CardView___ sencillo, con un header superior con color _Primar
                 android:text="description"
                 android:textAppearance="?attr/textAppearanceBody2" />
         </LinearLayout>
-    </com.google.android.material.card.MaterialCardView
+    </com.google.android.material.card.MaterialCardView>
 ```
 
 
