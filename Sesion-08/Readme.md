@@ -28,7 +28,7 @@ La cantidad de aplicaciones disponibles en Google Play no deja de aumentar. Una 
 
 ---
 
-<img src="images/gradle.png" align="right" height="150"> 
+<img src="images/gradle.png" align="right" height="120"> 
 
 #### <ins>Configuración de gradle</ins>
 
@@ -38,7 +38,7 @@ Realizaremos todos los preparativos en los archivos _gradle_ para tener un lanza
 
 ---
 
-<img src="images/flavors.jpg" align="right" height="150"> 
+<img src="images/flavors.jpg" align="right" height="120"> 
 
 #### <ins>Build variants</ins>
 
@@ -48,7 +48,7 @@ Crearemos diferentes versiones de una aplicación y aprenderemos para qué sirve
 
 ---
 
-<img src="images/signing.png" align="right" height="150"> 
+<img src="images/signing.png" align="right" height="120"> 
 
 #### <ins>Firma de aplicación</ins>
 
