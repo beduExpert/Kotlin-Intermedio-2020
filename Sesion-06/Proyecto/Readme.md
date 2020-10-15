@@ -1,29 +1,39 @@
- 
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 06`](../Readme.md) > `Proyecto`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Proyecto: Material Design
 
-### OBJETIVO 
+<div style="text-align: justify;">
 
-- Lo que esperamos que el alumno aprenda 
+### 1. Objetivos :dart:
 
-#### REQUISITOS 
+- Personalizar el tema y estilo del layout mediante _Themes_ y _Components_ de Material Design.
+- Agregar un AppBar personalizado a nuestro proyecto.
+- Crear un NavigationDrawer para enriquecer de rutas a nuestra aplicación.
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+### 2. Requisitos :clipboard:
 
-#### DESARROLLO
+1. Android Studio Instalado en nuestra computadora.
 
-Agrega las instrucciones generales del ejemplo o reto
 
-<details>
+### 3. Desarrollo :computer:
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+Para apegarnos más a los estándares de google y crear una aplicación con un diseño intuitivo, implementaremos los temas de _Material Design_ que pudimos abarcar durante esta sesión.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
+Los puntos a cubrir en este proyecto serán los siguientes:
 
-![imagen](https://picsum.photos/200/300)
+* Implementar _CardView_ en al menos un caso de nuestra aplicación.
+* Crear un _DrawerNavigation_ que vaya acorde al concepto de la app.
+* Añadir un App bar cuyas opciones de menú implementen una funcionalidad mínima que concuerde con la actividad principal de la app.
+* Estilizar nuestra aplicación mediante un nuevo _Theme_.
 
+
+### Lineamientos
+
+1. Cubrir al menos dos de los cuatro puntos.
+2. Si algún punto anterior no se puede implementar en un punto de nuestra app, se debe crear algo que pueda encajar con dicho punto.
+3. Se recomienda ampliamente verificar la guía de estilo y de componentes del [sitio web oficial](https://material.io/)
+
+
+[`Anterior`](../Readme.md#transactions) | [`Siguiente`](../Readme.md#Postwork)
+
+</div>
