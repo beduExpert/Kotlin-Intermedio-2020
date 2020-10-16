@@ -1,29 +1,59 @@
+[`Kotlin-Intermedio`](../Readme.md) > `Sesión 7` > `Reto 03`
  
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
 	
-## Titulo del Ejemplo 
+## Creando Callback en clase independiente
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- Con base al ejemplo-03, implementar una clase dedicada para mostrar el mismo menú flotante.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. Haber terminado Ejemplo-03
+2. Utilizar clase de ayuda proporcionada en el repositorio.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Crear una clase que implemente un ActionMode.Callback().
 
-<details>
+```
+class PrimaryActionModeCallback : ActionMode.Callback {
+}
+```
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+Este callback tendra un OnClick listener, lo implementaremos como Global.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
 
-![imagen](https://picsum.photos/200/300)
+> var onActionItemClickListener: OnActionItemClickListener? = null
 
+Dentro de la clase sobreescribiremos los metodos necesarios, estos son:
+
+	- onCreateActionMode
+	- onPrepareActionMode
+	- onDestroyActionMode
+	- onActionItemClicked
+
+Finalmente creamos un método para configuracion, agregamos titulo, subtitulo y menu.
+
+
+```
+fun startActionMode(view: View,
+                        @MenuRes menuResId: Int,
+                        title: String? = null,
+                        subtitle: String? = null) {
+        this.menuResId = menuResId
+        this.title = title
+        this.subtitle = subtitle
+        view.startActionMode(this)
+    }
+```
+
+
+Para hacer uso de esta clase:
+
+```
+// Start primary ActionMode
+
+val primaryActionModeCallback = PrimaryActionModeCallback()
+primaryActionModeCallback.startActionMode(view, R.menu.menu_actions, "Title", "Subtitle")
+```

@@ -1,29 +1,25 @@
- 
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+[`Kotlin-Intermedio`](../Readme.md) > `Sesión 7` > `Reto 01`
 
-### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+## Agregando funcionalidad a los Menús
 
-#### REQUISITOS 
+### OBJETIVO
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+- Agregar mas elementos a los menus de opciones
+
+#### REQUISITOS
+
+1. Android Studio 4.1
+2. Kotlin 1.3
+3. AVD Virtual device con API 11 (Android 3.0) o superior
+4. Conexión a internet
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+El reto consiste en agregar un CheckBox en cada elemento de menú.
+Mostrar iconos en cada opción de menú.
+Agregar tantas opciones quieras, pero crea agrupaciones.
 
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una)
-
-![imagen](https://picsum.photos/200/300)
-
+![Elemento de Menu](./images/1.png)
+![Elemento de Menu](./images/2.png)
