@@ -130,11 +130,11 @@ Sincronizamos el projecto debido a los cambios en _gradle_ y tendremos creadas n
 
 Para visualizarlas, observamos la barra lateral izquierda (cerca de las herramientas de debugging) y damos click a la opción ___Build Variants___:
 
-<img src="images/1.png" width="40%">
+<img src="images/1.png" width="30%">
 
 Nos saldrá un menú con todas las variantes:
 
-<img src="images/2.png" width="50%">
+<img src="images/2.png" width="40%">
 
 Al compilar y/o correr nuestra app, se ajustará a la versión seleccionada.
 
