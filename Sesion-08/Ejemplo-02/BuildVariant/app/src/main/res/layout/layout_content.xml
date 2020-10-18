@@ -12,11 +12,11 @@
         android:text="Bienvenidos Alumnos"/>
     <EditText
         android:layout_marginTop="24dp"
-        android:text="usuario"
+        android:hint="usuario"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"/>
     <EditText
-        android:text="contraseña"
+        android:hint="contraseña"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"/>
     <Button

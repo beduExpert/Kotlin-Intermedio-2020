@@ -22,13 +22,13 @@ android {
         free{
             applicationId "org.bedu.buildvariant.free"
             dimension "price"
-            applicationIdSuffix ".free"
+            //applicationIdSuffix ".free"
             versionNameSuffix "-free"
         }
         paid{
             applicationId "org.bedu.buildvariant.paid"
             dimension "price"
-            applicationIdSuffix ".paid"
+            //applicationIdSuffix ".paid"
             versionNameSuffix "-full"
             /*
             minSdkVersion 23
