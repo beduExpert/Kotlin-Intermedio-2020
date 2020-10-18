@@ -581,9 +581,11 @@ class DetailActivity : AppCompatActivity() {
 Al correr la aplicación en un móvil, se debe visualizar este flujo:
 
 <img src="images/7.png" width="40%">
+
 <sub><sup>lista de productos</sup></sub>
 
 <img src="images/8.png" width="40%">
+
 <sub><sup>detalle de producto</sup></sub>
 
 
