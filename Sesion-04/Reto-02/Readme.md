@@ -106,7 +106,7 @@ también el xml de MainActivity
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
+```
 
 
 
