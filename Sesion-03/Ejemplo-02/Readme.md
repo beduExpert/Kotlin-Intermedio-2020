@@ -1,4 +1,8 @@
- ## Constraint Layout
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 03`](../Readme.md) > `Ejemplo 2`
+
+<div style="text-align: justify;">
+
+## Ejemplo 2: Constraint Layout
 
 ### OBJETIVO 
 
@@ -90,3 +94,5 @@ Puedes estudiar el código generado para comprender un poco cómo funciona el xm
 
 Continúen experimentando con la UI y Constraint Layout para seguir enriqueciendo su conocimiento.
 
+[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-03/Readme.md)
+</div>
