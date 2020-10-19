@@ -1,14 +1,20 @@
 
-## Ciclo de vida de un Activity
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 03`](../Readme.md) > `Ejemplo 4`
 
-### OBJETIVO
+## Ejemplo 4: Ciclo de vida de un Activity
+
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Volver visible el ciclo de vida de un activity a través de indicadores visual para corroborar el orden en el flujo estudiado previamente, para su posterior uso.
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
-1. Haber leído el artículo del ciclo de vida de un activity.
-#### DESARROLLO
+1. Android Studio Instalado en nuestra computadora.
+2. Seguir la instrucción específica para esta sesión.
+
+### 3. Desarrollo :computer:
 
 Como estudiamos anteriormente, cada estado del ciclo de un Activity ejecuta ciertas tareas para correr/finalizar procesos, y se pueden sobreescribir para inicializar la lógica de negocio en la pantalla. En este ejercicio vamos a confirmar el orden en el flujo previamente estudiado. 
 
@@ -72,5 +78,14 @@ override fun onDestroy() {
 
 4.- Después de esto, correr la aplicación en el emulador, y comprobar el flujo. Describir qué métodos se mandan a llamar cuando la aplicación se minimiza y cuando se cierra.
 
+
+
+
+[`Anterior`](../Readme.md) | [`Siguiente`](../Proyecto/Readme.md)
+
+
+
+
+</div>
 
 
