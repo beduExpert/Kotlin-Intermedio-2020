@@ -98,7 +98,7 @@ La app se tiene qué ver parecido a la sig. imagen:
 
 
 
-[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-3/Readme.md)
+[`Anterior`](../Readme.md) | [`Siguiente`](../Reto-02/Readme.md)
 
 
 
