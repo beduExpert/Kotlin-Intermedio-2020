@@ -1,76 +1,89 @@
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 03`](../Readme.md) > `Ejemplo 3`
 
-## Ciclo de vida de un Activity
+## Ejemplo 3: Constraint layout Pte 2
 
-### OBJETIVO
+<div style="text-align: justify;">
 
-- Volver visible el ciclo de vida de un activity a través de indicadores visual para corroborar el orden en el flujo estudiado previamente, para su posterior uso.
+### 1. Objetivos :dart:
 
-#### REQUISITOS
+- Explotar el uso del _Layout Editor_.
+- Utilizar las propiedades que nos brinda ConstraintLayout.
+- Agrupar de forma inteligente nuestras _Views_.
 
-1. Haber leído el artículo del ciclo de vida de un activity.
-#### DESARROLLO
+### 2. Requisitos :clipboard:
 
-Como estudiamos anteriormente, cada estado del ciclo de un Activity ejecuta ciertas tareas para correr/finalizar procesos, y se pueden sobreescribir para inicializar la lógica de negocio en la pantalla. En este ejercicio vamos a confirmar el orden en el flujo previamente estudiado. 
+1. Android Studio Instalado en nuestra computadora.
+2. Seguir la instrucción específica para esta sesión.
 
-Nos apoyaremos de un elemento visual llamado **Toast**
+### 3. Desarrollo :computer:
 
+#### 
 
+1. Abre __Android Studio__ y crea un nuevo proyecto con Activity Vacía (Empty Activity).
 
-Para realizar el ejemplo, seguimos los siguientes pasos:
+2. Abrir el archivo ___main_activity.xml___, por defecto tendremos un ___ConstraintLayout___ como _ViewGroup_ principal.
 
-1.- Crear un nuevo proyecto con una Activity vacía.
+3. En el ejercicio pasado, aprendimos a hacer constraints entre _Views_, sin embargo, esta es apenas una de sus funcionalidades, puesto que este _layout_ es hasta el momento el más completo entre todos, eliminando _views anidados_, optimizando el _layout_ y dando mayor flexibilidad a nuestros diseños. Vamos a analizar el _layout editor_:
 
-![](https://github.com/beduExpert/B1-Kotlin-Intermedio/blob/master/Sesion-03/Ejemplo-02/Imagenes/01.png)
+<img src="images/1.png" width="85%">
 
-2.- Ingresar el siguiente nombre y package name para el proyecto
+4. Eliminamos el _TextView_ "Hello World" que viene por defecto. click derecho sobre el _View_ >  _Delete_.
 
-![](https://github.com/beduExpert/B1-Kotlin-Intermedio/blob/master/Sesion-03/Ejemplo-02/Imagenes/02.png)
+<img src="images/delete.gif" width="50%"> 
 
-3.- Al crearse el proyeccto, abrir la ventana MainActivity, en ella encontraran esto:
+5. Verificamos que este símbolo en el Toolbar esté habilitado, de lo contrario, dar click sobre él. Esto nos permitirá hacer autoconexiones con respecto a nuestro _ConstraintLayout_. Arrastraremos un nuevo _TextView_ hasta el centro, procurando que se muestre unas guías interlineadas en el centro; soltar y verificar lo que sucede.
 
-```kotlin
-override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-    }
-```
->no hay que olvidar que la sentencia *override* es un modificador que sirve para sobreescribir un método implementado por la clase que se hereda.
+<img src="images/center.gif" width="50%"> 
 
-bajo esta función, hacer override de los otros métodos llamados durante el ciclo de vida de un Activity, e insertar en ellas el Toast con un texto que identifique en el estado del ciclo en que unon se encuentra.
+Lo haremos de forma manual ahora, eliminamos los constraints dando click a los puntos del constraint y presionando _ctrl_ al mismo tiempo (_command_ en mac).
+Ahora damos click derecho en el _TextView_ > center > Vertically y Horizontally respectivamente.
 
-```kotlin
-override fun onStart() {
-   super.onStart()
-   Toast.makeText(this, "onStart", Toast.LENGTH_SHORT).show()
-}
+<img src="images/center_manual.gif" width="50%"> 
 
-override fun onResume() {
-   super.onResume()
-   Toast.makeText(this, "onResume", Toast.LENGTH_SHORT).show()
-}
+Cuando tenemos dos extremos colineales, nos saldrá en la sección _Layout_ de la barra _Attributes_ un bias (horizontal o vertical), esta indica un porcentaje de posición relativo a los dos extremos.
 
-override fun onPause() {
-   Toast.makeText(this, "onPause", Toast.LENGTH_SHORT).show()
-   super.onPause()
-}
+<img src="images/bias.gif" width="80%"> 
 
-override fun onStop() {
-   Toast.makeText(this, "onStop", Toast.LENGTH_SHORT).show()
-   super.onStop()
-}
+6. En otros layouts, hemos abordado el uso de los atributos _layout_width_ y _layout_height_, con las opciones _match_parent_, _wrap_content_ y un tamaño fijo.
+Para este caso, tenemos opciones similares:
 
-override fun onRestart() {
-   super.onRestart()
-   Toast.makeText(this, "onRestart", Toast.LENGTH_SHORT).show()
-}
+- <img src="images/3.png"> ___Wrap Content___, el tamaño se ajusta a la dimensión del contenido.
+- <img src="images/4.png"> ___Fixed___, donde determinamos una medida fija.
+- <img src="images/5.png"> ___Match Constraints___, abarca el tamaño de extremo a extremo con la alineación de sus constraints. __Nota: match_parent nunca debe usarse en un ConstraintLayout__.
 
-override fun onDestroy() {
-   Toast.makeText(this, "onDestroy", Toast.LENGTH_SHORT).show()
-   super.onDestroy()
-} 
-```
+Daremos click en las distintas opciones:
 
-4.- Después de esto, correr la aplicación en el emulador, y comprobar el flujo. Describir qué métodos se mandan a llamar cuando la aplicación se minimiza y cuando se cierra.
+<img src="images/layout_width.gif" width="75%"> 
 
+Si observamos la propiedad _layout_width_ visible en la animación, veremos que conforme cambiemos la forma de dimensionares, cambiamos de _wrap_content_, luego a _58dp_ (tamaño fijo) y luego a _0dp_ (que realmente expresa que toma el tamaño de los límites).
+
+7. Los _Views_ con texto pueden tener una propiedad llamada _baseline_, que es la línea del texto y permite también la posibilidad de alinearse mediante este constraint. Eliminaremos nuestro _TextView_ y arrastraremos otros dos, uno de ellos pegado a la esquina superior derecha del _parent_.Para el segundo, damos click derecho > _Show Baseline_; cuando el ícono del constraint aparezca, arrástralo hacia el baseline del texto pegado en la esquina.
+
+<img src="images/baseline.gif" width="50%"> 
+
+8. Los chains son formas de agrupar vertical y horizontalmente elementos a una distancia dividida entre los views que lo componen. Estos tienen tres modos:
+
+- <img src="images/6.png"> ___Spread___, se dividen en intervalos de espacio iguales.
+- <img src="images/7.png"> ___Spread Inside___, Similar al anterior, pero no existe espaciamiento externo.
+- <img src="images/8.png"> ___Packed___, Los elementos van juntos.
+
+A continuación agrupamos tres _TextViews_ en cadena y variamos entre los 3 modos:
+
+<img src="images/chains.gif" width="50%"> 
 
 
+[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-04)
+
+
+9. Por último, agregaremos ___Guidelines___, que son altamente recomendadas para diseños flexibles. Podemos elegir entre una orientación vertical u horizontal y hay dos formas de agregarlos: Arrastrándolo desde la sección _Layouts_ del _Palette_ o dando _click derecho > Helpers > Add Vertical/Horizontal Guideline_.
+
+<img src="images/9.png" width="50%"> 
+
+<img src="images/10.png" width="50%"> 
+
+Los _Guidelines_ pueden posicionarse con respecto a un lado inicial con un parámetro fijo o el porcentaje de la posición que ocupa en el parent, de acuerdo a la orientación escogida para la guía. Los _Views_ que se posicionen sobre la línea de guía, se moverán con ella.
+
+<img src="images/guideline.gif" width="50%"> 
+
+
+</div>
