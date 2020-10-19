@@ -1,14 +1,19 @@
-## Spinners
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Ejemplo 2`
 
-### OBJETIVO
+## Ejemplo 2: Spinners
 
-- Que el alumno aprenda a utilizar los spinners y sus limitados casos de uso.
+<div style="text-align: justify;">
 
-#### REQUISITOS
+### 1. Objetivos :dart:
 
-1. Haber estudiado previamente la presentación de la sesión 2, del tema Spinner en específico.
+- Utilizar los spinners y sus limitados casos de uso.
 
-#### DESARROLLO
+### 2. Requisitos :clipboard:
+
+1. Android Studio Instalado en nuestra computadora.
+2. Seguir la instrucción específica para esta sesión.
+
+### 3. Desarrollo :computer:
 
 1.- Crear un proyecto con Activity vacía.
 
@@ -89,4 +94,14 @@ private fun showDialog(title:String,message:String){
 La app se tiene qué ver parecido a la sig. imagen:
 
 <img src="result.png" width="33%">
+
+
+
+
+[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-3/Readme.md)
+
+
+
+
+</div>
 
