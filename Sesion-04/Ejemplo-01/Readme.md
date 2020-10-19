@@ -1,15 +1,19 @@
-## ListView Sencillo
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Ejemplo 1`
 
-### OBJETIVO
+## Ejemplo 1: ListView
+
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Implementar a nivel básico un ListView, con elementos predefinidos.
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
 1. Haber leído el tema de patrón Adapter en el Prework.
 2.- Haber comprendido el tema de ListView enseñado durante la presentación de la sesión 1.
 
-#### DESARROLLO
+### 3. Desarrollo :computer:
 
 1.- Abrir un proyecto con una Actividad vacía.
 
@@ -88,3 +92,13 @@ Toast.makeText(
 la pantalla debe tener esta forma: 
 
 <img src="01.png" width="30%">
+
+
+
+
+[`Anterior`](../Readme.md) | [`Siguiente`](../Reto-01/Readme.md)
+
+
+
+
+</div>
