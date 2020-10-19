@@ -1,14 +1,20 @@
- ## Agregando Items al RecyclerView
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Reto 2`
 
-### OBJETIVO 
+## Reto 2: Agregando Items al RecyclerView
+
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Que el programador aprenda a actualizar el RecyclerView cuando se le agregue un nuevo elemento
 
-#### REQUISITOS 
+### 2. Requisitos :clipboard:
 
-1. Haber terminado el [Ejemplo 03](../Ejemplo-03)
+1. Android Studio Instalado en nuestra computadora.
+2. Seguir la instrucción específica para esta sesión.
 
-#### DESARROLLO
+### 3. Desarrollo :computer:
+
 Continuando con el proyecto del ejemplo 3, vamos a crear la interfaz para agregar nuevos usuarios, hay que contemplar que por ahorro de tiempo no pondremos ningún filtro en el nombre, ni en el teléfono de cada contacto agregado.
 
 Utilizaremos el botón redondo llamado FAB (Floating Action Button) para ir a la pantalla de agregar contacto nuevo.
@@ -47,3 +53,13 @@ y en la cclase AddContactActivity():
 ```
 
 El diseño de esa página lo dejararemos a criterio propio.
+
+
+
+[`Anterior`](../Ejemplo-03/Readme.md) | [`Siguiente`](../Readme.md)
+
+
+
+
+</div>
+
