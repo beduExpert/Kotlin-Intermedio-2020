@@ -4,15 +4,16 @@
 
 ## Ejemplo 2: Constraint Layout
 
-### OBJETIVO 
+### 1. Objetivos :dart: 
 
-- Aprender los fundamentos de Constraint layouts de forma didáctica e interactiva
+- Ordenar Componentes por medio de anclajes en un Constraint layout.
 
-#### REQUISITOS 
+### 2. Requisitos :clipboard:
 
-1. Haber leído la diapositiva de la sesión 4, sobre el tema de Constraint Layouts
+1. Android Studio Instalado en nuestra computadora.
+2. Seguir la instrucción específica para esta sesión.
 
-#### DESARROLLO
+### 3. Desarrollo :computer:
 
 El objetivo es apilar las Views como la siguiente imagen:
 
