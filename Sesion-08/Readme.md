@@ -1,7 +1,7 @@
 [`Kotlin-Intermedio`](../Readme.md) > `Sesión 8`
 
 
-## Sesión 8: Preparación para lanzamiento
+## Sesión 8: Gradle y Preparación para lanzamiento
 
 <div style="text-align: justify;">
   
