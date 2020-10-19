@@ -47,7 +47,7 @@ Utilizaremos el último layout integrado a android, que integra patrones de otro
 
 Repasaremos el concepto de _Activity_ en Android, su ciclo de vida y las acciones que podemos hacer en cada una de sus etapas.
 
-- [**`EJEMPLO 4`**](Ejemplo-03/Readme.md)
+- [**`EJEMPLO 4`**](Ejemplo-04/Readme.md)
 
 ---
 
