@@ -1,12 +1,12 @@
-[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Reto 2`
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Proyecto`
 
-## Postwork
+## Proyecto
 
 <div style="text-align: justify;">
 
 ### 1. Objetivos :dart:
 
-- Aplicar el conocimiento de Listas a la tienda en línea
+- Aplicar el conocimiento de Listas a nuestro proyecto.
 
 ### 2. Requisitos :clipboard:
 
@@ -15,25 +15,21 @@
 
 ### 3. Desarrollo :computer:
 
-1. Para la tienda, hay qué crear visualmente una lista similar a la del [Reto 1](../Reto-01) 
+Las listas son elementos recurrentes en las aplicaciones. En nuestra aplicación de galeria, tenemos un grid de fotos que al pulsar sobre un elemento, se despliega la imagen para abarcar toda la pantalla. En una app bancaria, el historial de transacciones se muestran en lista. Para una app de cine, las pelí
+culas están listadas de forma vertical. 
 
-<img src="../Reto-01/result.png" width="33%" align="center"/>
-
-
-pero con un RecyclerView, tal como se vió en el [Ejemplo 3](../Ejemplo-03) y el [Reto 3](../Reto-03)
-
-Se puede basar uno en la tienda **linio** para android
-
-<img src="list.png" width="33%" align="center"/>
-la lista puede ser en una matriz como en la imagen o lineal vertical como la primera imagen
-
-2. Al seleccionar un elemento, direccionar a una pantalla de detalles del producto, donde posteriormente se podrá enviar al carrito
-
-<img src="details.png" width="33%" align="center"/>
+En general, la implementación de una lista en el proyeto es esencial y prácticamente para cualquier ejemplo de aplicación tendremos una forma de utilizarla.
 
 
+### Lineamientos
 
-[`Anterior`](../Proyecto/Readme.md) | [`Siguiente`](../../Sesion-05/Readme.md)
+1. El proyecto debe utilizar al menos un _RecyclerView_.
+2. Al pulsar sobre cualquier elemento del _RecyclerView_, debemos navegar a una nueva pantalla para los detalles del elemento (las acciones a realizar en ella son libres).
+3. Cada elemento debe tener en su _layout_ al menos dos textos y una imagen.
+4. La distribución del _layout_ preferentemente no debe ser lineal.
+
+
+[`Anterior`](../Reto-03/Readme.md) | [`Siguiente`](../../Sesion-05/Readme.md)
 
 
 
