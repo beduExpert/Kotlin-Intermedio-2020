@@ -1,17 +1,33 @@
-## Postwork 
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 03`](../Readme.md) > `Proyecto`
 
-### OBJETIVO
+## Proyecto: Activities y Layouts
 
-- Crear las vistas/ ventanas principales del proyecto 
+<div style="text-align: justify;">
 
-### REQUISITOS
+### 1. Objetivos :dart:
 
-1. Haber completado todos los ejemplos y retos de la [Sesion 03](/../../tree/master/Sesion-03/)
+- Crear un flujo entre Activities.
+- Diseñar los layouts de las _Activities_ con ___ConstraintLayout___.
 
-### DESARROLLO
+### 2. Requisitos :clipboard:
 
-Considerando que ya existe una actividad en tu proyecto solo realiza los siguientes puntos:
+1. Android Studio Instalado en nuestra computadora.
 
-- En la carpeta res/layout crea dos archivos de layout que representaran las vistas de tu formulario y tu menú principal.
+### 3. Desarrollo :computer:
 
-- En la carpeta src/java crea dos archivos que contendran la implementacion de los activities que has creado ya en la carpeta de layouts, codifica la implementacion y relaciona la vista con la logica como lo viste en los ejemplos de esta sesion.
+En este reto final, vamos a crear un flujo entre las primeras pantallas de nuestra aplicación. 
+
+La primera pantalla de nuestra aplicación ya fue creada durante la ___Sesión 2___, por lo que ahora queda definir qué sigue después de la primera pantalla que diseñamos.
+
+
+### Lineamientos
+
+1. Se debe generar al menos una nueva _Activity_ que interactúe con la _Activity_ previamente creada.
+2. el o los _layouts_ generados, deben ser maquetados con el _Viewgroup_ ___ConstraintLayout___.
+3. Cada _layout_ debe tener más de 3 Views, y es sugerido que la distribución de las _Views_ no sea lineal.
+4. Las Activites deben de implementar alguna funcionalidad, como simular un servicio web y/o declarar listeners de botones (se vale investigar _Views_ no vistas en las sesiones). 
+
+
+[`Anterior`](../Readme.md#imágenes-mediante-url) | [`Siguiente`](../Readme.md#Postwork)
+
+</div>
