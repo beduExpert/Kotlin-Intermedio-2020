@@ -1,17 +1,32 @@
-## Postwork 
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 03`](../Readme.md) > `Postwork`
 
-### OBJETIVO
+## Postwork
 
-- Crear las vistas/ ventanas principales del proyecto 
+<div style="text-align: justify;">
 
-### REQUISITOS
+### 1. Objetivos :dart:
 
-1. Haber completado todos los ejemplos y retos de la [Sesion 03](/../../tree/master/Sesion-03/)
+- Orientarse en la implementación de nuevas _Activities_ y sus _layouts_.
 
-### DESARROLLO
+### 2. Requisitos :clipboard:
 
-Considerando que ya existe una actividad en tu proyecto solo realiza los siguientes puntos:
+1. Android Studio Instalado en nuestra computadora.
 
-- En la carpeta res/layout crea dos archivos de layout que representaran las vistas de tu formulario y tu menú principal.
 
-- En la carpeta src/java crea dos archivos que contendran la implementacion de los activities que has creado ya en la carpeta de layouts, codifica la implementacion y relaciona la vista con la logica como lo viste en los ejemplos de esta sesion.
+### 3. Desarrollo :computer:
+
+#### Definir el caso de uso para nuestro primer flujo.
+
+A continuación veremos ciertas ideas que nos ayudarán a aterrizar nuestro proyecto.
+
+El proyecto se va a desarrollar por etapas, y como no podemos dimensionar en su totalidad la implementación de los temas por venir, es conveniente hacer una pequeña planeación.
+
+Se considera recomendable que nuestro flujo tenga al menos seis pantallas, que tenga un objetivo principal y otras pantallas de apoyo (perfil, configuración, etc.). Por lo anterior, sería muy complejo desarrollar el flujo de Activities en esta sesión, por lo que se puede empezar por definir el flujo de únicamente dos pantallas o incluso 3. 
+
+Se recalca que es conveniente desarrollar el flujo más simple en la aplicación, puesto a que las complejidades de otras pantallas con distintas funciones pueden ser cubiertas en siguientes temas. Un ejemplo de lo anterior es el flujo entre una pantalla de _inicio de sesión_ y otra que lleve a la información de perfil (puesto que los datos son únicamente informativos) y el inicio de sesión únicamente valida que las credenciales sean correctas. Un ejemplo contrario sería desarrollar una pantalla que arroje los resultados de la busqueda de un producto, puesto que el tema de listas aún no está cubierto ni el de filtros.
+
+
+
+[`Anterior`](../Readme.md#Proyecto) | [`Siguiente`](../../Sesion-04)
+
+</div>
