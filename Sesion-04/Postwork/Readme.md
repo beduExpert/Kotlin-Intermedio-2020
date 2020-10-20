@@ -1,4 +1,4 @@
-[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Reto 2`
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Postwork`
 
 ## Postwork
 
@@ -25,6 +25,7 @@ pero con un RecyclerView, tal como se vió en el [Ejemplo 3](../Ejemplo-03) y el
 Se puede basar uno en la tienda **linio** para android
 
 <img src="list.png" width="33%" align="center"/>
+
 la lista puede ser en una matriz como en la imagen o lineal vertical como la primera imagen
 
 2. Al seleccionar un elemento, direccionar a una pantalla de detalles del producto, donde posteriormente se podrá enviar al carrito
