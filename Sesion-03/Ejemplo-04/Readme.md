@@ -81,7 +81,7 @@ override fun onDestroy() {
 
 
 
-[`Anterior`](../Readme.md) | [`Siguiente`](../Proyecto/Readme.md)
+[`Anterior`](../Ejemplo-03/Readme.md) | [`Siguiente`](../Ejemplo-05/Readme.md)
 
 
 
