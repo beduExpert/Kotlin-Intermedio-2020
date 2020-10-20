@@ -3,6 +3,7 @@ package org.bedu.solucion
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
@@ -23,6 +24,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        Log.d("activities","onCreate Login")
 
         image = findViewById(R.id.image)
         editName = findViewById(R.id.editName)
@@ -62,5 +65,35 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+    }
+
+    override fun onStart() {
+        super.onStart()
+        Log.d("activities","onStart Login")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Log.d("activities","onResume Login")
+    }
+
+    override fun onPause() {
+        Log.d("activities","onPause Login")
+        super.onPause()
+    }
+
+    override fun onStop() {
+        Log.d("activities","onStop Login")
+        super.onStop()
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        Log.d("activities","onRestart Login")
+    }
+
+    override fun onDestroy() {
+        Log.d("activities","onDestroy Login")
+        super.onDestroy()
     }
 }
