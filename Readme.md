@@ -18,7 +18,7 @@ Este módulo tiene como propósito introducir al desarrollo de aplicaciones andr
  - [Sesión 5: Fragments](Sesion-05/Readme.md) 
  - [Sesión 6: Material Design](Sesion-06/Readme.md) 
  - [Sesión 7: Menús](Sesion-07/Readme.md) 
- - [Sesión 8: Preparación para el lanzamiento](Sesion-08/Readme.md)  
+ - [Sesión 8: Gradle y Preparación para lanzamiento](Sesion-08/Readme.md)  
  
 
 [`Siguiente`](Sesion-01/Readme.md)

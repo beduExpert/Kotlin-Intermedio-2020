@@ -1,15 +1,19 @@
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Reto 2`
 
 ## Postwork
 
-### OBJETIVO
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Aplicar el conocimiento de Listas a la tienda en línea
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
-1. Haber cursado los Ejemplos de esta sesión
+1. Android Studio Instalado en nuestra computadora.
+2. Seguir la instrucción específica para esta sesión.
 
-#### DESARROLLO
+### 3. Desarrollo :computer:
 
 1. Para la tienda, hay qué crear visualmente una lista similar a la del [Reto 1](../Reto-01) 
 
@@ -26,3 +30,12 @@ la lista puede ser en una matriz como en la imagen o lineal vertical como la pri
 2. Al seleccionar un elemento, direccionar a una pantalla de detalles del producto, donde posteriormente se podrá enviar al carrito
 
 <img src="details.png" width="33%" align="center"/>
+
+
+
+[`Anterior`](../Proyecto/Readme.md) | [`Siguiente`](../../Sesion-05/Readme.md)
+
+
+
+
+</div>

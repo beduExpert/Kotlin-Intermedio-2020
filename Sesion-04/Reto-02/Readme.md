@@ -1,14 +1,19 @@
- ## Spinners
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Reto 2`
 
-### OBJETIVO 
+## Reto 2: Spinners
+
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Continuar el proceso de aprendizaje de los spinners, desarrollando vistas y acciones personalizadas similares a los vistos en el [RETO 01](../Reto-01)
 
-#### REQUISITOS 
+### 2. Requisitos :clipboard:
 
-1. Haber finalizado el [Ejemplo 02](../Ejemplo-02)
+1. Android Studio Instalado en nuestra computadora.
+2. Seguir la instrucción específica para esta sesión.
 
-#### DESARROLLO
+### 3. Desarrollo :computer:
 
 1.- Tomar el [Ejemplo 02](../Ejemplo-02) como base del siguiente ejercicio.
 
@@ -101,4 +106,13 @@ también el xml de MainActivity
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+```
 
+
+
+[`Anterior`](../Ejemplo-02/Readme.md) | [`Siguiente`](../Ejemplo-03/Readme.md)
+
+
+
+
+</div>

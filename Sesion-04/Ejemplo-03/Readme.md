@@ -1,16 +1,21 @@
-## RecyclerView
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Reto 2`
 
-### OBJETIVO
+## Ejemplo 3: RecyclerView
+
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Comprender el concepto y funcionamiento de un RecyclerView
 - Ventajas y desventajas
 - Cuál es el núcleo de la diferencia con una ListView
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
-1. Haber tomado previamente la lección de RecyclerView contenida en la presentación de la sesión 2
+1. Android Studio Instalado en nuestra computadora.
+2. Seguir la instrucción específica para esta sesión.
 
-#### DESARROLLO
+### 3. Desarrollo :computer:
 
 En este proyecto, crearemos una lista de contactos de teléfono sencilla con un RecyclerView.
 
@@ -248,3 +253,11 @@ La app debe quedar similar a esto:
 
 <img src="result.png" width="33%">
 
+
+
+[`Anterior`](../Reto-02/Readme.md) | [`Siguiente`](../Reto-03/Readme.md)
+
+
+
+
+</div>

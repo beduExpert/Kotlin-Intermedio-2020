@@ -1,15 +1,20 @@
- 
-## ListView con Custom Adapter
+ [`Kotlin Intermedio`](../../Readme.md) > [`Sesión 08`](../Readme.md) > `Ejemplo 1`
 
-### OBJETIVO 
+## Ejemplo 1: ListView con Custom Adapter
+
+<div style="text-align: justify;">
+
+
+### 1. Objetivos :dart:
 
 - Que el alumno aprenda a customizar sus listas para su posterior implementación
 
-#### REQUISITOS 
+### 2. Requisitos :clipboard:
 
-1. Haber Finalizado el [Ejemplo 1](../Ejemplo-01)
+1. Android Studio Instalado en nuestra computadora.
+2. Seguir la instrucción específica para esta sesión.
 
-#### DESARROLLO
+### 3. Desarrollo :computer:
 
 - La lista generada previamente servirá como base para este reto, el layout activity_main.xml no se modifica.
 - Se debe generar una lista que contenga algunos ganadores de los Game Awards 2019.
@@ -249,6 +254,15 @@ Colóquenlo dentro de la MainActivity.
 
 <img src="result.png" width="33%">
 
+
+
+
+[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md)
+
+
+
+
+</div>
 
 
 

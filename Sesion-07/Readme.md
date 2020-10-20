@@ -7,9 +7,8 @@
   
 ### 1. Objetivos :dart: 
 
-- Conocer las implementaciones más comunes de Menús en Android.
 - Definir elementos de Menús de manera gráfica así como con código.
-- Manejo de eventos, cambio de elementos en tiempo de ejecución.
+- Manejar de eventos y cambio de elementos en tiempo de ejecución.
 - Menús contextuales y grupos de Menús.
 - Implementar ActionModes.
 

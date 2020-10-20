@@ -1,14 +1,19 @@
- ## Constraint Layout
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 03`](../Readme.md) > `Ejemplo 2`
 
-### OBJETIVO 
+<div style="text-align: justify;">
 
-- Aprender los fundamentos de Constraint layouts de forma didáctica e interactiva
+## Ejemplo 2: Constraint Layout
 
-#### REQUISITOS 
+### 1. Objetivos :dart: 
 
-1. Haber leído la diapositiva de la sesión 4, sobre el tema de Constraint Layouts
+- Ordenar Componentes por medio de anclajes en un Constraint layout.
 
-#### DESARROLLO
+### 2. Requisitos :clipboard:
+
+1. Android Studio Instalado en nuestra computadora.
+2. Seguir la instrucción específica para esta sesión.
+
+### 3. Desarrollo :computer:
 
 El objetivo es apilar las Views como la siguiente imagen:
 
@@ -90,3 +95,5 @@ Puedes estudiar el código generado para comprender un poco cómo funciona el xm
 
 Continúen experimentando con la UI y Constraint Layout para seguir enriqueciendo su conocimiento.
 
+[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-03/Readme.md)
+</div>
