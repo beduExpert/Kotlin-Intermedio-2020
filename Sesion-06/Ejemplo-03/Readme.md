@@ -52,17 +52,19 @@ Para exportar la paleta de colores desde el sitio al archivo _colors.xml_, darem
 </resources>
 ```
 
-Ahora, hay qué reemplazar los viejos colores por los nuevos. En _styles.xml_ reemplazamos:
+Ahora, hay qué reemplazar los viejos colores por los nuevos. En el ___AppTheme___ de _styles.xml_ reemplazamos:
 
 * _colorPrimary_ por ___primaryColor___.
 * _colorPrimaryDark_ por ___primaryDarkColor___.
 * _colorAccent_ por ___secondaryColor___.
 * _texColorPrimary_ por ___primaryTextColor___.
 
-Definiremos también un color para los íconos del _App Bar_, que será de color blanco:
+Definiremos también un color para los íconos del _App Bar_, que será de color blanco, cambiaremos el ___primaryTextColor___ a negro y el ___secondaryTextColor___ a blanco (_colors.xml_):
 
 ```xml
 <color name="tabBarIconColor">#ffffff</color>
+<color name="primaryTextColor">#000000</color>
+<color name="secondaryTextColor">#ffffff</color>
 ```
 
 y lo utilizaremos dentro de nuestro menú hamburguesa _menu.xml_
@@ -152,7 +154,7 @@ Por último, estilizaremos el botón:
 
 ```xml
 <style name="Bedu.Button" parent="Widget.MaterialComponents.Button">
-        <item name="android:textColor">?android:attr/textColorPrimary</item>
+	<item name="android:textColor">?android:attr/textColorPrimary</item>
         <item name="backgroundTint">?attr/colorAccent</item>
     </style>
 ```
@@ -162,6 +164,110 @@ La pantalla de Login debe quedar de la siguiente forma:
 <img src="images/login.gif" width="35%">
 
 
+4. Ahora vamos a darle estilo al menú principal. Con los cambios que hemos realizado hata el momento, tenemos lo siguiente:
+
+<img src="images/8.png" width="35%">
+
+Comenzamos por personalizar nuestro _Toolbar_, para esto, definiremos tres estilos diferentes: 
+
+- El primero para que el título sea de color blanco (El _Theme_ está basado en _Theme.MaterialComponents.Light_ y espera que tu barra tenga un fondo claro con letras oscuras). 
+- El segundo, para la apariencia del título del App Bar.
+- El último, para el resto de configuración de estilo del _Toolbar_.
+
+```xml
+   <style name="Toolbar.Theme" parent="AppTheme">
+        <item name="android:textColorPrimary">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="Toolbar" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Widget.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:theme">@style/Toolbar.Theme</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="titleTextAppearance">@style/Toolbar</item>
+    </style>
+```
+
+Relacionamos nuestro estilo _Widget.Toolbar_ al _Toolbar_en nuestro _fragment_main.xml_
+
+```xml
+<androidx.appcompat.widget.Toolbar
+                android:id="@+id/app_bar"
+		...
+                style="@style/Widget.Toolbar"
+```
+
+Ahora, vamos a estilizar cada item de nuestros productos. Agregaremos elevación a los _Cardviews_ en _item_contact.xml_.
+
+```xml
+<com.google.android.material.card.MaterialCardView
+    ...
+    app:cardElevation="2dp">
+</com.google.android.material.card.MaterialCardView>
+```
+
+Debido a que el color de fondo de nuestras imágenes son blacnas, crearemos un separador entre estas dos:
+
+```xml
+<com.google.android.material.card.MaterialCardView
+	...
+    app:cardElevation="2dp">
+    <LinearLayout
+       ...>
+        <ImageView
+            android:id="@+id/imgProduct"
+            .../>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="0.4dp"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginTop="8dp"
+    android:background="@color/primaryLightColor"/>
+...
+```
+
+Nuestra pantalla debe quedar de la siguiente forma:
+
+<img src="images/9.png" width="35%">
+
+
+5. La app está lista, pero qué pasa si quisiéramos tener una versión alterna de nuestro _AppTheme_? crearemos uno nuevo:
+
+```xml
+    <style name="AppTheme.RedBlue" parent="Theme.MaterialComponents.Light.NoActionBar">\
+        <!-- utilizado para el app bar y otros elementos UI primario -->
+        <item name="colorPrimary">@color/redBluePrimaryColor</item>
+        <!-- utilizado para el status bar, etc. -->
+        <item name="colorPrimaryDark">@color/redBluePrimaryDarkColor</item>
+        <!-- utilizado por defecto par acentuar en checkboxes inputs, switch, etc. -->
+        <item name="colorAccent">@color/redBlueSecondaryColor</item>
+        <item name="android:textColorPrimary">@color/redBluePrimaryTextColor</item>
+        <item name="android:textColorSecondary">@color/redBlueSecondaryTextColor</item>
+    </style>
+```
+
+El Theme del _Toolbar_ lo utiliza, por lo que lo utilizaremos en su atributo _parent_.
+
+```xml
+    <style name="Toolbar.Theme" parent="AppTheme.RedBlue">	
+```
+
+Ahora resta únicamente definirlo como el _Theme_ de la aplicación, para esto abriremos el ___AndroidManifest.xml___ y en ___application___ hallaremos el atributo ___android:theme___, donde colocaremos nuestro _style_.
+
+```xml
+    <application
+       ...
+        android:theme="@style/AppTheme.RedBlue">
+        ...
+    </application>
+```
+
+Corremos una vez más, podremos ver cómo los colores cambiaron exitosamente:
+
+<img src="images/10.png" width="35%"> <img src="images/11.png" width="35%">
 
 
 [`Anterior`](../Readme.md) | [`Siguiente`](../Reto-02)
