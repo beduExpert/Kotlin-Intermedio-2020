@@ -48,6 +48,16 @@ Crearemos y personalizaremos la barra superior de nuestra aplicación y agregarl
 
 ---
 
+<img src="images/palette.png" align="right" height="150"> 
+
+#### <ins>Themes</ins>
+
+Los estilos son recursos que permiten definir una serie de atributos visuales y de comportamiento para los elementos de la UI. Los temas son estilos que definen una serie de características de manera global (para toda la app). En este ejemplo, crearemos y manipularemos estilos para nuestras _Views_ y utilizaremos sus atributos de manera individual para darle estilo a nuestra aplicación. 
+- [**`EJEMPLO 3`**](Ejemplo-03/Readme.md)
+- [**`RETO 2`**](Reto-02/Readme.md)
+
+---
+
 
 ### 3. Proyecto :hammer:
 
