@@ -1,13 +1,12 @@
-[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 6`](../Readme.md) > `Reto 2`
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 6`](../Readme.md) > `Reto 1`
 	
-## Reto 2: 
+## Reto 1: 
 
 <div style="text-align: justify;">
 
 ### 1. Objetivos :dart:
 
-- Implementar algún atributo de un _Theme_ en un _View_ específico.
-- Crear un Theme oscuro.
+- Implementar Material Design en un ejemplo.
 
 ### 2. Requisitos :clipboard:
 
@@ -15,41 +14,103 @@
 
 ### 3. Desarrollo :computer:
 
-Tomaremos el ejercicio realizado en el proyecto del [Ejemplo 3](../Ejemplo-03) para nuestros ejercicios.
+Tomaremos el ejercicio realizado en el [Reto 2](../Sesion-05/Reto-02) de la [Sesión 5](../Sesion-05) como ejemplo, y reajustaremos el _layout_ de cada item en la lista y también la distribución en el _RecyclerView_, de modo que el listado quede de la siguiente forma:
 
 
+ <img src="images/1.png" width="33%">
 
-1. En el ejemplo [Ejemplo 3](../Ejemplo-03), faltó implementar lo siguiente en el _Drawer_:
+Por practicidad, únicamente se tomará en cuenta el layout en versión móvil en vertical.
 
-<image src="../Ejemplo-03/7.png" width="35%">
-	
-Implementar el diseño del código, de forma que quede así:
+1. Utilizando el ejemplo anterior, modificar únicamente el layout para dispositivos grandes (la lista debe abarcar el 40% de la pantalla).
 
-<image src="images/1.png" width="35%">
-	
-Y al cambiar al _Theme_ ___AppTheme.RedBlue___ quede así:
+#### Tips:
 
-<image src="images/2.png" width="35%">
+- Para una separación entre layouts, crearemos la siguiente clase que actuará como _Decorator_ en nuestro _Adapter_.
+
+```kotlin
+class GridDecoration(private val largePadding: Int, private val smallPadding: Int) : RecyclerView.ItemDecoration() {
+
+    override fun getItemOffsets(outRect: Rect, view: View,
+                                parent: RecyclerView, state: RecyclerView.State) {
+        outRect.left = smallPadding
+        outRect.right = largePadding
+        outRect.bottom = largePadding;
+
+        // Add top margin only for the first item to avoid double space between items
+        if (parent.getChildLayoutPosition(view) == 0 || parent.getChildLayoutPosition(view)==1) {
+            outRect.top = largePadding;
+        } else {
+            outRect.top = 0;
+        }
+    }
+}
+```
+
+y así queda su implementación en el _RecyclerView_
+
+```kotlin
+val largePadding = resources.getDimensionPixelSize(R.dimen.product_grid_spacing)
+        val smallPadding = resources.getDimensionPixelSize(R.dimen.product_grid_spacing_small)
+        recyclerProducts.addItemDecoration(GridDecoration(largePadding, smallPadding))
+```
+
+- Todos los elementos de _item_contact_ que son _atados_ al Producto, deben existir (incluso si no son visibles), de lo contrario esto nos puede generar un error en el código.
+
+- Utilizar _CardView_ sin elevación.
 
 
 <details><summary>Solución</summary>
 
 ```xml
-   <LinearLayout
-		 ...
-    android:paddingBottom="16dp"
-    android:background="?attr/colorAccent"
-		 >
-    <ImageView
+    <com.google.android.material.card.MaterialCardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardElevation="0dp">
+        <LinearLayout
+            android:paddingTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imgProduct"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/xm3"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tvProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text="Titulo"
+                    android:textAppearance="?attr/textAppearanceHeadline6" />
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/tvDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text="Descripción"
+                    android:textAppearance="?attr/textAppearanceHeadline6" />
+                <TextView
+                    android:id="@+id/tvPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text="$100"
+                    android:textAppearance="?attr/textAppearanceBody2" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
 ```
 </details>
-
-2. Generar un nuevo ___Dark Theme___, para esto, hereda de ___Theme.MaterialComponents.NoActionBar___. (Ejercicio abierto, sujeto a revisión).
-
 <br/>
-
-[`Anterior`](../Ejemplo-03/Readme.md) | [`Siguiente`](../Proyecto/Readme.md)
-
-
-
-</div>
