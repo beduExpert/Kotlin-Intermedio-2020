@@ -7,7 +7,7 @@
   
   
   
-### Introducción: Qué es un Fragment 
+### Introducción
 
 Material Design es un sistema que envuelve a una guia de estilo de diseño, herramientas y componentes para aplicaciones móviles y web. La base del concepto de este es que toda la interfaz debe ser representado por materiales, (específicamente papel y tinta) y añade conceptos visuales como textura, representación de luces y sombras o altura.
 
