@@ -32,6 +32,6 @@ Para esta última sesión, cerraremos nuestro proyecto realizando las configurac
 
 
 
-[`Anterior`](../Ejemplo-03) | [`Siguiente`](../Readme.md#Postwork)
+[`Anterior`](../Ejemplo-03) | [`Siguiente`](../Postwork/Readme.md)
 
 </div>
