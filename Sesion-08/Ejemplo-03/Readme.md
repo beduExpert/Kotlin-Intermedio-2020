@@ -36,7 +36,7 @@ Esto nos generará un archivo ___apk___ firmada con la llave de debug, dicha lla
 * ___~/.android/___ en OS X y Linux
 * ___C:\Users\user\.android\___ en Windows Vista y Windows 7, 8 y 10
 
-El archivo apk utiliza la variante seleccionada en _Build Variants_. El _apk_ generado se encuentra en _<directorio raíz>/app/build/outputs/apk/<flavor>/<buildType>/app-<falvor>-<buildType>.apk_.
+El archivo apk utiliza la variante seleccionada en _Build Variants_. El _apk_ generado se encuentra en _{directorio raíz}/app/build/outputs/apk/{flavor}/{buildType}/app-{flavor}-{buildType}.apk_.
 
 
 #### Estructura del apk
@@ -91,7 +91,7 @@ En este caso, haremos pruebas mediante la herramienta de linea de comandos ___bu
 
 * Para los tres OS, podemos poner utilizar el archivo ___.jar___ con el comando directo de java:
 
-> java -jar bundletool-all.jar <your_arguments_here>
+> java -jar bundletool-all.jar {your_arguments_here}
 
 Tomaremos por sentado de que tenemos el alias ___bundletool___.
 
@@ -160,7 +160,7 @@ Si abrimos el ___AndroidManifest___ de esta apk, hallaremos esto:
 </manifest>
 ```
 
-en el ___mainfest___, hallamos un atributo llamado split, que nos indica que contiene la configuración para español, por lo que concluímos que este ___split___ o app dividida contiene únicamente los recursos de la app en español. Ahora lo intentaremos para el set del dispositivo conectado:
+en el ___manifest___, hallamos un atributo llamado split, que nos indica que contiene la configuración para español, por lo que concluímos que este ___split___ o app dividida contiene únicamente los recursos de la app en español. Ahora lo intentaremos para el set del dispositivo conectado:
 
 ```sh
 unzip debug-specific-device.apks -d debug-specific-device
