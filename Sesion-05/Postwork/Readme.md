@@ -1,4 +1,4 @@
-[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Postwork`
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 08`](../Readme.md) > `Postwork`
 
 ## Postwork
 
@@ -6,7 +6,7 @@
 
 ### 1. Objetivos :dart:
 
-- Orientarse en la implementación de _fragments_ para el proyecto.
+- Orientarse en la implementación de _flavors_ para el proyecto.
 
 ### 2. Requisitos :clipboard:
 
@@ -34,6 +34,6 @@ val imageIndex = (0..10).random()
 
 
 
-[`Anterior`](../Readme.md#Proyecto) | [`Siguiente`](../../Sesion-06)
+[`Anterior`](../Proyecto/Readme.md)
 
 </div>
