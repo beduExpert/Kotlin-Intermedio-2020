@@ -24,12 +24,6 @@ A continuación veremos ciertos puntos que nos ayudarán a aterrizar nuestro pro
 
 * __Planear el flujo de nuestra app__. Con el concepto claro, hay que definir cómo va interactuar el usuario con nuestra aplicación, por lo que recomendamos hacer esbozos de cada pantalla a utilizar, mediante wireframes. Entonces, si tendremos un login, diseñar la pantalla y después pensar en la pantalla principal al iniciarse la sesión. Pensar en implementar un botón de cerrar sesión y dónde colocarlo. Aconsejamos explorar distintas aplicaciones para identificar las tendencias.
 
-   <img src="images/wireframe.png" align="center" width="80%"> 
-
-
-
-
-
 
 
 
