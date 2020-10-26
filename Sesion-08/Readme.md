@@ -64,8 +64,14 @@ Generaremos un apk de prueba para instalarlo en un dispositivo. Compilaremos un 
 
 Cerraremos el proyecto final y dejaremos todo listo para el siguiente nivel.
 
-- [**`PROYECTO SESIÓN 5`**](Proyecto/Readme.md)
+- [**`PROYECTO SESIÓN 8`**](Proyecto/Readme.md)
 
+
+### 4. Postwork :memo:
+
+Con lo aprendido en esta sesión, agrega los detalles finales a tu proyecto y prepáralo para el lanzamiento a la tienda.
+
+- [**`POSTWORK SESIÓN 8`**](Postwork/Readme.md)
 
 <br/>
 
