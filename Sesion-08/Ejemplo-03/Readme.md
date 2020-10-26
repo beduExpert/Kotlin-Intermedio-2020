@@ -87,7 +87,7 @@ En este caso, haremos pruebas mediante la herramienta de linea de comandos ___bu
 
 * O en Windows, mediante
 
-> @doskey bundletool=java -jar <path>\bundletool-all.jar $*
+> @doskey bundletool=java -jar {path}\bundletool-all.jar $*
 
 * Para los tres OS, podemos poner utilizar el archivo ___.jar___ con el comando directo de java:
 
@@ -191,7 +191,7 @@ Se instalará la aplicación sin que se ejecute automáticamente.
 
 4. Un keystore es un repositorio asegurado con una contraseña, donde se guardan una serie de llaves y certificados. Cada llave tiene asignado un alias para identificarse y una contraseña para protegerse. Para firmar nuestra aplicación de release, debemos  generar un keystore con una ___signing key___, que es una llave privada que genera un certificado (una llave pública), que es el que encontramos en el ___META_INF___ de nuestro _APK_; esto asegura a Google que nuestra aplicación es auténtica. Una vez que una app es subida, la llave no puede ser cambiada, por lo que perderla implica no poder volver a actualizar la app. La llave de debug es genérica e insegura, por lo que no es válida como una llave de ___release___.
 
-__IMPORTANTE__, el keystore debe ser guardado de forma segura y no debe ser subida como archivo en un CSV (Control System Version) como _Git_.
+__IMPORTANTE__, el keystore debe ser guardado de forma segura y no debe ser subida como archivo en un CVS (Control Version System) como _Git_.
 
 para generar el keystore, iremos a _Build > Generate Signed Bundle / Apk_, Seleccionamos ___Apk___, le damos a siguiente y en la nueva ventana, damos click a ___create new___:
 
@@ -220,7 +220,7 @@ b) Seleccionamos el build variant deseado ___freeRelease___,
 c) seleccionamos V1 (Jar Signature) y V2 (Full APK Signature) para tener mayor seguridad.
 d) Finalizamos el proceso.
 
-El ___apk___ de release estará ubicado en ___app/<flavor>/<buildType>/app-<flavor>-<buildType>.apk___.
+El ___apk___ de release estará ubicado en ___app/{flavor}/{buildType}/app-{flavor}-{buildType}.apk___.
 	
 [`Anterior`](../Readme.md) | [`Siguiente`](../Proyecto)
 
