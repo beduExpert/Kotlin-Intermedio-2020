@@ -108,7 +108,6 @@ en _paid > res > values > strings.xml_
 </resources>
 ```
 
-```
 
 </details>
 <br/>
