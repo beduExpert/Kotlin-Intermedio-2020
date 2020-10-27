@@ -167,6 +167,6 @@ buttonAccept.setOnClickListener {
 <br/>
 
 
-[`Anterior`](../Ejemplo-02/Readme.md) | [`Siguiente`](../Readme.md#imágenes-mediante-url)
+[`Anterior`](../Ejemplo-02/Readme.md) | [`Siguiente`](../Ejemplo-03/Readme.md)
 
 </div>
