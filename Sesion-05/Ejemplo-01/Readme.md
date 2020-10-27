@@ -102,7 +102,7 @@ El _layout_ se creará con la siguiente estructura:
 
 Podemos reemplazar los elementos para que concuerden con lo requerido (en este caso, basta reemplazar el _TextView_ por un _ImageView_).
 
-[`Anterior`](../Readme.md) | [`Siguiente`](../Reto-01)
+[`Anterior`](../Readme.md) | [`Siguiente`](../Reto-01/Readme.md)
 
 
 
