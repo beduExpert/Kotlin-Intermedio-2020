@@ -169,7 +169,7 @@ Al crear un recurso xml, la forma más rápida sería dando click derecho en _sr
 
 <img src="images/5.png" width="40%">
 
-[`Anterior`](../Readme.md) | [`Siguiente`](../Reto-01)
+[`Anterior`](../Ejemplo-01/Readme.md) | [`Siguiente`](../Reto-01/Readme.md)
 
 
 </div>
