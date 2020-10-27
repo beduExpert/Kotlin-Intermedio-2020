@@ -1,6 +1,6 @@
 [`Kotlin Intermedio`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Reto 2`
 	
-## Reto 1: 
+## Reto 2 
 
 <div style="text-align: justify;">
 
@@ -81,3 +81,10 @@ Para la versión _portrait_, bastaría únicamente modificar reutilizar el códi
 
 </details>
 <br/>
+
+[`Anterior`](../Ejemplo-02/Readme.md) | [`Siguiente`](../Ejemplo-03/Readme.md)
+
+
+
+
+</div>
