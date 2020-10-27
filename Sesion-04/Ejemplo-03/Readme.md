@@ -1,4 +1,4 @@
-[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Reto 2`
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Ejemplo 3`
 
 ## Ejemplo 3: RecyclerView
 
@@ -19,7 +19,7 @@
 
 En este proyecto, crearemos una lista de contactos de teléfono sencilla con un RecyclerView.
 
-1.- Abrir un proyecto con una Actividad Básica (Basic Activity), para dejar preparado el terreno del [Reto 03](../Reto-03)
+1.- Abrir un proyecto con una Actividad Básica (Basic Activity), para dejar preparado el terreno del [Reto 02](../Reto-02)
 
 2.- A diferencia de las Actividades vacías, en este caso lo que modificaremos será el archivo ***content_main.xml***, y se ingresará un simple RecyclerView ocupando todo el layout:
 
@@ -255,7 +255,7 @@ La app debe quedar similar a esto:
 
 
 
-[`Anterior`](../Reto-02/Readme.md) | [`Siguiente`](../Reto-03/Readme.md)
+[`Anterior`](../Reto-01/Readme.md) | [`Siguiente`](../Reto-02/Readme.md)
 
 
 
