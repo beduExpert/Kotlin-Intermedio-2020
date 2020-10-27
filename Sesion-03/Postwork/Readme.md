@@ -27,6 +27,6 @@ Se recalca que es conveniente desarrollar el flujo más simple en la aplicación
 
 
 
-[`Anterior`](../Readme.md#Proyecto) | [`Siguiente`](../../Sesion-04)
+[`Anterior`](../Proyecto/Readme.md) | [`Siguiente`](../../Sesion-04)
 
 </div>
