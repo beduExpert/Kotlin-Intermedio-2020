@@ -1,6 +1,6 @@
 [`Kotlin Intermedio`](../../Readme.md) > [`Sesión 6`](../Readme.md) > `Reto 2`
     
-## Reto 2: 
+## Reto 2
 
 <div style="text-align: justify;">
 
@@ -21,7 +21,7 @@ Tomaremos el ejercicio realizado en el proyecto del [Ejemplo 3](../Ejemplo-03) p
 
 1. En el ejemplo [Ejemplo 3](../Ejemplo-03), faltó implementar lo siguiente en el _Drawer_:
 
-<image src="../Ejemplo-03/7.png" width="35%">
+<image src="../Ejemplo-03/images/7.png" width="35%">
     
 Implementar el diseño del código, de forma que quede así:
 
