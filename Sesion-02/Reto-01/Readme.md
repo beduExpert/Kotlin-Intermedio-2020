@@ -80,6 +80,6 @@ btnAccept.isEnabled = false
 
 4. Experimentar con las medidas del botón y el text. Qué sucede al asignarle a width y a height el valor "match_parent"? Experimentar con gravity y layout_gravity.
 
-[`Anterior`](../Ejemplo-02/Readme.md) | [`Siguiente`](../Readme.md#estructura-de-una-consulta)
+[`Anterior`](../Ejemplo-01/Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md)
 
 </div>
