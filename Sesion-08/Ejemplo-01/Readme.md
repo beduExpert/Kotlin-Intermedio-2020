@@ -165,7 +165,7 @@ release {
 
 
 
-[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-02)
+[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md)
 
 
 
