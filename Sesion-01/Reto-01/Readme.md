@@ -1,6 +1,6 @@
 [`Kotlin Intermedio`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Reto 1`
 	
-## Reto 1: 
+## Reto 1
 
 <div style="text-align: justify;">
 
