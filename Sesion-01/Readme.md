@@ -52,7 +52,6 @@ Ahora que tenemos mayor conocimiento de nuestro proyecto, vamos a configurar un 
 Basta de emulaciones, utilizaremos un dispositivo móvil físico para instalar nuestra primera aplicación a nuestro móvil. :iphone:
 
 - [**`EJEMPLO 4`**](Ejemplo-04/Readme.md)
-- [**`RETO 2`**](Reto-02/Readme.md)
 
 ---
 
