@@ -229,6 +229,6 @@ El ejemplo de abajo ya tiene implementado el RelativeLayout y está ordenado de 
 ```
 
 
-[`Anterior`](../Readme.md) | [`Siguiente`](../Readme.md#layouts:-constraintlayout)
+[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md)
 
 </div>
