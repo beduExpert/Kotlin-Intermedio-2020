@@ -6,53 +6,55 @@
 
 ### 1. Objetivos :dart:
 
-- Correr una aplicación en un dispositivo físico
+- Crear un dispositivo virtual Android
+- Ejecutar nuestro proyecto en el emulador configurado
 
 ### 2. Requisitos :clipboard:
 
 1. Android Studio Instalado en nuestra computadora.
-2. Smartphone Android físico
 
 ### 3. Desarrollo :computer:
 
-Para poder instalar aplicaciones de debugging desde Android Studio, es necesario activar las __opciones de desarrollador__ y activar la __depuración USB__, para ello, seguiremos los pasos siguientes:
+Para poder probar cualquier aplicación a desarrollarse, es necesario tener un dispositivo Android a la mano, pero no tiene qué ser físico debido a que Android Studio puede crear emuladores de teléfonos reales y personalizados a través del __AVD MANAGER__. Vamos a aprender a crear un __AVD__ (Android Virtual Device) o Dispositivo Virtual Android.
 
-1. En tu teléfono, abre la app de configuración.
+1. Inicia __Android Studio__ y abre el proyecto creado anteriormente.
 
-2. Si tu dispositivo usa Android 8.0 o una versión posterior, selecciona Sistema. De lo contrario, continúa con el paso siguiente.
-
-3. Ve hasta abajo del menú y pulsa en ___Acerca del teléfono___.
-
-4. Nuevamente desplázate hasta la parte inferior, localiza la opción ___Número de compilación___ y presiona 7 veces. Con esto, habrás habilita las ___Opciones para desarrolladores___.
-
-5. Regresa al menú anterior, en la parte inferior localizarás las ___Opciones para desarrolladores___, presiona sobre él.
-
-6. Finalmente, activa la opción que diga ___Depuración de USB___.
-
-Estos pasos están sujetos a la capa de personalización de Android que utilicemos. Si tu teléfono es marca Huawei o Samsung, quizá tengan un método diferente de activar la __Depuración de USB___. Consulta en el sitio web del fabricante o en google para más información.
-
-
-Ahora que tenemos el modo de depuración activo, procedemos a correr la aplicación en el dispositivo.
-
-Conectamos el teléfono a nuestro dispositivo y en Android Studio, en el selector de dispositivos, veremos que nuestro teléfono ha sido reconocido por la IDE.
+2. En la barra de herramientas, localiza un ícono de un celular con la cabeza de la mascota de android, descubrirás que es un botón que da acceso al __AVD MANAGER__, donde crearemos nuestro dispositivo virtual. Da click sobre este.
 
 ![imagen](images/01.png)
 
-
-Podemos abrir la lista de dispositivos para seleccionar nuestro dispositivo virtual si así lo quisiéramos.
+3. Al abrirse la ventana, si no tenemos dispositivos creados previamente, nos saldrá una ventana que tiene un botón con la leyenda _Create virtual device_, da click sobre él.
 
 ![imagen](images/02.png)
 
-Damos al botón play para reproducir nuestra app en el dispositivo, esperamos un momento.
+4. Explora un poco! verás distintos teléfonos con configuraciones diferentes de pantalla, algunos con la Play Store disponible. Selecciona uno y da click en siguiente.
 
-Algunos teléfonos piden autorización para la instalación segura, como este Xiaomi, si esto sucede acepta la instalación.
+![imagen](images/03.png)
 
-![imagen](images/03.jpeg)
+5. Vamos a probar a instalar Android Pie en nuestro dispositivo (pero también puedes instalar otra versión si así lo deseas). Da click en Download, al lado del nombre de la versión.
 
-Listo! tenemos ahora nuestra aplicación corriendo en el dispositivo!
-![imagen](images/04.jpeg)
+![imagen](images/04.png)
 
+6. Acepta los términos y condiciones, y espera a que la descarga termine; cuando esto suceda, click en finalizar.
 
-[`Anterior`](../Readme.md#estructura-del-proyecto) | [`Siguiente`](../Readme.md#)
+7. De regreso en la selección de _Imagen de Sistema_, selecciona __Android Pie__ y dale Next.
+
+8. En el último paso, deja las configuraciones finales intactas (orientación inicial del dispositivo etc.) y finaliza el proceso.
+
+![imagen](images/05.png)
+
+Listo! nuestro dispositivo está configurado, podemos hacer más configuraciones de dispositivos virtuales si así lo deseamos.
+
+Ahora vamos a correr nuestra aplicación! La forma más práctica es dando click en el botón verde de play :arrow_forward:.
+
+![imagen](images/06.png)
+
+Espera un momento y listo! la aplicación corre en nuestro emulador.
+
+![imagen](images/07.png)
+  
+**¡Felicidades! Ahora estás listo para correr tu aplicación en un dispositivo real**
+
+[`Anterior`](../Ejemplo-01/Readme.md) | [`Siguiente`](../Ejemplo-03/Readme.md)
 
 </div>
