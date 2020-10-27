@@ -58,6 +58,6 @@ En las opciones de cada campo de texto, se debe implementar un menú contextual 
 
 
 
-[`Anterior`](../Readme.md#transactions) | [`Siguiente`](../Readme.md#Postwork)
+[`Anterior`](../Reto-03/Readme.md) | [`Siguiente`](../Postwork/Readme.md)
 
 </div>
