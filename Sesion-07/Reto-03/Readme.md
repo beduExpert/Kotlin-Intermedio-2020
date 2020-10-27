@@ -1,18 +1,20 @@
-[`Kotlin-Intermedio`](../Readme.md) > `Sesión 7` > `Reto 03`
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 06`](../Readme.md) > `Reto 3`
  
 	
-## Creando Callback en clase independiente
+## Reto 3: Creando Callback en clase independiente
 
-### OBJETIVO 
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Con base al ejemplo-03, implementar una clase dedicada para mostrar el mismo menú flotante.
 
-#### REQUISITOS 
+### 2. Requisitos :clipboard:
 
 1. Haber terminado Ejemplo-03
 2. Utilizar clase de ayuda proporcionada en el repositorio.
 
-#### DESARROLLO
+### 3. Desarrollo :computer:
 
 Crear una clase que implemente un ActionMode.Callback().
 
@@ -57,3 +59,9 @@ Para hacer uso de esta clase:
 val primaryActionModeCallback = PrimaryActionModeCallback()
 primaryActionModeCallback.startActionMode(view, R.menu.menu_actions, "Title", "Subtitle")
 ```
+
+[`Anterior`](../Ejemplo-03/Readme.md) | [`Siguiente`](../Proyecto/Readme.md)
+
+
+
+</div>
