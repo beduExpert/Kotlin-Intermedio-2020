@@ -96,6 +96,7 @@ class LoginFragment : Fragment() {
         return view
     }
 }
+```
 
 en _paid > res > values > strings.xml_
 
