@@ -1,4 +1,4 @@
- [`Kotlin Intermedio`](../../Readme.md) > [`Sesión 08`](../Readme.md) > `Ejemplo 1`
+ [`Kotlin Intermedio`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Ejemplo 1-a`
 
 ## Ejemplo 1: ListView con Custom Adapter
 
