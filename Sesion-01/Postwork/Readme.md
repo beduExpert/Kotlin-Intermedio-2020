@@ -36,6 +36,6 @@ A continuación veremos ciertos puntos que nos ayudarán a aterrizar nuestro pro
 
 
 
-[`Anterior`](../Readme.md#estructura-del-proyecto) | [`Siguiente`](../Readme.md#)
+[`Anterior`](../Proyecto/Readme.md) | [`Siguiente`](../../Sesion-02/Readme.md)
 
 </div>
