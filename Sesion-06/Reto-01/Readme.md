@@ -1,6 +1,6 @@
 [`Kotlin Intermedio`](../../Readme.md) > [`Sesión 6`](../Readme.md) > `Reto 1`
 	
-## Reto 1: 
+## Reto 1
 
 <div style="text-align: justify;">
 
@@ -114,3 +114,8 @@ val largePadding = resources.getDimensionPixelSize(R.dimen.product_grid_spacing)
 ```
 </details>
 <br/>
+
+[`Anterior`](../Ejemplo-01/Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md)
+
+
+</div>
