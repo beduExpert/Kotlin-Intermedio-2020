@@ -1,4 +1,4 @@
-[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Ejemplo 1`
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Ejemplo 3`
 
 ## Ejemplo 3: Fragment Transactions
 
@@ -303,5 +303,9 @@ Los ejercicios son los siguientes:
 
 - Agregar un _FragmentBedu_ y reemplazarlo por un _FragmentBeto_
 - Crear varios _FragmentBedu_ y _FragmentBeto_ y reemplazarlos por cualquiera de los fragments.
+
+[`Anterior`](../Reto-02/Readme.md) | [`Siguiente`](../Proyecto/Readme.md)
+
+
 
 </div>
