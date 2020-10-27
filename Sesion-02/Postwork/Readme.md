@@ -30,6 +30,6 @@ A continuación veremos ciertos puntos que nos ayudarán a aterrizar nuestro pro
 
 
 
-[`Anterior`](../Proyecto/Readme.md) | [`Siguiente`](../Sesion-03/Readme.md)
+[`Anterior`](../Proyecto/Readme.md) | [`Siguiente`](../../Sesion-03/Readme.md)
 
 </div>
