@@ -86,6 +86,6 @@ Mientras que el paso 4 (Arrastrar el botón) provoca que salga un botón en pant
 </details>
 <br/>
 
-[`Anterior`](../Ejemplo-02/Readme.md) | [`Siguiente`](../Readme.md#estructura-de-una-consulta)
+[`Anterior`](../Ejemplo-03/Readme.md) | [`Siguiente`](../Ejemplo-04/Readme.md)
 
 </div>
