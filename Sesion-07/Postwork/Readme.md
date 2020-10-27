@@ -36,7 +36,7 @@ Así como en el ejemplo-03, debemos agregar funcionalidad de onClick en cada opc
 
 
 
-[`Anterior`](../Proyecto/Readme.md) | [`Siguiente`](../../Sesion-08/)
+[`Anterior`](../Proyecto/Readme.md) | [`Siguiente`](../../Sesion-08/Readme.md)
 
 
 
