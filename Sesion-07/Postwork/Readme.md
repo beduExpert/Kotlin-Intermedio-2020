@@ -1,21 +1,22 @@
 
-[`Kotlin-Intermedio`](../Readme.md) > `Sesión 7` > `Postwork`
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 07`](../Readme.md) > `Postwork`
 
 
-## Menus Flotantes
+## Postwork: Menus Flotantes
 
-### OBJETIVO
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Implementar un ActionMode de manera flotante
 - Implementar dos clases, una para el manejo de ActionMode de manera Primaria y otra clase para manejarlo de manera Flotante.
 
-
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
 1. Conocimiento sobre Menu de Opciones.
 2. Haber desarrollado el Ejemplo-03.
 
-#### DESARROLLO
+### 3. Desarrollo :computer:
 
 Como vimos, podemos crear un menu contextual utilizando ActionModes. En este reto debemos crear una clase que permita posicionar el Menú contextual en algun sitio de la pantalla. Por defecto podriamos poner coordenadas (0,0,0,0).
 
@@ -35,3 +36,9 @@ Así como en el ejemplo-03, debemos agregar funcionalidad de onClick en cada opc
 
 
 
+[`Anterior`](../Proyecto/Readme.md) | [`Siguiente`](../../Sesion-08/)
+
+
+
+
+</div>
