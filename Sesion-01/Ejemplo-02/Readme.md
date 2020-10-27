@@ -61,6 +61,6 @@ Al momento de crear tu proyecto, estos dos archivos estaban abiertos. Si damos c
    ![imagen](images/06.png)
 
 
-[`Anterior`](../Readme.md#estructura-del-proyecto) | [`Siguiente`](../Readme.md#emulación-de-dispositivos)
+[`Anterior`](../Ejemplo-01/Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md)
 
 </div>
