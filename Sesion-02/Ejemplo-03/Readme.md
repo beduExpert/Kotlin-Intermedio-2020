@@ -122,6 +122,6 @@ Corremos el código y comprobamos!
 
 
 
-[`Anterior`](../Readme.md#inputs-e-imágenes) | [`Siguiente`](../Readme.md#proyecto)
+[`Anterior`](../Reto-02/Readme.md) | [`Siguiente`](../Proyecto/Readme.md)
 
 </div>
