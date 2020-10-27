@@ -1,19 +1,21 @@
-[`Kotlin-Intermedio`](../Readme.md) > `Sesión 7` > `Ejemplo 03`
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 07`](../Readme.md) > `Ejemplo 3`
 
 
-## Action Modes
+## Ejemplo 3: Action Modes
 
-### OBJETIVO
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Aprender a implementar contextual menus reutilizables para Views y Activities.
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
 1. Android Studio 4.1
 2. Kotlin 1.3
 3. AVD Virtual device con Android API 23 o superior
 
-#### DESARROLLO
+### 3. Desarrollo :computer:
 
 ## ActionMode
 
@@ -182,3 +184,9 @@ inner class ActionModeCallback: ActionMode.Callback {
 ![imagen](images/4.gif)
 
 
+[`Anterior`](../Reto-02/Readme.md) | [`Siguiente`](../Reto-03/Readme.md)
+
+
+
+
+</div>
