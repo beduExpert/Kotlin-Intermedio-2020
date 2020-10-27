@@ -6,7 +6,7 @@
 
 ### 1. Objetivos :dart:
 
-- Continuar el proceso de aprendizaje de los spinners, desarrollando vistas y acciones personalizadas similares a los vistos en el [RETO 01](../Reto-01)
+- Continuar el proceso de aprendizaje de los spinners, desarrollando vistas y acciones personalizadas similares a los vistos en el [EJEMPLO 01-A](../Ejemplo-01a)
 
 ### 2. Requisitos :clipboard:
 
