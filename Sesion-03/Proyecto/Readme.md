@@ -28,6 +28,6 @@ La primera pantalla de nuestra aplicación ya fue creada durante la ___Sesión 2
 4. Las Activites deben de implementar alguna funcionalidad, como simular un servicio web y/o declarar listeners de botones (se vale investigar _Views_ no vistas en las sesiones). 
 
 
-[`Anterior`](../Readme.md#imágenes-mediante-url) | [`Siguiente`](../Readme.md#Postwork)
+[`Anterior`](../Ejemplo-05/Readme.md) | [`Siguiente`](../Postwork/Readme.md)
 
 </div>
