@@ -44,6 +44,6 @@ Para este caso, tenemos a Uber, que en nuestra barra lateral, nos muestra un hea
 
 
 
-[`Anterior`](../Readme.md#Proyecto) | [`Siguiente`](../../Sesion-07/Readme.md)
+[`Anterior`](../Proyecto/Readme.md) | [`Siguiente`](../../Sesion-07/Readme.md)
 
 </div>
