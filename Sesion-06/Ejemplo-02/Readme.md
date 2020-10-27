@@ -286,7 +286,8 @@ Corremos nuestra app y finalmente, abriremos nuestro _Drawer_ al dar click sobre
 
 <img src="images/4.png" width="35%">
 
-[`Anterior`](../Ejemplo-01) | [`Siguiente`](../Ejemplo-03)
+
+[`Anterior`](../Reto-01/Readme.md) | [`Siguiente`](../Ejemplo-03/Readme.md)
 
 
 
