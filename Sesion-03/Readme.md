@@ -51,7 +51,7 @@ Repasaremos el concepto de _Activity_ en Android, su ciclo de vida y las accione
 
 ---
 
-<img src="images/cycle.png" align="right" height="90"> 
+<img src="images/intent.png" align="right" height="90"> 
 
 #### <ins>Comunicación entre Activities</ins>
 
