@@ -1,23 +1,23 @@
 
-[`Kotlin-Intermedio`](../Readme.md) > `Sesión 7` > `Ejemplo 01`
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 06`](../Readme.md) > `Ejemplo 1`
 
 
-## Tipos de Menu en Android
+## Ejemplo 1: Tipos de Menu en Android
 
-### OBJETIVO
+### 1. Objetivos :dart:
 
 - Crear menus de opciones utilizando las clases dedicadas a esto incluidas en el SDK de Android.
 - Entender los elementos que conforman a cada uno de estos tres tipos de menu.
 - Aprender a definir y crear los tres tipos de menus en Android: Popup, Contextual y Opciones.
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
 1. Android Studio 4.1
 2. Kotlin 1.3
 3. AVD Virtual device con API 11 (Android 3.0) o superior
 4. Conexión a internet
 
-#### DESARROLLO
+### 3. Desarrollo :computer:
 
 Los Menus de opciones en Android pertenecen a una interfaz llamada de la misma manera, [Menu](
 https://developer.android.com/reference/kotlin/android/view/Menu?hl=es#).
@@ -214,3 +214,11 @@ popMenu.show()
 #### Referencias: 
 
 > https://developer.android.com/guide/topics/ui/menus?hl=es#xml
+
+
+[`Anterior`](../Readme.md) | [`Siguiente`](../Reto-01/Readme.md)
+
+
+
+
+</div>
