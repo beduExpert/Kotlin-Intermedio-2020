@@ -270,7 +270,7 @@ Corremos una vez más, podremos ver cómo los colores cambiaron exitosamente:
 <img src="images/10.png" width="35%"> <img src="images/11.png" width="35%">
 
 
-[`Anterior`](../Reto-01/Readme.md) | [`Siguiente`](../Reto-02/Readme.md)
+[`Anterior`](../Ejemplo-02/Readme.md) | [`Siguiente`](../Reto-02/Readme.md)
 
 
 
