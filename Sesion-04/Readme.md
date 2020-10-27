@@ -34,7 +34,7 @@ El patrón __Adapter__ es un patrón estructural cuya función principal es comu
 Se creará una Lista con scrolling vertical simple y lineal, con un Adapter prefabricado a manera de introducción al tema.
 
 - [**`EJEMPLO 1`**](Ejemplo-01/Readme.md)
-- [**`RETO 1`**](Reto-01/Readme.md)
+- [**`EJEMPLO 1-A`**](Ejemplo-01a/Readme.md)
 
 ---
 
