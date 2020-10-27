@@ -257,7 +257,7 @@ Colóquenlo dentro de la MainActivity.
 
 
 
-[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md)
+[`Anterior`](../Ejemplo-01/Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md)
 
 
 
