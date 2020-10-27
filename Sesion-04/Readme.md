@@ -45,7 +45,7 @@ Se creará una Lista con scrolling vertical simple y lineal, con un Adapter pref
 Veremos ahora un tipo de AdapterView desplegable/contraíble, que nos ofrezca una forma reducida de presentar valores seleccionables en forma de lista.
 
 - [**`EJEMPLO 2`**](Ejemplo-02/Readme.md)
-- [**`RETO 2`**](Reto-02/Readme.md)
+- [**`RETO 1`**](Reto-01/Readme.md)
 
 ---
 
@@ -56,7 +56,7 @@ Veremos ahora un tipo de AdapterView desplegable/contraíble, que nos ofrezca un
 Esta clase es una mejora de los _ListAdapters_, reciclando _Views_ y métodos para ahorrar recursos. En este ejemplo crearemos uno desde cero, incluyendo su _Adapter._ 
 
 - [**`EJEMPLO 3`**](Ejemplo-03/Readme.md)
-- [**`RETO 3`**](Reto-03/Readme.md)
+- [**`RETO 2`**](Reto-02/Readme.md)
 
 ---
 
