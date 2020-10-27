@@ -46,10 +46,32 @@ Hay que implementar en la Actividad detonante la función *onActivityResult*, pa
     }
 ```
 
-y en la cclase AddContactActivity():
+y en la clase AddContactActivity():
 
 ```kotlin
+class AddContactActivity : AppCompatActivity() {
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_add_contact)
+
+        buttonAdd.setOnClickListener{
+            val name = editName.text.toString()
+            val phone = editPhone.text.toString()
+            val status = "disponible"
+            val imgProfile = R.drawable.unknown
+
+            val contact = Contact(name,status,phone,imgProfile)
+
+            val returnIntent = Intent()
+            returnIntent.putExtra("new_contact", contact)
+            setResult(Activity.RESULT_OK, returnIntent)
+            finish()
+        }
+    }
+
+
+}
 ```
 
 El diseño de esa página lo dejararemos a criterio propio.
