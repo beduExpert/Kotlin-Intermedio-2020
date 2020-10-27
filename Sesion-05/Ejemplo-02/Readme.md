@@ -1,4 +1,4 @@
-[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Ejemplo 1`
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Ejemplo 2`
 
 ## Ejemplo 2: Fragments Lista-Detalle
 
@@ -594,7 +594,7 @@ Mientras que en un dispositivo tablet, obtendremos lo siguiente:
 <img src="images/9.png" width="40%">
 
 
-[`Anterior`](../Readme.md) | [`Siguiente`](../Reto-02)
+[`Anterior`](../Reto-01/Readme.md) | [`Siguiente`](../Reto-02/Readme.md)
 
 
 
