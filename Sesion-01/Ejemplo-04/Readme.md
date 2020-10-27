@@ -53,6 +53,6 @@ Listo! tenemos ahora nuestra aplicación corriendo en el dispositivo!
 ![imagen](images/04.jpeg)
 
 
-[`Anterior`](../Proyecto/Readme.md) | [`Siguiente`](../Reto-01/Readme.md)
+[`Anterior`](../Reto-01/Readme.md) | [`Siguiente`](../Proyecto/Readme.md)
 
 </div>
