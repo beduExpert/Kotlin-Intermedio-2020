@@ -18,7 +18,7 @@
 El objetivo es apilar las Views como la siguiente imagen:
 
 
-<img src="https://github.com/beduExpert/B1-Kotlin-Intermedio/blob/master/Sesion-04/Reto-03/Images/00.png" width="160">
+<img src="images/00.png" width="160">
 
 
 1.- Abrir un nuevo proyecto con Activity vacía
@@ -68,23 +68,23 @@ El objetivo es apilar las Views como la siguiente imagen:
 
 El código debe quedar similar a la imagen: 
 
-<img src="https://github.com/beduExpert/B1-Kotlin-Intermedio/blob/master/Sesion-04/Reto-03/Images/01.png" width="160">
+<img src="images/01.png" width="160">
 
 No hay que preocuparse por los errores, esto sucede porque dentro de un constraint layout, los hijos deben de anclarse a algún lugar.
 
 4.- Selecciona la pestaña **Design**, con ella la interacción de Constraint Layout es mucho más interactiva y eficaz.
 
-<img src="https://github.com/beduExpert/B1-Kotlin-Intermedio/blob/master/Sesion-04/Reto-03/Images/02.png" width="160">
+<img src="images/02.png" width="160">
 
 5.- Los Views aparecerán de forma desordenada, acércate a uno, verás cuatro puntos de anclaje, si arrastras desde ahí verás salir una flecha, esos son los puntos de anclaje y los puedes poner sobre otros puntos, sobre líneas de guía, barreras o sobre los límites del layout. Arrastra el View amarillo al límite inferior del layout.
 
-<img src="https://github.com/beduExpert/B1-Kotlin-Intermedio/blob/master/Sesion-04/Reto-03/Images/03.png" width="160">
+<img src="images/03.png" width="160">
 
 6.- Ahora arrastra los puntos de anclaje laterales a los límites laterales del layout para que este quede centrado.
 
 7.- Arrastra el punto de anclaje inferior del View verde al superior del amarillo para unirlos
 
-<img src="https://github.com/beduExpert/B1-Kotlin-Intermedio/blob/master/Sesion-04/Reto-03/Images/04.png" width="160">
+<img src="images/04.png" width="160">
 
 8.- Termina de apilar todas las cajas ¡Felicidades!
 
