@@ -1,5 +1,5 @@
 
-[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 06`](../Readme.md) > `Ejemplo 1`
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 07`](../Readme.md) > `Ejemplo 1`
 
 
 ## Ejemplo 1: Tipos de Menu en Android
