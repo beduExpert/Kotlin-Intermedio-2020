@@ -55,6 +55,6 @@ Espera un momento y listo! la aplicación corre en nuestro emulador.
   
 **¡Felicidades! Ahora estás listo para correr tu aplicación en un dispositivo real**
 
-[`Anterior`](../Ejemplo-01/Readme.md) | [`Siguiente`](../Ejemplo-03/Readme.md)
+[`Anterior`](../Ejemplo-02/Readme.md) | [`Siguiente`](../Reto-01/Readme.md)
 
 </div>
