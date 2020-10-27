@@ -20,6 +20,8 @@
 
 ---
 
+<img src="images/dots.jpg" align="right" height="150"> 
+
 #### <ins>Tipos de menus en Android</ins>
 
 Implementación de los tres tipos de menú en Android. Abarcando desde la interfáz grafica con grupos de elementos hasta la creación mediante código. Los menús vistos: Popup, Contextual y Opciones.
@@ -29,6 +31,8 @@ Implementación de los tres tipos de menú en Android. Abarcando desde la interf
 
 ---
 
+<img src="images/context.png" align="right" height="150"> 
+
 #### <ins>Menus y Eventos</ins>
 
 Crearemos menus que sean capaces de ejecutar acciones.
@@ -37,6 +41,8 @@ Crearemos menus que sean capaces de ejecutar acciones.
 - [**`RETO 2`**](Reto-02/Readme.md)
 
 ---
+
+<img src="images/action_modes.png" align="right" height="150"> 
 
 #### <ins>Implementación de ActionModes </ins>
 
