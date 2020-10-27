@@ -17,13 +17,19 @@
 
 ### 3. Desarrollo :computer:
 
-1. Sustituir los icon launcher en los directorios _mipmap_ por íconos personalizados. Puedes acceder a los archivos zip con los íconos para reemplazar o crear los propios desde [esta página](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.type=clipart&foreground.clipart=android&foreground.space.trim=1&foreground.space.pad=0.25&foreColor=rgba(96%2C%20125%2C%20139%2C%200)&backColor=rgb(68%2C%20138%2C%20255)&crop=0&backgroundShape=square&effects=none&name=ic_launcher).
+1. Sustituir los icon launcher en los directorios _mipmap_ por íconos personalizados. Puedes acceder a los archivos zip con los íconos para reemplazar o crear los propio.
 
-* Los íconos los encuentras en [Este archivo](ic_launcher.zip)
-* La versión redondeada de los ínconos están en [Este archivo](ic_launcher_round.zip)
+
+#### Recursos
+* Los íconos los encuentras en [Este Archivo](ic_launcher.zip)
+* La versión redondeada de los ínconos están en [Este Archivo](ic_launcher_round.zip)
+
+Si decides crear tus propios recursos, utiliza [Esta Herramienta](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.type=clipart&foreground.clipart=android&foreground.space.trim=1&foreground.space.pad=0.25&foreColor=rgba(96%2C%20125%2C%20139%2C%200)&backColor=rgb(68%2C%20138%2C%20255)&crop=0&backgroundShape=square&effects=none&name=ic_launcher).
 
 Hint: Elimina la carpeta ___mipmap-anydpi-26___.
 
+
+#### Solución
 
 <details><summary>Solución</summary>
 <p>
