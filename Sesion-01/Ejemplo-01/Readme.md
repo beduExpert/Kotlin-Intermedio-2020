@@ -54,6 +54,6 @@ Nosotros nos concentraremos en desarrollo para teléfonos móviles.
   
 **¡Felicidades! Haz creado tu primer proyecto con Android Studio**
 
-[`Anterior`](../Readme.md#setup-inicial) | [`Siguiente`](../Readme.md#estructura-del-proyecto)
+[`Anterior`](../Readme.md#setup-inicial) | [`Siguiente`](../Ejemplo-02/Readme.md)
 
 </div>
