@@ -203,6 +203,6 @@ Corroboramos el funcionamiento:
 
 
 
-[`Anterior`](../Readme.md#botones-y-textos) | [`Siguiente`](../Reto-02/Readme.md)
+[`Anterior`](../Reto-01/Readme.md) | [`Siguiente`](../Reto-02/Readme.md)
 
 </div>
