@@ -43,6 +43,6 @@ Los puntos a cubrir en este proyecto serán los siguientes:
 3. Se recomienda ampliamente verificar la guía de estilo y de componentes del [sitio web oficial](https://material.io/)
 
 
-[`Anterior`](../Readme.md#transactions) | [`Siguiente`](../Readme.md#Postwork)
+[`Anterior`](../Reto-02/Readme.md) | [`Siguiente`](../Postwork/Readme.md)
 
 </div>
