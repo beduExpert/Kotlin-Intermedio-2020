@@ -95,5 +95,5 @@ Puedes estudiar el código generado para comprender un poco cómo funciona el xm
 
 Continúen experimentando con la UI y Constraint Layout para seguir enriqueciendo su conocimiento.
 
-[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-03/Readme.md)
+[`Anterior`](../Ejemplo-01/Readme.md) | [`Siguiente`](../Ejemplo-03/Readme.md)
 </div>
