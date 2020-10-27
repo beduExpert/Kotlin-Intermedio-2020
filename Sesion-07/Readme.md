@@ -7,19 +7,18 @@
   
 ### 1. Objetivos :dart: 
 
+<img src="../images/android-kotlin.png" align="right" height="120" hspace="10">
+
 - Definir elementos de Menús de manera gráfica así como con código.
 - Manejar de eventos y cambio de elementos en tiempo de ejecución.
 - Menús contextuales y grupos de Menús.
 - Implementar ActionModes.
 
 
-<img src="../images/android-kotlin.png" align="right" height="120" hspace="10">
-
 
 ### 2. Contenido :blue_book:
 
 ---
- 
 
 #### <ins>Tipos de menus en Android</ins>
 
