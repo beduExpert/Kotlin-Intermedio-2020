@@ -12,7 +12,6 @@
 - Menús contextuales y grupos de Menús.
 - Implementar ActionModes.
 
----
 
 <img src="../images/android-kotlin.png" align="right" height="120" hspace="10">
 
