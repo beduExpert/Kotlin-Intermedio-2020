@@ -46,6 +46,6 @@ O una serie de pasos para completar una tarea.
 
 
 
-[`Anterior`](../Readme.md#transactions) | [`Siguiente`](../Readme.md#Postwork)
+[`Anterior`](../Ejemplo-03/Readme.md) | [`Siguiente`](../Postwork/Readme.md)
 
 </div>
