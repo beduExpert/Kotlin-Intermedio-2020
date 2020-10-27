@@ -1,6 +1,6 @@
- [`Kotlin Intermedio`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Ejemplo 1-a`
+ [`Kotlin Intermedio`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Ejemplo 1-A`
 
-## Ejemplo 1: ListView con Custom Adapter
+## Ejemplo 1-A: ListView con Custom Adapter
 
 <div style="text-align: justify;">
 
