@@ -68,6 +68,6 @@ fun EditText.clearError() {
 
 
 
-[`Anterior`](../Readme.md#imágenes-mediante-url) | [`Siguiente`](../Readme.md#Postwork)
+[`Anterior`](../Ejemplo-03/Readme.md) | [`Siguiente`](../Postwork/Readme.md)
 
 </div>
