@@ -26,11 +26,11 @@ Para realizar el ejemplo, seguimos los siguientes pasos:
 
 1.- Crear un nuevo proyecto con una Activity vacía.
 
-![](https://github.com/beduExpert/B1-Kotlin-Intermedio/blob/master/Sesion-03/Ejemplo-02/Imagenes/01.png)
+![](images/01.png)
 
 2.- Ingresar el siguiente nombre y package name para el proyecto
 
-![](https://github.com/beduExpert/B1-Kotlin-Intermedio/blob/master/Sesion-03/Ejemplo-02/Imagenes/02.png)
+![](images/02.png)
 
 3.- Al crearse el proyeccto, abrir la ventana MainActivity, en ella encontraran esto:
 
