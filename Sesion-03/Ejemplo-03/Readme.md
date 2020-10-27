@@ -86,5 +86,5 @@ Los _Guidelines_ pueden posicionarse con respecto a un lado inicial con un pará
 <img src="images/guideline.gif" width="50%"> 
 
 
-[`Anterior`](../Ejemplo-03/Readme.md) | [`Siguiente`](../Ejemplo-04/Readme.md)
+[`Anterior`](../Ejemplo-02/Readme.md) | [`Siguiente`](../Ejemplo-04/Readme.md)
 </div>
