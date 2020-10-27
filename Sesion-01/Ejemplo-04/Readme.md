@@ -1,6 +1,6 @@
 [`Kotlin Intermedio`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Ejemplo 4`
 
-## Ejemplo 3: Emulación de dispositivos
+## Ejemplo 4: Correr en un dispositivo físico
 
 <div style="text-align: justify;">
 
@@ -53,6 +53,6 @@ Listo! tenemos ahora nuestra aplicación corriendo en el dispositivo!
 ![imagen](images/04.jpeg)
 
 
-[`Anterior`](../Readme.md#estructura-del-proyecto) | [`Siguiente`](../Readme.md#)
+[`Anterior`](../Proyecto/Readme.md) | [`Siguiente`](../Reto-01/Readme.md)
 
 </div>
