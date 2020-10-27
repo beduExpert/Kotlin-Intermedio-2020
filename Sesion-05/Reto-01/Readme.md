@@ -1,6 +1,6 @@
 [`Kotlin Intermedio`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Reto 1`
 	
-## Reto 1: 
+## Reto 1 
 
 <div style="text-align: justify;">
 
@@ -141,3 +141,10 @@ mediante la variable ___root___ podemos encontrar nuestra representación del bo
 </p>
 </details>
 <br/>
+
+[`Anterior`](../Ejemplo-01/Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md)
+
+
+
+
+</div>
