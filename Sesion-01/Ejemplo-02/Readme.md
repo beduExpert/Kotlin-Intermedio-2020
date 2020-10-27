@@ -61,6 +61,6 @@ Al momento de crear tu proyecto, estos dos archivos estaban abiertos. Si damos c
    ![imagen](images/06.png)
 
 
-[`Anterior`](../Ejemplo-01/Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md)
+[`Anterior`](../Ejemplo-01/Readme.md) | [`Siguiente`](../Ejemplo-03/Readme.md)
 
 </div>
