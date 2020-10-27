@@ -1,6 +1,6 @@
 [`Kotlin Intermedio`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Reto 2`
 
-## Reto 3: Agregando Items al RecyclerView
+## Reto 2: Agregando Items al RecyclerView
 
 <div style="text-align: justify;">
 
