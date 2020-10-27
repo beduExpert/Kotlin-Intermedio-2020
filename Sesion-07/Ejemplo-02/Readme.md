@@ -1,14 +1,16 @@
 
-[`Kotlin-Intermedio`](../Readme.md) > `Sesión 7` > `Ejemplo 02`
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 07`](../Readme.md) > `Ejemplo 2`
 
 
-## Menus y Eventos
+## Ejemplo 2: Menus y Eventos
 
-### OBJETIVO
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Implementar acciones al seleccionar las opciones de los menus creados en la Sesion-01.
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
 1. Android Studio 4.1
 2. Kotlin 1.3
@@ -16,7 +18,7 @@
 4. Conexión a internet
 5. Códigos de la Sesion-01 completos
 
-#### DESARROLLO
+### 3. Desarrollo :computer:
 
 ### OPTIONS MENU
 
@@ -132,3 +134,11 @@ override fun onClick(v: View?) {
 #### Referencias: 
 
 > https://developer.android.com/guide/topics/ui/menus?hl=es#xml
+
+[`Anterior`](../Reto-01/Readme.md) | [`Siguiente`](../Reto-02/Readme.md)
+
+
+
+
+</div>
+
