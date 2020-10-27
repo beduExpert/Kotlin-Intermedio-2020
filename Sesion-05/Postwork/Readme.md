@@ -1,4 +1,4 @@
-[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 08`](../Readme.md) > `Postwork`
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Postwork`
 
 ## Postwork
 
@@ -34,6 +34,6 @@ val imageIndex = (0..10).random()
 
 
 
-[`Anterior`](../Proyecto/Readme.md)
+[`Anterior`](../Proyecto/Readme.md) | [`Siguiente`](../../Sesion-06/Readme.md)
 
 </div>
