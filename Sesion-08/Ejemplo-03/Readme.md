@@ -222,7 +222,7 @@ d) Finalizamos el proceso.
 
 El ___apk___ de release estará ubicado en ___app/{flavor}/{buildType}/app-{flavor}-{buildType}.apk___.
 	
-[`Anterior`](../Readme.md) | [`Siguiente`](../Proyecto)
+[`Anterior`](../Reto-01/Readme.md) | [`Siguiente`](../Proyecto/Readme.md)
 
 
 </div>
