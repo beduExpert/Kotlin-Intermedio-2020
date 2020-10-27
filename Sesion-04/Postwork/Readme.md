@@ -17,7 +17,7 @@
 
 1. Para la tienda, hay qué crear visualmente una lista similar a la del [Reto 1](../Reto-01) 
 
-<img src="../Reto-01/result.png" width="33%" align="center"/>
+<img src="../Ejemplo-01a/result.png" width="33%" align="center"/>
 
 
 pero con un RecyclerView, tal como se vió en el [Ejemplo 3](../Ejemplo-03) y el [Reto 3](../Reto-03)
