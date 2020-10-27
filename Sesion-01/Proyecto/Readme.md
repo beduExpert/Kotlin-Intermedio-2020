@@ -87,6 +87,6 @@ En esta aplicación podemos consultar sinopsis, calificaciones y listas de pelí
 
 
 
-[`Anterior`](../Readme.md#estructura-del-proyecto) | [`Siguiente`](../Readme.md#)
+[`Anterior`](../Reto-01/Readme.md) | [`Siguiente`](../Postwork/Readme.md)
 
 </div>
