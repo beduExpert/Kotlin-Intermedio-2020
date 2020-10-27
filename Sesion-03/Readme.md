@@ -51,6 +51,15 @@ Repasaremos el concepto de _Activity_ en Android, su ciclo de vida y las accione
 
 ---
 
+<img src="images/cycle.png" align="right" height="90"> 
+
+#### <ins>Comunicación entre Activities</ins>
+
+Crearemos dos activities y haremos transmición de datos entre ellas.
+
+- [**`EJEMPLO 5`**](Ejemplo-05/Readme.md)
+
+---
 
 ### 3. Proyecto :hammer:
 
