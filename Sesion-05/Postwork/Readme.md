@@ -6,7 +6,7 @@
 
 ### 1. Objetivos :dart:
 
-- Orientarse en la implementación de _flavors_ para el proyecto.
+- Orientarse en la implementación de _fragments_ para el proyecto.
 
 ### 2. Requisitos :clipboard:
 
@@ -15,25 +15,30 @@
 
 ### 3. Desarrollo :computer:
 
-#### Flavors
+#### Definir el uso del fragment
 
 A continuación veremos ciertas ideas que nos ayudarán a aterrizar nuestro proyecto.
 
-Probablemente sea dificultoso implementar una nueva función para dos versiones, por lo cual dejamos algunos tips de implementación:
+Para conseguir implementar _fragments_ de manera natural en nuestro proyecto, buscaremos la forma de cómo encajarla.
 
-* Para una aplicación que brinde una funcionalidad (como un administrador de gastos), podemos poner una versión que muestre publicidad y otra que no, eso lo podemos hacer mediante un _ImageView_ y un set de imágenes que se muestren de forma aleatoria; esto se puede lograr asignando la imagen de forma dinámica (en el código fuente), la aleatoriedad se puede conseguir metiendo todas las imágenes de publicidad en un arreglo y obteniéndolas con su index, consiguiendo un número aleatorio:
+- Si es una app que implique la compra de un producto, podemos hacer un flujo de _fragments_ que impliquen la selección del producto, después el ingreso de la dirección de envío, y por último la captura del método de pago.
 
-``` kotlin
-val imageIndex = (0..10).random()
-```
+- Si es una app tipo spotify, podemos crear una interfaz donde se muestre un patrón lista-detalle para seleccionar música y en el detalle los datos de la canción (esto aplica también para apps como imdb, etc.)
 
-* Para cualquier aplicación, podemos restringir algún servicio a ciertos países, por lo cual la dimensión puede ser ___country___. Dicho servicio puede estar alojado en el drawer, por lo que declararíamos dos diferentes _xml_ con su contenido. Dicho servicio podría hacer navegar a  un nuevo _Activity_.
+- Un clon de una app de entregas a domicilio podría implementar un flujo.
 
-* Otra dimensión podría ser un _Theme_ y algunos elementos gráficos que cambien en tu aplicación. __OJO__, para que esto cuente, los cambios deben ser significantes.
+- Al abrir un video en youtube, se puede ver cómo salta un _fragment_ emergente donde se reproduce el video. Podemos hacer una simulación básica de ese comportamiento.
 
 
+### Tips
+
+El uso del ___DialogFrament___ es permitido en este módulo, en [Este artículo](https://guides.codepath.com/android/using-dialogfragment) se explica un poco más de cómo implementarlo (el lenguaje es Java, pero es bastante comprensible).
+
+<img src="images/1.png" width="35%">
 
 
-[`Anterior`](../Proyecto/Readme.md) | [`Siguiente`](../../Sesion-06/Readme.md)
+
+
+[`Anterior`](../Readme.md#Proyecto) | [`Siguiente`](../../Sesion-06)
 
 </div>
