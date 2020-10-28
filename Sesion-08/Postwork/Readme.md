@@ -1,6 +1,6 @@
-[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 08`](../Readme.md) > `Proyecto`
+[`Kotlin Intermedio`](../../Readme.md) > [`Sesión 08`](../Readme.md) > `Postwork`
 
-## Proyecto: Finalización del proyecto
+## Postwork
 
 <div style="text-align: justify;">
   
@@ -32,6 +32,6 @@ val imageIndex = (0..10).random()
 - Otra dimensión podría ser un Theme y algunos elementos gráficos que cambien en tu aplicación. OJO, para que esto cuente, los cambios deben ser significantes.
 
 
-[`Anterior`](../Ejemplo-03/Readme.md) | [`Siguiente`](../Postwork/Readme.md)
+[`Anterior`](../Proyecto/Readme.md) | [`Siguiente`](../Sesion-08/Readme.md)
 
 </div>
