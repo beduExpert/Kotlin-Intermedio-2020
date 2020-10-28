@@ -32,6 +32,6 @@ val imageIndex = (0..10).random()
 - Otra dimensión podría ser un Theme y algunos elementos gráficos que cambien en tu aplicación. OJO, para que esto cuente, los cambios deben ser significantes.
 
 
-[`Anterior`](../Proyecto/Readme.md) | [`Siguiente`](../Sesion-08/Readme.md)
+[`Anterior`](../Proyecto/Readme.md) | [`Siguiente`](../Readme.md)
 
 </div>
