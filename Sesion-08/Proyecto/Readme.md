@@ -3,35 +3,35 @@
 ## Proyecto: Finalización del proyecto
 
 <div style="text-align: justify;">
-  
-  
+
 ### 1. Objetivos :dart:
 
-- Orientarse en la implementación de flavors para el proyecto.
+- Generar variantes de nuestra aplicación.
+- Configurar lo básico en gradle.
+- Hacer pruebas con nuestra aplicación de _debug_.
+- Lanzar una versión de Release de nuestra aplicación.
 
 ### 2. Requisitos :clipboard:
 
-- Android Studio Instalado en nuestra computadora.
+1. Android Studio Instalado en nuestra computadora.
+
 
 ### 3. Desarrollo :computer:
 
-#### Flavors
+Para esta última sesión, cerraremos nuestro proyecto realizando las configuraciones de ___gradle___ aprendidas, también implementaremos algunas variantes de nuestra app y finalmente crearemos sus versiones de release.
 
-A continuación veremos ciertas ideas que nos ayudarán a aterrizar nuestro proyecto.
+### Lineamientos
 
-Probablemente sea dificultoso implementar una nueva función para dos versiones, por lo cual dejamos algunos tips de implementación:
-
-- Para una aplicación que brinde una funcionalidad (como un administrador de gastos), podemos poner una versión que muestre publicidad y otra que no, eso lo podemos hacer mediante un ImageView y un set de imágenes que se muestren de forma aleatoria; esto se puede lograr asignando la imagen de forma dinámica (en el código fuente), la aleatoriedad se puede conseguir metiendo todas las imágenes de publicidad en un arreglo y obteniéndolas con su index, consiguiendo un número aleatorio:
-
-```kotlin
-val imageIndex = (0..10).random()
-```
-
-- Para cualquier aplicación, podemos restringir algún servicio a ciertos países, por lo cual la dimensión puede ser country. Dicho servicio puede estar alojado en el drawer, por lo que declararíamos dos diferentes xml con su contenido. Dicho servicio podría hacer navegar a un nuevo Activity.
-
-- Otra dimensión podría ser un Theme y algunos elementos gráficos que cambien en tu aplicación. OJO, para que esto cuente, los cambios deben ser significantes.
+1. Se debe hacer una configuración de gradle fiel a la hecha en el [Ejemplo 1](../Ejemplo-01).
+2. Se debe crear al menos un par de _flavors_ nuevos y al menos una dimensión (sugerimos hacer una versión demo-full o free-paid).
+3. Dichos flavors deben tener congruencia con el giro de la aplicación. Por ejemplo, si creamos una app de noticias, podríamos poner en la versión gratuita ImageViews emulando ser anuncios.
+4. Los ___buildTypes___ deben ser ___debug___ y ___release___ (se pueden agregar más, como ___staging___).  
+5. Correr todo el proceso aprendido en el [Ejemplo 3](../Ejemplo-03). Generar al menos dos versiones de release tanto para un ___apk___ como para ___aab___.
 
 
-[`Anterior`](../Ejemplo-03/Readme.md) | [`Siguiente`](../Postwork/Readme.md)
+
+
+
+[`Anterior`](../Ejemplo-03) | [`Siguiente`](../Postwork/Readme.md)
 
 </div>
