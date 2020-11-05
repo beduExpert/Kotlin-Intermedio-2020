@@ -41,7 +41,7 @@ switch.isChecked = true // para encender el switch
 
 #### Checkbox
 
-<img src="images/switch.png" width="40%">
+<img src="images/checkbox.png" width="40%">
 
 Comparte funcionalidades con un ___Switch___, incluyendo los métodos anteriormente descritos.
 
