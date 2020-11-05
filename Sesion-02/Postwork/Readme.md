@@ -89,10 +89,6 @@ Aunque también pueden ser definidos programáticamente.
 
 Se mandan a llamar de forma similar a un ___Toast___ y son utilizados para mostrar información de procesos, con posibilidades de ejecutar una acción. Las acciones se declaran antes de llamar al método ___show()___ mediante el método ___setAction()___ y también pueden definirse ahí los colores del fondo y del texto, entre otros valores.
 
-<img src="images/snackbar-ws.png" width="60%">
-
-Ejemplo de snackbar en la app de escritorio de Whatsapp.
-
 ```kotlin
 Snackbar.make(contextView, "Text label", Snackbar.LENGTH_LONG)
     .setAction("Action 1") {
