@@ -6,8 +6,8 @@
 
 ### 1. Objetivos :dart:
 
-- Definir el proyecto con el que trabajaremos todo el curso.
 - Programar la idea básica de nuestra aplicación.
+- Implementar nuevas _Views_ al proyecto.
 
 ### 2. Requisitos :clipboard:
 
@@ -91,14 +91,11 @@ Se mandan a llamar de forma similar a un ___Toast___ y son utilizados para mostr
 
 ```kotlin
 Snackbar.make(contextView, "Text label", Snackbar.LENGTH_LONG)
-    .setAction("Action 1") {
+    .setAction("Action") {
         // Respuesta al pulsar la acción 1
     }
-    .setAction("Action 2"){
-      // Respuesta al pulsar la acción 2
-    }
-    .setBackgroundTint(resources.getColor(R.color.backgroundTint))
-    .setActionTextColor(resources.getColor(R.color.actionTextColor))
+    .setBackgroundTint(getColor(R.color.backgroundTint))
+    .setActionTextColor(getColor(R.color.actionTextColor))
     .show()
 ```
 
