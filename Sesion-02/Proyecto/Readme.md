@@ -62,7 +62,8 @@ fun EditText.clearError() {
 
 1. La pantalla debe contener al menos un _ImageView_, dos _EditText_, dos _TextView_ y un _Button_.
 2. El color de fondo debe ser asignado al fondo de la pantalla, asignar colores al texto.
-3. Todo tipo de recursos debe ir en su respectivo archivo (strings en _strings.xml_, recursos gráficos en la carpeta _drawable_, etc)/
+3. Todo tipo de recursos debe ir en su respectivo archivo (strings en _strings.xml_, recursos gráficos en la carpeta _drawable_, etc).
+4. Al menos un View debe implementar un callback con alguna funcionalidad.
 
 
 
