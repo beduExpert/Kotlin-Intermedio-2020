@@ -56,10 +56,12 @@ android:textColor="@color/grayClear"
 
 <details><summary>Solución</summary>
 <p>
+	
 ```xml
 android:paddingVertical="8dp"
 android:paddingHorizontal="16dp"
 ```
+
 </p>
 </details>
 <br/>
