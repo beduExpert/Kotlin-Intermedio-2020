@@ -45,40 +45,50 @@ override fun onCreate(savedInstanceState: Bundle?) {
 bajo esta función, hacer override de los otros métodos llamados durante el ciclo de vida de un Activity, e insertar en ellas el Toast con un texto que identifique en el estado del ciclo en que unon se encuentra.
 
 ```kotlin
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+        
+        Log.d("activities","onCreate ejecutado")
+    }
+
 override fun onStart() {
-   super.onStart()
-   Toast.makeText(this, "onStart", Toast.LENGTH_SHORT).show()
-}
+        super.onStart()
+        Log.d("activities","onStart ejecutado")
+    }
 
-override fun onResume() {
-   super.onResume()
-   Toast.makeText(this, "onResume", Toast.LENGTH_SHORT).show()
-}
+    override fun onResume() {
+        super.onResume()
+        Log.d("activities","onResume ejecutado")
+    }
 
-override fun onPause() {
-   Toast.makeText(this, "onPause", Toast.LENGTH_SHORT).show()
-   super.onPause()
-}
+    override fun onPause() {
+        Log.d("activities","onPause ejecutado")
+        super.onPause()
+    }
 
-override fun onStop() {
-   Toast.makeText(this, "onStop", Toast.LENGTH_SHORT).show()
-   super.onStop()
-}
+    override fun onStop() {
+        Log.d("activities","onStop ejecutado")
+        super.onStop()
+    }
 
-override fun onRestart() {
-   super.onRestart()
-   Toast.makeText(this, "onRestart", Toast.LENGTH_SHORT).show()
-}
+    override fun onRestart() {
+        super.onRestart()
+        Log.d("activities","onRestart ejecutado")
+    }
 
-override fun onDestroy() {
-   Toast.makeText(this, "onDestroy", Toast.LENGTH_SHORT).show()
-   super.onDestroy()
-} 
+    override fun onDestroy() {
+        Log.d("activities","onDestroy ejecutado")
+        super.onDestroy()
+    }
 ```
 
 4.- Después de esto, correr la aplicación en el emulador, y comprobar el flujo. Describir qué métodos se mandan a llamar cuando la aplicación se minimiza y cuando se cierra.
 
+5. Comprobar qué sucede con el ciclo de vida al girar el teléfono a landscape (nuestra activity debe permitir rotación).
 
+6. Explorar cómo preservar estados de elementos seteados programáticamente al girar la pantalla.
 
 
 [`Anterior`](../Ejemplo-03/Readme.md) | [`Siguiente`](../Ejemplo-05/Readme.md)
