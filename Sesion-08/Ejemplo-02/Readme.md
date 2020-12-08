@@ -16,7 +16,7 @@
 
 ### 3. Desarrollo :computer:
 
-Vamos a suponer una aplicación que pueda usar ciertas características, pero para poder iniciar sesión y hacer uso de otras características, requerimos adquirir la versión de paga de la app, por lo cual para una versión gratuita en la pantalla iniciar sesión, mostraremos un 
+Vamos a suponer una aplicación que pueda usar ciertas características, pero para poder iniciar sesión y hacer uso de otras características, requerimos adquirir la versión de paga de la app, por lo cual para una versión gratuita en la pantalla iniciar sesión, mostraremos un mensaje que nos indique que estamos en la versión gratuita.
 
 1. Abre __Android Studio__ y crea un nuevo proyecto con Activity Vacía (Empty Activity).
 
