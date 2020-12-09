@@ -24,9 +24,6 @@ Tomaremos el ejercicio realizado en el [Ejemplo 2](../Sesion-08/Ejemplo-02) y ha
  
  <img src="images/1.png" width="33%">
  
-- La versión gratuita se tiene qué ver así:
-
- <img src="images/2.png" width="33%">
 
 #### Tips:
 
