@@ -66,7 +66,7 @@ ___Advertencia:___ Google hará obligatorio la subida de un Android App Bundle p
 
 La estructura de un app bundle es la siguiente:
 
-<img src="Images/aab.png" width="70%">
+<img src="images/aab.png" width="70%">
 
 Desde la versión 5.0 de android, se pueden tener _APK's divididas_, que en conjunto se pueden tomar como una sola app. El Base module son los recursos y código de la apk base, una versión que todas las variantes comparten. Los dynamic features son apks divididas que tienen funciones específicas para ciertos dispositivos/clientes.
 
