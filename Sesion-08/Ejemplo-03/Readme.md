@@ -29,7 +29,7 @@ Ambos formatos requieren la generación de una clave y su ___keystore___ para po
 #### Construyendo la app de debug
 1. Vamos a generar nuestra app de _debug_, para esto, abrimos la opción _Build > Build Bundle(s) / Apk(s) > Build Apk(s)
 
-<img src="img/build-apk.gif" width="40%">
+<img src="images/build-apk.gif" width="40%">
 
 Esto nos generará un archivo ___apk___ firmada con la llave de debug, dicha llave se genera la primera vez que se corre el proyecto. La llave se encuentra en la siguiente ruta:
 
