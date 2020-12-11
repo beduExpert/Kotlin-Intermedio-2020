@@ -123,7 +123,6 @@ Dentro de la misma clase de Main Activity creamos un Callback con los metodos pa
 
 ```
 inner class ActionModeCallback: ActionMode.Callback {
-            var shouldResetRecyclerView = true
             override fun onActionItemClicked(mode: ActionMode?, item: MenuItem?): Boolean {
                 when (item?.getItemId()) {
                     R.id.txTextView -> {
@@ -161,7 +160,6 @@ Ahora bien, agregaremos un poco de funcionalidad al seleccionar uno de los boton
 
 ```
 inner class ActionModeCallback: ActionMode.Callback {
-      var shouldResetRecyclerView = true
       override fun onActionItemClicked(mode: ActionMode?, item: MenuItem?): Boolean {
          when (item?.getItemId()) {
               R.id.option_1 -> {
